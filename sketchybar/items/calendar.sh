@@ -1,7 +1,6 @@
 #!/bin/bash
 
 calendar=(
-  icon=cal
   icon.font="$FONT:Black:12.0"
   icon.padding_right=5
   label.align=right

@@ -39,6 +39,6 @@ export URL="https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LONG
 export TEMPERATURE="$(curl -sX GET $URL | jq ".current_weather.temperature")"
 export WEATHERCODE="$(curl -sX GET $URL | jq ".current_weather.weathercode")"
 
-ICON=${weathercode_selector[48]}
-echo $ICON
+ICON=${weathercode_selector[$WEATHERCODE]}
+echo "Updating weather..."
 sketchybar --set $NAME icon="$ICON" label="$TEMPERATURE$(echo °)F"

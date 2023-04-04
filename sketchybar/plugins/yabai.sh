@@ -61,8 +61,11 @@ windows_on_spaces () {
 }
 
 mouse_clicked() {
-  yabai -m window --toggle float
-  window_state
+#   yabai -m window --toggle float
+#   window_state
+  yabai -m window --toggle float;\
+  yabai -m window --grid 4:4:1:1:2:2;\
+  sketchybar --trigger window_focus
 }
 
 case "$SENDER" in

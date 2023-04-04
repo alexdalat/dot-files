@@ -46,8 +46,8 @@ spaces_bracket=(
 
 separator=(
   icon=􀆊
-  icon.font="$FONT:Heavy:16.0"
-  padding_left=8
+  icon.font="$FONT:Heavy:14.0"
+  padding_left=3
   padding_right=8
   label.drawing=off
   associated_display=active

@@ -3,14 +3,14 @@
 source "$HOME/.config/sketchybar/icons.sh"
 source "$HOME/.config/sketchybar/colors.sh"
 
-DND_STATUS=$(plutil -extract "NSStatusItem Visible FocusModes" raw -o - -- $HOME/Library/Preferences/com.apple.controlcenter.plist)
+# adapted to bash from: https://gist.github.com/drewkerr/0f2b61ce34e2b9e3ce0ec6a92ab05c18
+DND_STATUS=$(cat ~/Library/DoNotDisturb/DB/Assertions.json | jq '.data[0]'.storeAssertionRecords)
+# returns null if off or a json if on
 
 COLOR=$WHITE
 
-if [ "$DND_STATUS" = true ]; then
-  sketchybar --set dnd icon=$DND icon.drawing=on
+if [[ "$DND_STATUS" != null ]]; then
+  sketchybar --set dnd icon=$DND icon.color=$COLOR icon.drawing=on
 else
   sketchybar --set dnd icon.drawing=off
 fi
-
-sketchybar --set dnd icon=$DND icon.color=$COLOR

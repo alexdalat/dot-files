@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SF Pro Icons
+
 # General Icons
 LOADING=􀖇
 APPLE=􀣺

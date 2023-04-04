@@ -1,6 +1,6 @@
 
 # open terminal
-alt + shift - t : open -na /System/Applications/Utilities/Terminal.app
+alt + shift - t : open -n /System/Applications/Utilities/Terminal.app
 
 # moves focus between windows in the current focused display
 alt - h : yabai -m window --focus west

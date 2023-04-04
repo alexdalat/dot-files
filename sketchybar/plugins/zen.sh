@@ -12,6 +12,7 @@ zen_on() {
              --set spotify.play updates=off \
              --set brew drawing=off \
 			 --set weather drawing=off \
+			 --set dnd drawing=off \
 			 --set yabai drawing=off
 }
 
@@ -26,6 +27,7 @@ zen_off() {
              --set spotify.play updates=on \
              --set brew drawing=on \
 			 --set weather drawing=on \
+			 --set dnd drawing=on \
 			 --set yabai drawing=on
 }
 
