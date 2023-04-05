@@ -41,9 +41,9 @@ shuffle ()
 
 update ()
 {
-  PLAYING=1
+  PLAYING=0
   if [ "$(echo "$INFO" | jq -r '.["Player State"]')" = "Playing" ]; then
-    PLAYING=0
+    PLAYING=1
     TRACK="$(echo "$INFO" | jq -r .Name | sed 's/\(.\{20\}\).*/\1.../')"
     ARTIST="$(echo "$INFO" | jq -r .Artist | sed 's/\(.\{20\}\).*/\1.../')"
     ALBUM="$(echo "$INFO" | jq -r .Album | sed 's/\(.\{25\}\).*/\1.../')"
@@ -53,7 +53,9 @@ update ()
   fi
 
   args=()
-  if [ $PLAYING -eq 0 ]; then
+  if [ $PLAYING -eq 1 ]; then
+    sketchybar --animate tanh 30 --set spotify.anchor icon.width=dynamic
+
     curl -s --max-time 20 "$COVER" -o /tmp/cover.jpg
     if [ "$ARTIST" == "" ]; then
       args+=(--set spotify.title label="$TRACK"
@@ -68,11 +70,10 @@ update ()
            --set spotify.shuffle icon.highlight=$SHUFFLE
            --set spotify.repeat icon.highlight=$REPEAT
            --set spotify.cover background.image="/tmp/cover.jpg"
-                               background.color=0x00000000
-           --set spotify.anchor drawing=on                      )
+                               background.color=0x00000000                    )
   else
-    args+=(--set spotify.anchor drawing=off popup.drawing=off
-           --set spotify.play icon=􀊄                         )
+	sketchybar --animate tanh 30 --set spotify.anchor icon.width=0 popup.drawing=off
+    args+=(--set spotify.play icon=􀊄                         )
   fi
   sketchybar -m "${args[@]}"
 }

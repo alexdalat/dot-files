@@ -10,7 +10,7 @@ DND_STATUS=$(cat ~/Library/DoNotDisturb/DB/Assertions.json | jq '.data[0]'.store
 COLOR=$WHITE
 
 if [[ "$DND_STATUS" != null ]]; then
-  sketchybar --set dnd icon=$DND icon.color=$COLOR icon.drawing=on
+  sketchybar --animate tanh 30 --set dnd icon=$DND icon.color=$COLOR icon.width=dynamic
 else
-  sketchybar --set dnd icon.drawing=off
+  sketchybar --animate tanh 30 --set dnd icon.width=0
 fi

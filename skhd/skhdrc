@@ -1,4 +1,7 @@
 
+# dnd button update
+0xB2 -> : sketchybar --trigger dnd_toggle
+
 # open terminal
 alt + shift - t : open -n /System/Applications/Utilities/Terminal.app
 

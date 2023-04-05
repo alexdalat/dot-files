@@ -7,7 +7,6 @@ yabai=(
   icon.font="$FONT:Regular:14.0"
   label.drawing=off
   icon.width=30
-  y_offset=
   icon=$YABAI_GRID
   icon.color=$ORANGE
   associated_display=active

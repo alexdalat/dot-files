@@ -13,6 +13,7 @@ weather=(
   label.y_offset=0
   background.drawing=off
   update_freq=300
+  updates=on
   script="$PLUGIN_DIR/weather.sh"
   click_script="$PLUGIN_DIR/weather.sh"
 )
