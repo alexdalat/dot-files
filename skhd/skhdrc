@@ -3,7 +3,7 @@
 0xB2 -> : sketchybar --trigger dnd_toggle
 
 # open terminal
-alt + shift - t : open -n /System/Applications/Utilities/Terminal.app
+alt + shift - t : open -na iTerm.app
 
 # moves focus between windows in the current focused display
 alt - h : yabai -m window --focus west

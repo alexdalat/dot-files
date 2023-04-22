@@ -12,31 +12,33 @@ update() {
 		exit 0
 	fi
 
-	COLOR=$WHITE
+	BATTERY_COLOR=$WHITE
 	case ${PERCENTAGE} in
 		9[0-9]|100) ICON=$BATTERY_100;
 		;;
 		[6-8][0-9]) ICON=$BATTERY_75;
 		;;
-		[3-5][0-9]) ICON=$BATTERY_50
+		[2-5][0-9]) ICON=$BATTERY_50
 		;;
-		[1-2][0-9]) ICON=$BATTERY_25; COLOR=$ORANGE
+		[1][0-9]) ICON=$BATTERY_25; BATTERY_COLOR=$ORANGE
 		;;
-		*) ICON=$BATTERY_0; COLOR=$RED
+		*) ICON=$BATTERY_0; BATTERY_COLOR=$RED
 	esac
 
 	if [[ $CHARGING != "" ]]; then
 		ICON=$BATTERY_CHARGING
 	fi
 
-	sketchybar --set $NAME icon="$ICON" icon.color=$COLOR label="$PERCENTAGE%" label.color=$COLOR
+	sketchybar --set $NAME label="$ICON" label.color=$BATTERY_COLOR icon="$PERCENTAGE%"
+	echo $BATTERY_COLOR
 }
 
 hover () {
+  BATTERY_COLOR=$(update)
   if [[ $1 = "on" ]]; then
-	sketchybar --animate tanh 30 --set battery label.width=dynamic
+	sketchybar --animate tanh 30 --set battery icon.width=dynamic icon.color=$BATTERY_COLOR
   else
-	sketchybar --animate tanh 30 --set battery label.width=0
+	sketchybar --animate tanh 30 --set battery icon.width=0 icon.color=$TRANSPARENT
   fi
 }
 

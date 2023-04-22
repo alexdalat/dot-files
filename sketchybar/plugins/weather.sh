@@ -34,11 +34,20 @@ weathercode_selector+=(
 export LAT="$(curl -sX GET "https://ipinfo.io" | jq ".loc" | grep -oE "(-*[0-9]*\.[0-9]*)" | sed -n 1p)"
 export LONG="$(curl -sX GET "https://ipinfo.io" | jq ".loc" | grep -oE "(-*[0-9]*\.[0-9]*)" | sed -n 2p)"
 
+if [[ -z "$LAT" ]] || [[ -z "$LONG" ]]; then
+	echo "Error: Could not get location"
+	exit 1
+fi
+
 export URL="https://api.open-meteo.com/v1/forecast?latitude=$LAT&longitude=$LONG&hourly=temperature_2m,weathercode&current_weather=true&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timeformat=unixtime&timezone=America%2FChicago"
 
 export TEMPERATURE="$(curl -sX GET $URL | jq ".current_weather.temperature")"
 export WEATHERCODE="$(curl -sX GET $URL | jq ".current_weather.weathercode")"
 
-ICON=${weathercode_selector[$WEATHERCODE]}
-echo "Updating weather..."
-sketchybar --set $NAME icon="$ICON" label="$TEMPERATURE$(echo °)F"
+TEMPERATURE_ROUNDED=$(echo "($TEMPERATURE + 0.5)/1" | bc) # round to nearest integer
+TEMPERATURE_STR="$TEMPERATURE_ROUNDED$(echo °)F" # add degree symbol
+
+ICON=$(echo "${weathercode_selector[$WEATHERCODE]}" | tr "," " ") # get weather icon and remove comma
+
+echo "Updating weather: $ICON $TEMPERATURE_STR"
+sketchybar --set $NAME icon="$ICON" label=$TEMPERATURE_STR

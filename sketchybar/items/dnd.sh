@@ -5,10 +5,13 @@ source "$HOME/.config/sketchybar/colors.sh"
 dnd=(
   icon.font="$FONT:Regular:14.0"
   icon.color=$WHITE
-  icon.padding_left=8
-  icon.padding_right=3
+  icon.drawing=on
+  icon.width=0
+  icon.padding_left=5
+  icon.padding_right=8
   padding_left=0
   padding_right=0
+  label.drawing=off
   icon.y_offset=0
   background.drawing=off
   update_freq=60

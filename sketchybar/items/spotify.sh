@@ -13,9 +13,11 @@ spotify_anchor=(
   icon.font="$FONT:Regular:14.0"
   icon.drawing=on
   icon.width=0
+  icon.padding_left=5
+  icon.padding_right=8
+  padding_left=0
+  padding_right=0
   label.drawing=off
-  padding_left=10
-  padding_right=10
   popup.background.border_width=0
 )
 

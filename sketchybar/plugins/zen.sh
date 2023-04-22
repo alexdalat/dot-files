@@ -8,7 +8,6 @@ zen_on() {
 			 --set battery drawing=off \
              --set spotify.anchor drawing=off \
 			 --set weather drawing=off \
-			 --set weather updates=off \
 			 --set dnd drawing=off \
 			 --set yabai drawing=off
 }
@@ -21,7 +20,6 @@ zen_off() {
              --set volume_icon drawing=on \
              --set spotify.anchor drawing=on \
 			 --set weather drawing=on \
-			 --set weather updates=on \
 			 --set dnd drawing=on \
 			 --set yabai drawing=on
 }
