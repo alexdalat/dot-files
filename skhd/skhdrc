@@ -1,9 +1,8 @@
-
 # dnd button update
 0xB2 -> : sketchybar --trigger dnd_toggle
 
 # open terminal
-alt + shift - t : open -na iTerm.app
+alt - 0x24 : open -na iTerm.app
 
 # moves focus between windows in the current focused display
 alt - h : yabai -m window --focus west
@@ -45,9 +44,9 @@ alt - y : yabai -m space --mirror y-axis
 alt - a : yabai -m space --toggle padding; yabai -m space --toggle gap
 
 # toggle window parent zoom
-alt - d : yabai -m window --focus mouse && \
-          yabai -m window --toggle zoom-parent;\
-          sketchybar --trigger window_focus
+#alt - d : yabai -m window --focus mouse && \
+#          yabai -m window --toggle zoom-parent;\
+#          sketchybar --trigger window_focus
 
 # float / unfloat window and center on screen
 alt - t : yabai -m window --toggle float;\
