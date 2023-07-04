@@ -1,8 +1,8 @@
-fish/
-flutter/
-iterm2/
-mc/
-raycast/
-sketchybar_*/
-wireshark/
-.DS_Store
+*
+!.gitignore
+!i3/
+!tmux/
+!polybar/
+!sketchybar
+!skhd
+!yabai
