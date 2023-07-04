@@ -1,6 +1,0 @@
-2023/05/24-21:39:52.254 abf Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/24-21:39:52.254 abf Recovering log #4
-2023/05/24-21:39:52.257 abf Reusing old log /home/alex/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
-2023/05/24-21:40:05.218 ac0 Level-0 table #8: started
-2023/05/24-21:40:05.229 ac0 Level-0 table #8: 1481527 bytes OK
-2023/05/24-21:40:05.233 ac0 Delete type=0 #4

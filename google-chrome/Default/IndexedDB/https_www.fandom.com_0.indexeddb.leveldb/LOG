@@ -1,7 +1,0 @@
-2023/05/24-21:32:56.487 abf Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/24-21:32:56.487 abf Recovering log #3
-2023/05/24-21:32:56.487 abf Reusing old log /home/alex/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000003.log 
-2023/05/24-21:33:19.482 ac0 Level-0 table #5: started
-2023/05/24-21:33:19.485 ac0 Level-0 table #5: 4601 bytes OK
-2023/05/24-21:33:19.489 ac0 Delete type=0 #3
-2023/05/24-21:33:19.489 ac0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

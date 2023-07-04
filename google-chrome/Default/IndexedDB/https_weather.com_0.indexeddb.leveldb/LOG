@@ -1,6 +1,0 @@
-2023/06/14-14:51:31.869 4172d Creating DB /home/alex/.config/google-chrome/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb since it was missing.
-2023/06/14-14:51:31.878 4172d Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_weather.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/14-14:52:30.860 4172e Level-0 table #5: started
-2023/06/14-14:52:30.863 4172e Level-0 table #5: 1235 bytes OK
-2023/06/14-14:52:30.867 4172e Delete type=0 #3
-2023/06/14-14:52:30.867 4172e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
