@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Schedule Builder</title>
+    <style>
+	body {
+		-webkit-font-smoothing: antialiased; /* For Mac */
+
+		font-family: sans-serif;
+		font-size: small;
+		padding: 10px 20px;
+		color: #f3f3f3;
+		background-color: #1c1c1c;
+	}
+
+	.title {
+		text-align: center;
+		text-shadow: 1px 1px 1px green, 2px 2px 1px green;
+	}
+
+
+	.weeklyTable {
+		border: 1px solid #dddddd;
+		table-layout: fixed;
+	}
+	.weeklyTable tr {
+		height: 6px !important;
+		text-align: center;
+		padding: 0;
+	}
+	.weeklyTable tr[class*="timeLabel"] {
+		border-top: 1px dashed #393939;
+		white-space: nowrap !important;
+  		overflow: hidden;
+	}
+	.weeklyTable td:first-child {
+		border-top: 0;
+	}
+	.weeklyTable thead th:first-child {
+		width: 8em;
+	}
+	.weeklyTable tr td:first-child {
+		line-height: 0px; /* so that text is at very top of its cell */
+		display: block;
+		border-right: 1px solid #393939;
+	}
+
+
+
+
+	.listTable, 
+	.weeklyTable {
+		width: 95%;
+		border-collapse: collapse;
+		padding: 0px 10px 0px 10px;
+	}
+	.listTable th,
+	.weeklyTable th {
+		background-color: #333333;
+		color: #ffffff;
+		padding: 8px 0px;
+		text-align: center;
+		border-top: 1px solid #dddddd;
+		border-bottom: 1px solid #dddddd;
+	}
+	.listTable th:first-of-type,
+	.weeklyTable th:first-of-type {
+		border-left: 1px solid #dddddd;
+	}
+	.listTable th:last-of-type,
+	.weeklyTable th:last-of-type {
+		border-right: 1px solid #dddddd;
+	}
+
+	.listTable td {
+		padding: 8px 8px;
+		text-align: center;
+		border-top: 1px solid #dddddd;
+		border-bottom: 1px solid #dddddd;
+		border-right: 1px dashed rgba(128, 128, 128, 0.338);
+	}
+	.listTable tr td:first-of-type {
+		border-left: 1px solid #dddddd;
+		max-width: 150px;
+	}
+	.listTable tr td:last-of-type {
+		border-right: 1px solid #dddddd;
+		padding-left: 2px;
+	}
+	.listTable tr td:nth-last-child(2) {
+		border-right: 0;
+	}
+
+	.listTable tr td {
+		white-space: nowrap !important;
+  		overflow: hidden;
+	}
+	.listTable tr td:nth-child(5) {
+		max-width: 100px;
+	}
+	.listTable .child {
+		color: #999999;
+	}
+	.blank_row {
+		height: 20px !important;
+	}
+
+
+	.remove-button, .switch-button {
+		color: #dddddd;
+		font-weight: bold;
+		cursor: pointer;
+		padding: 3px 8px;
+		border-radius: 5px;
+		transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+	}
+	.remove-button {
+		border: 1px solid #8e3e3e;
+		background-color: #af4c4c;
+	}
+	.remove-button:hover {
+		border: 1px solid #652b2b;
+		background-color: #8e3e3e;
+	}
+	.switch-button {
+		border: 1px solid #37577e;
+		background-color: #4c78af;
+	}
+	.switch-button:hover {
+		border: 1px solid #28405e;
+		background-color: #37577e;
+	}
+
+
+	.schedule-list-div {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#schedule-list-items {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.schedule-item-button {
+		border: 1px solid #4a4a4a;
+		background-color: #6c6c6c;
+	}
+	.schedule-item-button:hover {
+		border: 1px solid #4a4a4a;
+		background-color: #4a4a4a;
+	}
+
+	#schedule-list-items > div {
+		padding: 5px 10px;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+	}
+	.switch-button-active {
+		border: 1px solid #326f35;
+		background-color: #449b48;
+	}
+	.switch-button-active:hover {
+		border: 1px solid #5b2727;
+		background-color: #7f3738;
+	}
+	.add-schedule-button {
+		margin-left: 10px;
+	}
+	.semester-switcher {
+		margin-left: 10px;
+		background-color: #4a4a4a;
+		color: #dddddd;
+		font-weight: bolder;
+		border-radius: 5px;
+	}
+
+
+
+	.row {
+		display: flex;
+		min-height: 100%;
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+	}
+
+	.col {
+		padding: 20px;
+		width: 100%;
+		display: flex;
+		box-sizing: border-box;
+		align-items: center;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+</style>
+  </head>
+  <body>
+    <h1 class="title">Schedule Builder</h1>
+
+	<div class="schedule-list-div">
+		<div id="schedule-list-items">
+			<!-- Dyanimcally gets added -->
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<table class="weeklyTable">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>Monday</th>
+						<th>Tuesday</th>
+						<th>Wednesday</th>
+						<th>Thursday</th>
+						<th>Friday</th>
+						<th>Saturday</th>
+					</tr>
+				</thead>
+				<tbody id="weeklyTableBody">
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<table class="listTable">
+				<caption><h2 class="title">Bookmarked</h2></caption>
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Sect</th>
+						<th>Cr</th>
+						<th>#</th>
+						<th>Professor</th>
+						<th>Time</th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody id="bookmarkTableBody">
+					
+				</tbody>
+			</table>
+		</div>
+		<div class="col">
+			<table class="listTable">
+				<caption><h2 class="title">Added to Schedule</h2></caption>
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Sect</th>
+						<th>Cr</th>
+						<th>#</th>
+						<th>Professor</th>
+						<th>Time</th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody id="scheduleTableBody">
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<script type="module" type="text/javascript" src="../util.js"></script>
+	<script type="module" type="text/javascript" src="../MGH.js"></script>
+    <script type="module" type="text/javascript" src="schedule.js"></script>
+  </body>
+</html>

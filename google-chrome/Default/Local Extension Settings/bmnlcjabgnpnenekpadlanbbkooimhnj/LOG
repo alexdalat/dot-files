@@ -1,0 +1,26 @@
+2023/07/04-08:00:54.826 1605 Reusing MANIFEST /home/alex/.config/google-chrome/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2023/07/04-08:00:54.826 1605 Recovering log #706
+2023/07/04-08:00:54.827 1605 Reusing old log /home/alex/.config/google-chrome/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000706.log 
+2023/07/04-08:02:01.104 1604 Level-0 table #711: started
+2023/07/04-08:02:01.128 1604 Level-0 table #711: 2648118 bytes OK
+2023/07/04-08:02:01.132 1604 Delete type=0 #706
+2023/07/04-08:02:09.590 1605 Level-0 table #713: started
+2023/07/04-08:02:09.612 1605 Level-0 table #713: 2213398 bytes OK
+2023/07/04-08:02:09.616 1605 Delete type=0 #710
+2023/07/04-08:17:31.453 1604 Level-0 table #715: started
+2023/07/04-08:17:31.477 1604 Level-0 table #715: 2468189 bytes OK
+2023/07/04-08:17:31.481 1604 Delete type=0 #712
+2023/07/04-08:24:21.398 1605 Level-0 table #717: started
+2023/07/04-08:24:21.416 1605 Level-0 table #717: 2723454 bytes OK
+2023/07/04-08:24:21.420 1605 Delete type=0 #714
+2023/07/04-08:24:21.420 1605 Compacting 4@0 + 2@1 files
+2023/07/04-08:24:21.450 1605 Generated table #718@0: 15 keys, 2254190 bytes
+2023/07/04-08:24:21.454 1605 Generated table #719@0: 1 keys, 523 bytes
+2023/07/04-08:24:21.454 1605 Compacted 4@0 + 2@1 files => 2254713 bytes
+2023/07/04-08:24:21.458 1605 compacted to: files[ 0 2 2 0 0 0 0 ]
+2023/07/04-08:24:21.458 1605 Delete type=2 #715
+2023/07/04-08:24:21.458 1605 Delete type=2 #711
+2023/07/04-08:24:21.458 1605 Delete type=2 #713
+2023/07/04-08:24:21.458 1605 Delete type=2 #717
+2023/07/04-08:24:21.458 1605 Delete type=2 #708
+2023/07/04-08:24:21.458 1605 Delete type=2 #688

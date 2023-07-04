@@ -1,0 +1,7 @@
+2023/05/27-15:52:50.438 154d2 Reusing MANIFEST /home/alex/.config/reclaim-nativefier-c27623/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/27-15:52:50.438 154d2 Recovering log #3
+2023/05/27-15:52:50.438 154d2 Reusing old log /home/alex/.config/reclaim-nativefier-c27623/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000003.log 
+2023/05/27-15:53:03.503 14828 Level-0 table #5: started
+2023/05/27-15:53:03.506 14828 Level-0 table #5: 391 bytes OK
+2023/05/27-15:53:03.510 14828 Delete type=0 #3
+2023/05/27-15:53:03.510 14828 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

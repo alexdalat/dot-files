@@ -1,0 +1,19 @@
+@use "sass:math";
+
+.formatted-link {
+  .nordpass-svg {
+    margin-left: #{math.div(4, 15)}rem;
+  }
+}
+
+.sorting-column-menu {
+  .divider {
+    margin: #{math.div(8, 15)}rem 0;
+  }
+
+  .sorting-tick {
+    width: 10px;
+    height: 10px;
+    margin-right: #{math.div(10, 15)}rem;
+  }
+}

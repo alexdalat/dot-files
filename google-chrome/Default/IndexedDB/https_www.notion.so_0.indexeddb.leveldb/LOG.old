@@ -1,0 +1,14 @@
+2023/05/26-14:16:55.301 abf Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/26-14:16:55.301 abf Recovering log #15
+2023/05/26-14:16:55.301 abf Reusing old log /home/alex/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000015.log 
+2023/05/26-14:16:55.302 abf Delete type=2 #14
+2023/05/26-14:16:57.612 abf Level-0 table #20: started
+2023/05/26-14:16:57.614 abf Level-0 table #20: 524 bytes OK
+2023/05/26-14:16:57.618 abf Delete type=0 #15
+2023/05/26-14:16:57.618 abf Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 995 : 1
+2023/05/26-14:16:57.618 abf Compacting 1@0 + 1@1 files
+2023/05/26-14:16:57.621 abf Generated table #21@0: 19 keys, 570 bytes
+2023/05/26-14:16:57.621 abf Compacted 1@0 + 1@1 files => 570 bytes
+2023/05/26-14:16:57.625 abf compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/26-14:16:57.625 abf Delete type=2 #20
+2023/05/26-14:16:57.625 abf Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 995 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2023/05/23-15:10:43.105 fea Creating DB /home/alex/.config/google-chrome/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb since it was missing.
+2023/05/23-15:10:43.116 fea Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/23-15:11:15.393 feb Level-0 table #5: started
+2023/05/23-15:11:15.396 feb Level-0 table #5: 2815 bytes OK
+2023/05/23-15:11:15.400 feb Delete type=0 #3
+2023/05/23-15:11:15.400 feb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,64 @@
+$header-height: 64px;
+
+.sticky-header {
+  position: sticky;
+  height: $header-height;
+  top: -1px;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.sticky-header::before,
+.sticky-header::after {
+  content: '';
+  display: block;
+  position: sticky;
+  height: 1px;
+}
+
+.sticky-header::before {
+  top: $header-height - 2px;
+  box-shadow: 0 1px 0 var(--grey-lighter);
+}
+
+.sticky-header::after {
+  background: var(--grey-white);
+  top: 0;
+}
+
+.sticky-header > div {
+  position: sticky;
+  height: 100%;
+  top: 0;
+  margin-top: -2px;
+}
+
+.vault {
+  .vault-item-actions {
+    display: none;
+
+    &:hover {
+      visibility: visible;
+    }
+  }
+
+  .vault-item {
+    height: 56px;
+
+    .vault-item-data.selected {
+      .vault-item-actions {
+        display: inline-block;
+      }
+    }
+
+    &:hover {
+      .vault-item-data {
+        .vault-item-actions {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

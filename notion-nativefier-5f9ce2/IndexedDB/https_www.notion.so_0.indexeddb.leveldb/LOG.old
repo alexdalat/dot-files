@@ -1,0 +1,6 @@
+2023/05/26-14:21:03.081 a46b Creating DB /home/alex/.config/notion-nativefier-5f9ce2/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2023/05/26-14:21:03.090 a46b Reusing MANIFEST /home/alex/.config/notion-nativefier-5f9ce2/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/26-14:21:04.639 a476 Level-0 table #5: started
+2023/05/26-14:21:04.642 a476 Level-0 table #5: 2617 bytes OK
+2023/05/26-14:21:04.646 a476 Delete type=0 #3
+2023/05/26-14:21:04.646 a476 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

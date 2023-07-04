@@ -1,0 +1,128 @@
+.sidebar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 20;
+  overflow: hidden auto;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  transition: left .2s ease-out;
+  left: -100%;
+
+  &--open {
+    pointer-events: auto;
+    left: 0;
+  }
+
+  &__group-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+    font-size: 12px;
+  }
+
+  &-category {
+    @apply text-grey transition-colors duration-250 ease-out;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    path {
+      @apply transition-colors duration-250 ease-out;
+      fill: #b9babd;
+    }
+
+    a path {
+      @apply transition-colors duration-250 ease-out;
+    }
+
+    &.active {
+      background-color: rgba(var(--grey-dark-rgb), .5);
+      @apply text-white;
+    }
+  }
+
+  &-folder {
+    a path {
+      @apply transition-colors duration-250 ease-out;
+    }
+  }
+
+  &-category.active path {
+    fill: white;
+  }
+
+  .folder-actions {
+    opacity: 0;
+    transition: .25s opacity linear;
+
+    &--active {
+      opacity: 1;
+      fill: white;
+    }
+  }
+
+  &-category:hover {
+    background-color: rgba(var(--grey-dark-rgb), .25);
+    @apply transition-colors duration-250 ease-out;
+    @apply text-white;
+
+    .folder-actions {
+      opacity: 1;
+    }
+
+    path {
+      fill: white;
+    }
+  }
+
+  &active:hover {
+    background-color: rgba(var(--grey-dark-rgb), .75);
+    @apply text-white;
+
+    .folder-actions {
+      opacity: 1;
+    }
+
+    path {
+      fill: white;
+    }
+  }
+
+  .icon-hover-white {
+    path {
+      @apply transition-colors duration-250 ease-out;
+      fill: #b9babd;
+    }
+  }
+
+  .folder-actions a path {
+    transition: .25s fill cubic-bezier(.4, 0, .2, 1);
+    fill: #b9babd;
+  }
+
+  .icon-hover-white:hover {
+    path {
+      @apply transition-colors duration-250 ease-out;
+      fill: white;
+    }
+  }
+
+  .folder-actions a:hover {
+    path {
+      fill: white;
+    }
+  }
+
+  .badge {
+    @apply text-nano font-medium rounded-full py-1 flex justify-center items-center;
+    padding-right: 6px;
+    padding-left: 5px;
+    min-width: 20px;
+    height: 20px;
+  }
+}

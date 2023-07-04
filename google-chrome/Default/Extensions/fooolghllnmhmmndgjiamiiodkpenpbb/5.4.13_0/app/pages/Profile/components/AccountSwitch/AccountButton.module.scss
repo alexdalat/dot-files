@@ -1,0 +1,21 @@
+.account-button {
+  @apply transition-all duration-250 ease-out w-full flex items-center px-4;
+  height: 56px;
+  max-height: 56px;
+  cursor: pointer;
+
+  &__menu {
+    right: 16px;
+    opacity: 0;
+  }
+
+  &__text-container {
+    max-width: calc(100% - 32px - 64px); // icon width and margin for text
+  }
+
+  &:hover {
+    .account-button__menu {
+      opacity: 1;
+    }
+  }
+}

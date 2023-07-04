@@ -1,0 +1,3308 @@
+{
+  "PUSWarningPart1": [
+    {
+      "type": 0,
+      "value": "By turning the autolock setting off, you’ll be able to access your NordPass account in this web browser without needing to enter your Master Password."
+    }
+  ],
+  "PUSWarningPart2": [
+    {
+      "type": 0,
+      "value": "For security reasons, we recommend only doing this if you’re using the NordPass extension on a device you trust."
+    }
+  ],
+  "aWebsiteIWasOnCrashed": [
+    {
+      "type": 0,
+      "value": "A website I was on crashed"
+    }
+  ],
+  "accept": [
+    {
+      "type": 0,
+      "value": "Accept"
+    }
+  ],
+  "addAnotherAccount": [
+    {
+      "type": 0,
+      "value": "Add another account"
+    }
+  ],
+  "addCreditCard": [
+    {
+      "type": 0,
+      "value": "Add Credit Card"
+    }
+  ],
+  "addItem": [
+    {
+      "type": 0,
+      "value": "Add Item"
+    }
+  ],
+  "addNewCreditCard": [
+    {
+      "type": 0,
+      "value": "Add New Credit Card"
+    }
+  ],
+  "addNewFolder": [
+    {
+      "type": 0,
+      "value": "Add New Folder"
+    }
+  ],
+  "addNewFolderTooltip": [
+    {
+      "type": 0,
+      "value": "Add new folder"
+    }
+  ],
+  "addNewSharedFolder": [
+    {
+      "type": 0,
+      "value": "Add New Folder"
+    }
+  ],
+  "addPassword": [
+    {
+      "type": 0,
+      "value": "Add Password"
+    }
+  ],
+  "addPersonalInfo": [
+    {
+      "type": 0,
+      "value": "Add Personal Info"
+    }
+  ],
+  "addSecureNotes": [
+    {
+      "type": 0,
+      "value": "Add Secure Notes"
+    }
+  ],
+  "address": [
+    {
+      "type": 0,
+      "value": "Address"
+    }
+  ],
+  "addressCopied": [
+    {
+      "type": 0,
+      "value": "Address copied"
+    }
+  ],
+  "addressLine1": [
+    {
+      "type": 0,
+      "value": "Address Line 1"
+    }
+  ],
+  "addressLine1Copied": [
+    {
+      "type": 0,
+      "value": "Address Line 1 copied"
+    }
+  ],
+  "addressLine2": [
+    {
+      "type": 0,
+      "value": "Address Line 2"
+    }
+  ],
+  "addressLine2Copied": [
+    {
+      "type": 0,
+      "value": "Address Line 2 copied"
+    }
+  ],
+  "adjustAutolockTime": [
+    {
+      "type": 0,
+      "value": "Adjust autolock time"
+    }
+  ],
+  "allItems": [
+    {
+      "type": 0,
+      "value": "All Items"
+    }
+  ],
+  "alreadyHaveApp": [
+    {
+      "type": 0,
+      "value": "Already have the app?"
+    }
+  ],
+  "ascending": [
+    {
+      "type": 0,
+      "value": "Ascending"
+    }
+  ],
+  "attachFile": [
+    {
+      "type": 0,
+      "value": "Attach File"
+    }
+  ],
+  "attachedFiles": [
+    {
+      "type": 0,
+      "value": "Attached Files"
+    }
+  ],
+  "authenticityErrorButton": [
+    {
+      "type": 0,
+      "value": "Try Pairing Again"
+    }
+  ],
+  "authenticityErrorDescription": [
+    {
+      "type": 0,
+      "value": "To use NordPass browser extension, you need to pair it with the app"
+    }
+  ],
+  "authenticityErrorTitle": [
+    {
+      "type": 0,
+      "value": "Finish browser extension set up"
+    }
+  ],
+  "autoUnlockFail": [
+    {
+      "type": 0,
+      "value": "Extension failed to automatically unlock. Please enter your Master Password."
+    }
+  ],
+  "autofillIsTurnedOn": [
+    {
+      "type": 0,
+      "value": "Autofill is turned on."
+    }
+  ],
+  "autofillSomethingElse": [
+    {
+      "type": 0,
+      "value": "Autofill something else"
+    }
+  ],
+  "autosavePromptAppearsRandomly": [
+    {
+      "type": 0,
+      "value": "Autosave prompt appears randomly"
+    }
+  ],
+  "b2bTrialBannerHeader": [
+    {
+      "type": 0,
+      "value": "Upgrade your organization’s plan"
+    }
+  ],
+  "b2bTrialBannerMessage": [
+    {
+      "type": 0,
+      "value": "To keep using NordPass, upgrade your organization's plan"
+    }
+  ],
+  "beta": [
+    {
+      "type": 0,
+      "value": "Beta"
+    }
+  ],
+  "breachScanner": [
+    {
+      "type": 0,
+      "value": "Data Breach Scanner"
+    }
+  ],
+  "breachScannerDescription": [
+    {
+      "type": 0,
+      "value": "Check if your sensitive data has been leaked online"
+    }
+  ],
+  "businessPlan": [
+    {
+      "type": 0,
+      "value": "Business Plan"
+    }
+  ],
+  "businessPlanTrial": [
+    {
+      "type": 0,
+      "value": "Business Trial"
+    }
+  ],
+  "businessPlusPlan": [
+    {
+      "type": 0,
+      "value": "Business Pro"
+    }
+  ],
+  "businessPlusPlanTrial": [
+    {
+      "type": 0,
+      "value": "Business+ Trial"
+    }
+  ],
+  "cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "cannotAttachFilesToSharedItems": [
+    {
+      "type": 0,
+      "value": "Can’t attach files to shared items"
+    }
+  ],
+  "cannotShareItemsWithAttachments": [
+    {
+      "type": 0,
+      "value": "Can’t share items with attachments"
+    }
+  ],
+  "cantDuplicateWithAttachments": [
+    {
+      "type": 0,
+      "value": "Can't duplicate personal info with attachments"
+    }
+  ],
+  "cardHolderNameCopied": [
+    {
+      "type": 0,
+      "value": "Cardholder Name copied"
+    }
+  ],
+  "cardNumber": [
+    {
+      "type": 0,
+      "value": "Card Number"
+    }
+  ],
+  "cardNumberCopied": [
+    {
+      "type": 0,
+      "value": "Card Number copied"
+    }
+  ],
+  "cardPin": [
+    {
+      "type": 0,
+      "value": "Card PIN"
+    }
+  ],
+  "cardholderName": [
+    {
+      "type": 0,
+      "value": "Cardholder Name"
+    }
+  ],
+  "categories": [
+    {
+      "type": 0,
+      "value": "Categories"
+    }
+  ],
+  "changeAutofillBehavior": [
+    {
+      "type": 0,
+      "value": "Change autofill behavior"
+    }
+  ],
+  "changeTypeNewFeatureTooltipText": [
+    {
+      "type": 0,
+      "value": "Edit the autofill behavior of website fields to better suit your needs, or tell us about your overall experience using NordPass"
+    }
+  ],
+  "city": [
+    {
+      "type": 0,
+      "value": "City"
+    }
+  ],
+  "cityCopied": [
+    {
+      "type": 0,
+      "value": "City copied"
+    }
+  ],
+  "commentToRateExtension": [
+    {
+      "type": 0,
+      "value": "Let us know how we're doing by leaving a rating on the Chrome Web Store"
+    }
+  ],
+  "confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "copied": [
+    {
+      "type": 0,
+      "value": "Copied"
+    }
+  ],
+  "copiedTooltip": [
+    {
+      "type": 0,
+      "value": "Copied!"
+    }
+  ],
+  "copy": [
+    {
+      "type": 0,
+      "value": "Copy"
+    }
+  ],
+  "copyCardNumber": [
+    {
+      "type": 0,
+      "value": "Copy Card Number"
+    }
+  ],
+  "copyCardholderName": [
+    {
+      "type": 0,
+      "value": "Copy Cardholder Name"
+    }
+  ],
+  "copyCvvCvc": [
+    {
+      "type": 0,
+      "value": "Copy CVC / CVV"
+    }
+  ],
+  "copyEmailUsername": [
+    {
+      "type": 0,
+      "value": "Copy Email or Username"
+    }
+  ],
+  "copyFullAddress": [
+    {
+      "type": 0,
+      "value": "Copy Full Address"
+    }
+  ],
+  "copyNote": [
+    {
+      "type": 0,
+      "value": "Copy Note"
+    }
+  ],
+  "copyPassword": [
+    {
+      "type": 0,
+      "value": "Copy Password"
+    }
+  ],
+  "country": [
+    {
+      "type": 0,
+      "value": "Country"
+    }
+  ],
+  "countryCopied": [
+    {
+      "type": 0,
+      "value": "Country or Region copied"
+    }
+  ],
+  "createdOnDateText": [
+    {
+      "type": 0,
+      "value": "Created on "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    }
+  ],
+  "creditCard": [
+    {
+      "type": 0,
+      "value": "Credit Card"
+    }
+  ],
+  "creditCardItems": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Credit Card"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Credit Cards"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "creditCards": [
+    {
+      "type": 0,
+      "value": "Credit Cards"
+    }
+  ],
+  "cvvCopied": [
+    {
+      "type": 0,
+      "value": "CVV copied"
+    }
+  ],
+  "cvvLabel": [
+    {
+      "type": 0,
+      "value": "CVV"
+    }
+  ],
+  "days": [
+    {
+      "type": 0,
+      "value": "Days"
+    }
+  ],
+  "decline": [
+    {
+      "type": 0,
+      "value": "Decline"
+    }
+  ],
+  "declineItem": [
+    {
+      "type": 0,
+      "value": "Decline Item"
+    }
+  ],
+  "declineItemContent": [
+    {
+      "type": 0,
+      "value": "You will refuse to accept shared access to this item"
+    }
+  ],
+  "declineItemDescription": [
+    {
+      "type": 0,
+      "value": "You will refuse to accept shared access to this item"
+    }
+  ],
+  "declineItemHeader": [
+    {
+      "type": 0,
+      "value": "Decline item?"
+    }
+  ],
+  "delete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "deleteFileFeedback": [
+    {
+      "type": 1,
+      "value": "fileName"
+    },
+    {
+      "type": 0,
+      "value": " deleted"
+    }
+  ],
+  "deleteFileModalContent": [
+    {
+      "type": 0,
+      "value": "This will permanently delete "
+    },
+    {
+      "type": 1,
+      "value": "fileName"
+    }
+  ],
+  "deleteFileModalHeader": [
+    {
+      "type": 0,
+      "value": "Delete file?"
+    }
+  ],
+  "deleteFolderQuestion": [
+    {
+      "type": 0,
+      "value": "Delete folder?"
+    }
+  ],
+  "deleteFolderText": [
+    {
+      "type": 0,
+      "value": "Deleting the folder will not delete the items in this folder. If you want to delete both the folder and the items, please check the box below."
+    }
+  ],
+  "deleteItemModalContent": [
+    {
+      "type": 0,
+      "value": "This item will be lost and you will no longer be able to restore it"
+    }
+  ],
+  "deleteItemModalHeader": [
+    {
+      "type": 0,
+      "value": "Delete item?"
+    }
+  ],
+  "deleteSharedFolderModalDescription": [
+    {
+      "type": 0,
+      "value": "This folder and its items will be permanently deleted. This will also remove others’ access to it."
+    }
+  ],
+  "deletingItemsError": [
+    {
+      "type": 0,
+      "value": "An error encountered while deleting this item."
+    }
+  ],
+  "descending": [
+    {
+      "type": 0,
+      "value": "Descending"
+    }
+  ],
+  "detailsForARegistrationForm": [
+    {
+      "type": 0,
+      "value": "Details for a registration form"
+    }
+  ],
+  "disableAutofillOption": [
+    {
+      "type": 0,
+      "value": "Turn off autofill for this field or page"
+    }
+  ],
+  "doAutofillOnThisField": [
+    {
+      "type": 0,
+      "value": "Turn on autofill for this field"
+    }
+  ],
+  "doNotAutofillOnThisField": [
+    {
+      "type": 0,
+      "value": "Don't autofill this field"
+    }
+  ],
+  "doNotAutofillOnThisPage": [
+    {
+      "type": 0,
+      "value": "Don't autofill on this page"
+    }
+  ],
+  "dontHaveAppQuestion": [
+    {
+      "type": 0,
+      "value": "Don't have the app?"
+    }
+  ],
+  "download": [
+    {
+      "type": 0,
+      "value": "Download"
+    }
+  ],
+  "downloadLogs": [
+    {
+      "type": 0,
+      "value": "Download logs"
+    }
+  ],
+  "duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate"
+    }
+  ],
+  "duplicatingPersonalInfoError": [
+    {
+      "type": 0,
+      "value": "An error encountered while duplicating this item."
+    }
+  ],
+  "edit": [
+    {
+      "type": 0,
+      "value": "Edit"
+    }
+  ],
+  "email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "emailCopied": [
+    {
+      "type": 0,
+      "value": "Email copied"
+    }
+  ],
+  "emailOrUserNameCopied": [
+    {
+      "type": 0,
+      "value": "Email or Username copied"
+    }
+  ],
+  "emailOrUsername": [
+    {
+      "type": 0,
+      "value": "Email or Username"
+    }
+  ],
+  "emailUs": [
+    {
+      "type": 0,
+      "value": "Email Us"
+    }
+  ],
+  "emergencyAccess": [
+    {
+      "type": 0,
+      "value": "Emergency Access"
+    }
+  ],
+  "emergencyAccessDescription": [
+    {
+      "type": 0,
+      "value": "Manage people's access to your passwords in case of an emergency"
+    }
+  ],
+  "emptyFolderPrimaryText": [
+    {
+      "type": 0,
+      "value": "Folder is empty"
+    }
+  ],
+  "emptyFolderSecondaryText": [
+    {
+      "type": 0,
+      "value": "Stay organized by adding passwords or other items to this folder"
+    }
+  ],
+  "emptyPersonalInfo": [
+    {
+      "type": 0,
+      "value": "You don’t have Personal info added yet"
+    }
+  ],
+  "emptyTrashPrimaryText": [
+    {
+      "type": 0,
+      "value": "Trash is empty"
+    }
+  ],
+  "emptyTrashSecondaryText": [
+    {
+      "type": 0,
+      "value": "Any items moved to Trash can be restored until you permanently delete them"
+    }
+  ],
+  "emptyVaultCCPrimaryText": [
+    {
+      "type": 0,
+      "value": "Shop without lifting a finger"
+    }
+  ],
+  "emptyVaultCCSecondaryText": [
+    {
+      "type": 0,
+      "value": "Add credit card details to fill them automatically when shopping online"
+    }
+  ],
+  "emptyVaultNotesPrimaryText": [
+    {
+      "type": 0,
+      "value": "Free your memory"
+    }
+  ],
+  "emptyVaultNotesSecondaryText": [
+    {
+      "type": 0,
+      "value": "Jot down a Wi-Fi code, office security alarm code or your friend’s birthday"
+    }
+  ],
+  "emptyVaultPasswordPrimaryText": [
+    {
+      "type": 0,
+      "value": "Forget password resets"
+    }
+  ],
+  "emptyVaultPasswordSecondaryText": [
+    {
+      "type": 0,
+      "value": "Add your passwords and access them on any device, anytime"
+    }
+  ],
+  "emptyVaultPersonalPrimaryText": [
+    {
+      "type": 0,
+      "value": "Fill online forms stress-free"
+    }
+  ],
+  "emptyVaultPersonalSecondaryText": [
+    {
+      "type": 0,
+      "value": "Save your address and contact details to fill registration forms quickly"
+    }
+  ],
+  "emptyVaultPrimaryText": [
+    {
+      "type": 0,
+      "value": "Let’s get started"
+    }
+  ],
+  "emptyVaultSecondaryText": [
+    {
+      "type": 0,
+      "value": "Add your first item. You’ll find it here whenever you need it."
+    }
+  ],
+  "emptyVaultSharedPrimaryText": [
+    {
+      "type": 0,
+      "value": "No shared items"
+    }
+  ],
+  "emptyVaultSharedSecondaryText": [
+    {
+      "type": 0,
+      "value": "Items shared between you and someone else will appear here"
+    }
+  ],
+  "enjoyingNordPass": [
+    {
+      "type": 0,
+      "value": "Enjoying NordPass?"
+    }
+  ],
+  "enterAnyway": [
+    {
+      "type": 0,
+      "value": "Enter Anyway"
+    }
+  ],
+  "enterMasterPassword": [
+    {
+      "type": 0,
+      "value": "Enter Master Password"
+    }
+  ],
+  "enteringUnprotectedWebsiteWarning": [
+    {
+      "type": 0,
+      "value": "Entering your data might put your information at risk. If possible, switch to a private connection"
+    }
+  ],
+  "enterprisePlan": [
+    {
+      "type": 0,
+      "value": "Enterprise Plan"
+    }
+  ],
+  "enterprisePlanTrial": [
+    {
+      "type": 0,
+      "value": "Enterprise Trial"
+    }
+  ],
+  "errorCode0000": [
+    {
+      "type": 0,
+      "value": "Something went wrong. Please try again or restart the app."
+    }
+  ],
+  "errorCode0001": [
+    {
+      "type": 0,
+      "value": "Incorrect Master Password. Please double-check and try again."
+    }
+  ],
+  "errorCode0002": [
+    {
+      "type": 0,
+      "value": "Login code has expired. Please relogin"
+    }
+  ],
+  "errorCode0003": [
+    {
+      "type": 0,
+      "value": "Incorrect Recovery Code. Please double-check and try again."
+    }
+  ],
+  "errorCode0004": [
+    {
+      "type": 0,
+      "value": "The code is incorrect. Please try again"
+    }
+  ],
+  "errorCode0005": [
+    {
+      "type": 0,
+      "value": "Incorrect MFA code. Please double-check and try again."
+    }
+  ],
+  "errorCode0006": [
+    {
+      "type": 0,
+      "value": "Invalid email address. Please enter email in the format: name@example.com"
+    }
+  ],
+  "errorCode0007": [
+    {
+      "type": 0,
+      "value": "Check if encrypted message is valid and try again"
+    }
+  ],
+  "errorCode0008": [
+    {
+      "type": 0,
+      "value": "Please restore your internet connection and try again"
+    }
+  ],
+  "errorCode0009": [
+    {
+      "type": 0,
+      "value": "Please restore your internet connection and try again"
+    }
+  ],
+  "errorCode0010": [
+    {
+      "type": 0,
+      "value": "Please restore your internet connection and try again"
+    }
+  ],
+  "errorCode0011": [
+    {
+      "type": 0,
+      "value": "To continue using NordPass, visit your app store and update to the latest version"
+    }
+  ],
+  "errorCode0012": [
+    {
+      "type": 0,
+      "value": "Incorrect Master Password. Please double-check and try again."
+    }
+  ],
+  "errorCode0013": [
+    {
+      "type": 0,
+      "value": "Breach scanning limit reached. Please try again in 1 min."
+    }
+  ],
+  "errorCode0014": [
+    {
+      "type": 0,
+      "value": "Your organization doesn't allow members to export passwords"
+    }
+  ],
+  "errorCode0015": [
+    {
+      "type": 0,
+      "value": "Item already shared with this Group"
+    }
+  ],
+  "errorCode0016": [
+    {
+      "type": 0,
+      "value": "Invite has already been accepted or canceled. Go to Settings to check if you've joined organization."
+    }
+  ],
+  "errorCode0017": [
+    {
+      "type": 0,
+      "value": "Something went wrong. Please try again or restart the app."
+    }
+  ],
+  "errorCode0018": [
+    {
+      "type": 0,
+      "value": "Selected access rights have already been given"
+    }
+  ],
+  "errorCode0019": [
+    {
+      "type": 0,
+      "value": "You cannot give Emergency Access to yourself"
+    }
+  ],
+  "errorCode0020": [
+    {
+      "type": 0,
+      "value": "Invalid encryption algorithm. Please try again or restart the app."
+    }
+  ],
+  "errorCode0021": [
+    {
+      "type": 0,
+      "value": "Error occurred wile loading storage, try again"
+    }
+  ],
+  "errorCode0022": [
+    {
+      "type": 0,
+      "value": "Invalid login credentials. Please double-check and try again."
+    }
+  ],
+  "errorCode0023": [
+    {
+      "type": 0,
+      "value": "An error occurred while generating key. Please try again."
+    }
+  ],
+  "errorCode0024": [
+    {
+      "type": 0,
+      "value": "Account not found in database. Please double-check details or restart the app."
+    }
+  ],
+  "errorCode0025": [
+    {
+      "type": 0,
+      "value": "Not enough data found to perform breach scan"
+    }
+  ],
+  "errorCode0026": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt an item"
+    }
+  ],
+  "errorCode0027": [
+    {
+      "type": 0,
+      "value": "Invalid credit card number. Please double-check and try again."
+    }
+  ],
+  "errorCode0028": [
+    {
+      "type": 0,
+      "value": "Invalid payload given. Please try again or restart the app."
+    }
+  ],
+  "errorCode0029": [
+    {
+      "type": 0,
+      "value": "Breached email address is not verified"
+    }
+  ],
+  "errorCode0030": [
+    {
+      "type": 0,
+      "value": "No data could be found"
+    }
+  ],
+  "errorCode0031": [
+    {
+      "type": 0,
+      "value": "Item limit has been reached"
+    }
+  ],
+  "errorCode0032": [
+    {
+      "type": 0,
+      "value": "An error occurred while fetching user identity. Please double-check and try again."
+    }
+  ],
+  "errorCode0033": [
+    {
+      "type": 0,
+      "value": "Cannot give Emergency Access to this account. Please try another."
+    }
+  ],
+  "errorCode0034": [
+    {
+      "type": 0,
+      "value": "Failed to send feedback. Please try again."
+    }
+  ],
+  "errorCode0035": [
+    {
+      "type": 0,
+      "value": "File size limit exceeded. Maximum file size is 3 MB."
+    }
+  ],
+  "errorCode0036": [
+    {
+      "type": 0,
+      "value": "MFA can't be turned off if it's been turned on at an organizational level"
+    }
+  ],
+  "errorCode0037": [
+    {
+      "type": 0,
+      "value": "Failed to fetch IP address. Please try again."
+    }
+  ],
+  "errorCode0038": [
+    {
+      "type": 0,
+      "value": "Invalid identity found. Please contact our Customer Support team for assistance."
+    }
+  ],
+  "errorCode0039": [
+    {
+      "type": 0,
+      "value": "A database error has occurred. Please check your internet connection and try again."
+    }
+  ],
+  "errorCode0040": [
+    {
+      "type": 0,
+      "value": "Invalid key. Please try again."
+    }
+  ],
+  "errorCode0041": [
+    {
+      "type": 0,
+      "value": "Master Password already exists"
+    }
+  ],
+  "errorCode0042": [
+    {
+      "type": 0,
+      "value": "OAuth token not found. Please contact our Customer Support team for assistance."
+    }
+  ],
+  "errorCode0043": [
+    {
+      "type": 0,
+      "value": "User does not belong to organization"
+    }
+  ],
+  "errorCode0044": [
+    {
+      "type": 0,
+      "value": "No sharing rights provided. Please double-check and try again."
+    }
+  ],
+  "errorCode0045": [
+    {
+      "type": 0,
+      "value": "Item can only be shared with read-only access"
+    }
+  ],
+  "errorCode0046": [
+    {
+      "type": 0,
+      "value": "Item not shared with anyone"
+    }
+  ],
+  "errorCode0047": [
+    {
+      "type": 0,
+      "value": "Unable to confirm item's sharing status"
+    }
+  ],
+  "errorCode0048": [
+    {
+      "type": 0,
+      "value": "Only an item's owner can change its ownership"
+    }
+  ],
+  "errorCode0049": [
+    {
+      "type": 0,
+      "value": "Unable to confirm item's sharing status"
+    }
+  ],
+  "errorCode0050": [
+    {
+      "type": 0,
+      "value": "Item is not shared yet"
+    }
+  ],
+  "errorCode0051": [
+    {
+      "type": 0,
+      "value": "Already shared with this Group"
+    }
+  ],
+  "errorCode0052": [
+    {
+      "type": 0,
+      "value": "Group not found in database"
+    }
+  ],
+  "errorCode0053": [
+    {
+      "type": 0,
+      "value": "Invalid message given. Please try again."
+    }
+  ],
+  "errorCode0054": [
+    {
+      "type": 0,
+      "value": "Unable to remove trust as it may have already been removed"
+    }
+  ],
+  "errorCode0055": [
+    {
+      "type": 0,
+      "value": "Invalid email or public key"
+    }
+  ],
+  "errorCode0056": [
+    {
+      "type": 0,
+      "value": "Trust already established with this user"
+    }
+  ],
+  "errorCode0058": [
+    {
+      "type": 0,
+      "value": "Already requested trust with this user"
+    }
+  ],
+  "errorCode0059": [
+    {
+      "type": 0,
+      "value": "Public keys do not match"
+    }
+  ],
+  "errorCode0060": [
+    {
+      "type": 0,
+      "value": "Unable to verify trust connection"
+    }
+  ],
+  "errorCode0061": [
+    {
+      "type": 0,
+      "value": "Cannot share an item with yourself"
+    }
+  ],
+  "errorCode0062": [
+    {
+      "type": 0,
+      "value": "Item already shared with one or more users"
+    }
+  ],
+  "errorCode0063": [
+    {
+      "type": 0,
+      "value": "No items selected for sharing"
+    }
+  ],
+  "errorCode0064": [
+    {
+      "type": 0,
+      "value": "Items already shared with everyone selected"
+    }
+  ],
+  "errorCode0065": [
+    {
+      "type": 0,
+      "value": "Failed to copy: source doesn't exist"
+    }
+  ],
+  "errorCode0066": [
+    {
+      "type": 0,
+      "value": "Failed to copy: destination already exist"
+    }
+  ],
+  "errorCode0067": [
+    {
+      "type": 0,
+      "value": "Cannot find user details. Please restart the app."
+    }
+  ],
+  "errorCode0068": [
+    {
+      "type": 0,
+      "value": "Item has been deleted"
+    }
+  ],
+  "errorCode0069": [
+    {
+      "type": 0,
+      "value": "Invalid item keys"
+    }
+  ],
+  "errorCode0070": [
+    {
+      "type": 0,
+      "value": "Email is not set. Please restart the app."
+    }
+  ],
+  "errorCode0071": [
+    {
+      "type": 0,
+      "value": "Please select one option only"
+    }
+  ],
+  "errorCode0072": [
+    {
+      "type": 0,
+      "value": "No options found"
+    }
+  ],
+  "errorCode0073": [
+    {
+      "type": 0,
+      "value": "Cannot decrypt options. Please restart the app."
+    }
+  ],
+  "errorCode0074": [
+    {
+      "type": 0,
+      "value": "Invalid reason given. Please contact our Customer Support team for assistance."
+    }
+  ],
+  "errorCode0075": [
+    {
+      "type": 0,
+      "value": "Item is not a password"
+    }
+  ],
+  "errorCode0076": [
+    {
+      "type": 0,
+      "value": "Item repository not set. Please restart the app."
+    }
+  ],
+  "errorCode0077": [
+    {
+      "type": 0,
+      "value": "Organization vaults item not set. Please restart the app."
+    }
+  ],
+  "errorCode0078": [
+    {
+      "type": 0,
+      "value": "Organization key not set. Please restart the app."
+    }
+  ],
+  "errorCode0079": [
+    {
+      "type": 0,
+      "value": "Invalid container given. Please contact our Customer Support team for assistance."
+    }
+  ],
+  "errorCode0080": [
+    {
+      "type": 0,
+      "value": "Failed to encrypt secret key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0081": [
+    {
+      "type": 0,
+      "value": "Failed to prepare client secret key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0082": [
+    {
+      "type": 0,
+      "value": "Failed to prepare client organization secret key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0083": [
+    {
+      "type": 0,
+      "value": "Secret key not found. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0084": [
+    {
+      "type": 0,
+      "value": "Secret private key not found. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0085": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt secret private key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0086": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt secret key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0087": [
+    {
+      "type": 0,
+      "value": "Failed to prepare secret keys. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0088": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt item key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0089": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt item private key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0090": [
+    {
+      "type": 0,
+      "value": "Failed to prepare item keys. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0091": [
+    {
+      "type": 0,
+      "value": "Failed to encrypt item key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0092": [
+    {
+      "type": 0,
+      "value": "Failed to prepare client item key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0093": [
+    {
+      "type": 0,
+      "value": "Failed to prepare client organization key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0094": [
+    {
+      "type": 0,
+      "value": "Cannot transfer to userless vault"
+    }
+  ],
+  "errorCode0095": [
+    {
+      "type": 0,
+      "value": "Invalid item given. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0096": [
+    {
+      "type": 0,
+      "value": "Container not found or found to be invalid. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0097": [
+    {
+      "type": 0,
+      "value": "Invalid item type"
+    }
+  ],
+  "errorCode0098": [
+    {
+      "type": 0,
+      "value": "Please log in to complete this action"
+    }
+  ],
+  "errorCode0099": [
+    {
+      "type": 0,
+      "value": "Failed to parse translations. Please try again or restart the app."
+    }
+  ],
+  "errorCode0100": [
+    {
+      "type": 0,
+      "value": "App is not in userless mode"
+    }
+  ],
+  "errorCode0101": [
+    {
+      "type": 0,
+      "value": "Failed to load item key pair. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0102": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt item value key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0103": [
+    {
+      "type": 0,
+      "value": "Failed to load decrypted item value. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0104": [
+    {
+      "type": 0,
+      "value": "Failed to encrypt value key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0105": [
+    {
+      "type": 0,
+      "value": "Failed to encrypt private key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0106": [
+    {
+      "type": 0,
+      "value": "Failed to resolve secret. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0107": [
+    {
+      "type": 0,
+      "value": "Failed to encrypt item. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0108": [
+    {
+      "type": 0,
+      "value": "Failed to load decrypted item secret. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0109": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt container private key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0110": [
+    {
+      "type": 0,
+      "value": "Failed to load container key pair. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0111": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt container secret private key. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0112": [
+    {
+      "type": 0,
+      "value": "Failed to load container secret key pair. Please restart the app or contact our Customer Support team."
+    }
+  ],
+  "errorCode0113": [
+    {
+      "type": 0,
+      "value": "Failed to generate keys"
+    }
+  ],
+  "errorCode0114": [
+    {
+      "type": 0,
+      "value": "Failed init userless db"
+    }
+  ],
+  "errorCode0115": [
+    {
+      "type": 0,
+      "value": "Failed to decrypt userless item or items"
+    }
+  ],
+  "errorCode0116": [
+    {
+      "type": 0,
+      "value": "Failed to generate guarded keys"
+    }
+  ],
+  "errorCode0117": [
+    {
+      "type": 0,
+      "value": "Failed to generate secret keys"
+    }
+  ],
+  "errorCode0118": [
+    {
+      "type": 0,
+      "value": "Failed to save items to database"
+    }
+  ],
+  "errorCode0119": [
+    {
+      "type": 0,
+      "value": "Failed to save folders to API"
+    }
+  ],
+  "errorCode0120": [
+    {
+      "type": 0,
+      "value": "Failed to save items to API"
+    }
+  ],
+  "errorCode0121": [
+    {
+      "type": 0,
+      "value": "Action not available on current app version"
+    }
+  ],
+  "errorCode0122": [
+    {
+      "type": 0,
+      "value": "Failed to copy data to clipboard. Please try again."
+    }
+  ],
+  "errorCode0123": [
+    {
+      "type": 0,
+      "value": "Failed to clear data from clipboard. Please try again."
+    }
+  ],
+  "errorCode0124": [
+    {
+      "type": 0,
+      "value": "Failed to copy data to clipboard. Please try again."
+    }
+  ],
+  "errorCode0125": [
+    {
+      "type": 0,
+      "value": "An error occurred with the clipboard settings. Please try again."
+    }
+  ],
+  "errorCode0126": [
+    {
+      "type": 0,
+      "value": "Failed to close clipboard. Please try again."
+    }
+  ],
+  "errorCode0127": [
+    {
+      "type": 0,
+      "value": "Failed to add account. Please restart the app and try to log in again."
+    }
+  ],
+  "errorCode0128": [
+    {
+      "type": 0,
+      "value": "Failed to remove all Emergency Access contacts"
+    }
+  ],
+  "errorCode0129": [
+    {
+      "type": 0,
+      "value": "No account exists for this email address. Please double-check and try again."
+    }
+  ],
+  "errorCode0999": [
+    {
+      "type": 0,
+      "value": "An unknown error has occurred"
+    }
+  ],
+  "errorCode2094": [
+    {
+      "type": 0,
+      "value": "Sharing outside organization is unavailable. To continue, remove emails in red."
+    }
+  ],
+  "errorOnDeclining": [
+    {
+      "type": 0,
+      "value": "An error encountered while declining this item."
+    }
+  ],
+  "errorOnRestoring": [
+    {
+      "type": 0,
+      "value": "An error encountered while restoring this item."
+    }
+  ],
+  "errorWhileAccessingItem": [
+    {
+      "type": 0,
+      "value": "An error encountered while accessing this item."
+    }
+  ],
+  "expirationDate": [
+    {
+      "type": 0,
+      "value": "Expiration Date"
+    }
+  ],
+  "expirationDateCopied": [
+    {
+      "type": 0,
+      "value": "Expiration Date copied"
+    }
+  ],
+  "feedback": [
+    {
+      "type": 0,
+      "value": "Feedback"
+    }
+  ],
+  "folder": [
+    {
+      "type": 0,
+      "value": "Folder"
+    }
+  ],
+  "folders": [
+    {
+      "type": 0,
+      "value": "Folders"
+    }
+  ],
+  "forgotMasterPasswordQuestion": [
+    {
+      "type": 0,
+      "value": "Forgot Master Password?"
+    }
+  ],
+  "freePlan": [
+    {
+      "type": 0,
+      "value": "Free Plan"
+    }
+  ],
+  "fullName": [
+    {
+      "type": 0,
+      "value": "Full Name"
+    }
+  ],
+  "fullNameCopied": [
+    {
+      "type": 0,
+      "value": "Full name copied"
+    }
+  ],
+  "generateNew": [
+    {
+      "type": 0,
+      "value": "Generate New"
+    }
+  ],
+  "getNordPassDesktopApp": [
+    {
+      "type": 0,
+      "value": "Download NordPass desktop app"
+    }
+  ],
+  "getPremium": [
+    {
+      "type": 0,
+      "value": "Get Premium"
+    }
+  ],
+  "getPremiumOff": [
+    {
+      "type": 0,
+      "value": "Get Premium "
+    },
+    {
+      "type": 1,
+      "value": "percent"
+    },
+    {
+      "type": 0,
+      "value": "% OFF"
+    }
+  ],
+  "getStartedAfterInstallStep": [
+    {
+      "type": 0,
+      "value": "Launch the installed app, log in and use NordPass."
+    }
+  ],
+  "getStartedInstallStep": [
+    {
+      "type": 0,
+      "value": "Download and install the desktop app on your computer."
+    }
+  ],
+  "helpCenter": [
+    {
+      "type": 0,
+      "value": "Help Center"
+    }
+  ],
+  "helpCenterArticle": [
+    {
+      "type": 0,
+      "value": "Help Center article"
+    }
+  ],
+  "hide": [
+    {
+      "type": 0,
+      "value": "Hide"
+    }
+  ],
+  "hideOptions": [
+    {
+      "type": 0,
+      "value": "Hide Options"
+    }
+  ],
+  "hrs": [
+    {
+      "type": 0,
+      "value": "Hrs"
+    }
+  ],
+  "iHaveADifferentIssueOrQuestion": [
+    {
+      "type": 0,
+      "value": "I have a different issue or question"
+    }
+  ],
+  "iHaveAnIssueWithAutofillingDetails": [
+    {
+      "type": 0,
+      "value": "I have an issue with autofilling details"
+    }
+  ],
+  "iHaveAnIssueWithAutosavingDetails": [
+    {
+      "type": 0,
+      "value": "I have an issue with autosaving details"
+    }
+  ],
+  "iHaveAnIssueWithNordPassIcons": [
+    {
+      "type": 0,
+      "value": "I have an issue with NordPass icons"
+    }
+  ],
+  "iHaveAnotherIssue": [
+    {
+      "type": 0,
+      "value": "I have another issue"
+    }
+  ],
+  "iconsAppearRandomlyOnScreen": [
+    {
+      "type": 0,
+      "value": "Icons appear randomly on screen"
+    }
+  ],
+  "imEnjoyingUsingNordPass": [
+    {
+      "type": 0,
+      "value": "I'm enjoying using NordPass"
+    }
+  ],
+  "importItems": [
+    {
+      "type": 0,
+      "value": "Import Items"
+    }
+  ],
+  "importPasswords": [
+    {
+      "type": 0,
+      "value": "Import Passwords"
+    }
+  ],
+  "incorrectItemSuggestion": [
+    {
+      "type": 0,
+      "value": "Incorrect item suggestion"
+    }
+  ],
+  "installDesktopAppText": [
+    {
+      "type": 0,
+      "value": "To start using the NordPass browser extension, you first need to pair it with the NordPass desktop app."
+    }
+  ],
+  "issueOccursOnAnotherWebsite": [
+    {
+      "type": 0,
+      "value": "Issue occurs on another website"
+    }
+  ],
+  "issueOccursOnThisWebsite": [
+    {
+      "type": 0,
+      "value": "Issue occurs on this website"
+    }
+  ],
+  "itemCopied": [
+    {
+      "type": 1,
+      "value": "item"
+    },
+    {
+      "type": 0,
+      "value": " copied"
+    }
+  ],
+  "itemForDifferentWebsiteSuggested": [
+    {
+      "type": 0,
+      "value": "Item for different website suggested"
+    }
+  ],
+  "itemRemovedFromFolder": [
+    {
+      "type": 1,
+      "value": "item"
+    },
+    {
+      "type": 0,
+      "value": " removed from "
+    },
+    {
+      "type": 1,
+      "value": "folderName"
+    }
+  ],
+  "joinNow": [
+    {
+      "type": 0,
+      "value": "Join Now"
+    }
+  ],
+  "keepExtensionUnlocked": [
+    {
+      "type": 0,
+      "value": "Keep extension unlocked"
+    }
+  ],
+  "lastUsed": [
+    {
+      "type": 0,
+      "value": "Last Used"
+    }
+  ],
+  "launchWebsite": [
+    {
+      "type": 0,
+      "value": "Launch Website"
+    }
+  ],
+  "learnMore": [
+    {
+      "type": 0,
+      "value": "Learn more"
+    }
+  ],
+  "length": [
+    {
+      "type": 0,
+      "value": "Length"
+    }
+  ],
+  "limitedRightsMessage": [
+    {
+      "type": 0,
+      "value": "You have limited rights to this item"
+    }
+  ],
+  "limitedRightsToView": [
+    {
+      "type": 0,
+      "value": "You have limited rights to this item"
+    }
+  ],
+  "linuxGetStartedStep": [
+    {
+      "type": 0,
+      "value": "Run the command line"
+    }
+  ],
+  "linuxGetStartedStepText": [
+    {
+      "type": 0,
+      "value": "Open the terminal and run the following command line:"
+    }
+  ],
+  "lock": [
+    {
+      "type": 0,
+      "value": "Lock"
+    }
+  ],
+  "lockApp": [
+    {
+      "type": 0,
+      "value": "Lock app"
+    }
+  ],
+  "locked": [
+    {
+      "type": 0,
+      "value": "Locked"
+    }
+  ],
+  "logIn": [
+    {
+      "type": 0,
+      "value": "Log In"
+    }
+  ],
+  "logInToNordPassToEasilyAutofillForms": [
+    {
+      "type": 0,
+      "value": "Log in to NordPass to easily autofill forms"
+    }
+  ],
+  "logIntoAccount": [
+    {
+      "type": 0,
+      "value": "Log into your account"
+    }
+  ],
+  "logOut": [
+    {
+      "type": 0,
+      "value": "Log out"
+    }
+  ],
+  "logOutAll": [
+    {
+      "type": 0,
+      "value": "Log out all"
+    }
+  ],
+  "loggedInWith": [
+    {
+      "type": 0,
+      "value": "Logged in with"
+    }
+  ],
+  "loggedOut": [
+    {
+      "type": 0,
+      "value": "Logged out"
+    }
+  ],
+  "macGetStartedSubText": [
+    {
+      "type": 0,
+      "value": "macOS X Yosemite (10.10) or later"
+    }
+  ],
+  "macGetStartedText": [
+    {
+      "type": 0,
+      "value": "Download for macOS"
+    }
+  ],
+  "masterPassword": [
+    {
+      "type": 0,
+      "value": "Master Password"
+    }
+  ],
+  "min": [
+    {
+      "type": 0,
+      "value": "Min"
+    }
+  ],
+  "moderatePassword": [
+    {
+      "type": 0,
+      "value": "Moderate Password"
+    }
+  ],
+  "more": [
+    {
+      "type": 0,
+      "value": "More"
+    }
+  ],
+  "moveItemsFromFolderToTrash": [
+    {
+      "type": 0,
+      "value": "Move items from this folder to trash"
+    }
+  ],
+  "moveSharedItemModalToDescription": [
+    {
+      "type": 0,
+      "value": "You shared this item with others. Moving it to Trash will also remove others’ access to it."
+    }
+  ],
+  "moveSharedItemToTrashModalDescription": [
+    {
+      "type": 0,
+      "value": "Move item to Trash?"
+    }
+  ],
+  "moveToFolder": [
+    {
+      "type": 0,
+      "value": "Move to Folder"
+    }
+  ],
+  "moveToTrash": [
+    {
+      "type": 0,
+      "value": "Move to Trash"
+    }
+  ],
+  "nameCopied": [
+    {
+      "type": 0,
+      "value": "Name copied"
+    }
+  ],
+  "needHelpQuestion": [
+    {
+      "type": 0,
+      "value": "Need help?"
+    }
+  ],
+  "neverAutoLock": [
+    {
+      "type": 0,
+      "value": "Set autolock to never?"
+    }
+  ],
+  "new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "newItems": [
+    {
+      "type": 0,
+      "value": "New items"
+    }
+  ],
+  "noAddedCreditCards": [
+    {
+      "type": 0,
+      "value": "You have no credit cards added yet"
+    }
+  ],
+  "noAvailableActions": [
+    {
+      "type": 0,
+      "value": "No available actions"
+    }
+  ],
+  "noIconsAppearsOnScreen": [
+    {
+      "type": 0,
+      "value": "No icons appear on screen"
+    }
+  ],
+  "noItemSuggestion": [
+    {
+      "type": 0,
+      "value": "No item suggestion"
+    }
+  ],
+  "noNordPassIconsAppearOnScreen": [
+    {
+      "type": 0,
+      "value": "No NordPass icons appear on screen"
+    }
+  ],
+  "noPasswordsSaved": [
+    {
+      "type": 0,
+      "value": "No passwords saved for this website"
+    }
+  ],
+  "noResultsFoundFor": [
+    {
+      "type": 0,
+      "value": "No results found for"
+    }
+  ],
+  "nordLockerDescription": [
+    {
+      "type": 0,
+      "value": "Keep your files safe. Get 3GB of encrypted cloud storage free"
+    }
+  ],
+  "nordPassIconsAppearOnScreenButNoItemsSuggested": [
+    {
+      "type": 0,
+      "value": "Nordpass icons appear on screen, but no items suggested"
+    }
+  ],
+  "nordVpnDescription": [
+    {
+      "type": 0,
+      "value": "Protect yourself and your data from prying eyes while browsing online"
+    }
+  ],
+  "notSpecified": [
+    {
+      "type": 0,
+      "value": "Not specified"
+    }
+  ],
+  "note": [
+    {
+      "type": 0,
+      "value": "Note"
+    }
+  ],
+  "noteCopied": [
+    {
+      "type": 0,
+      "value": "Note copied"
+    }
+  ],
+  "offlineMessage": [
+    {
+      "type": 0,
+      "value": "You're offline. Connect to the internet."
+    }
+  ],
+  "offlineScreenYouAreOffline": [
+    {
+      "type": 0,
+      "value": "You're offline"
+    }
+  ],
+  "offlineScreenYouAreOfflineDescription": [
+    {
+      "type": 0,
+      "value": "You can continue managing items once your connection has been restored"
+    }
+  ],
+  "openAdminPanel": [
+    {
+      "type": 0,
+      "value": "Open Admin Panel"
+    }
+  ],
+  "openNordPass": [
+    {
+      "type": 0,
+      "value": "Open NordPass"
+    }
+  ],
+  "openNordPassToStart": [
+    {
+      "type": 0,
+      "value": "To use the browser extension, open the NordPass app first"
+    }
+  ],
+  "openNow": [
+    {
+      "type": 0,
+      "value": "Open now"
+    }
+  ],
+  "organizationBannerText": [
+    {
+      "type": 0,
+      "value": "Join the organization with current passwords or clear your vault."
+    }
+  ],
+  "pairingCode": [
+    {
+      "type": 0,
+      "value": "Your NordPass pairing code"
+    }
+  ],
+  "passkeyDeletedFeedback": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passkey"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "count"
+            },
+            {
+              "type": 0,
+              "value": " Passkeys"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " deleted"
+    }
+  ],
+  "passkeyDescription": [
+    {
+      "type": 0,
+      "value": "A passkey is a unique credential used to log in to a specific website. Passkeys are more secure and easier to use than passwords, and are end-to-end encrypted. "
+    },
+    {
+      "type": 1,
+      "value": "learnMoreLink"
+    }
+  ],
+  "passkeyFieldLabel": [
+    {
+      "type": 0,
+      "value": "Passkey"
+    }
+  ],
+  "passkeyItems": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passkey"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passkey items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "passkeyMovedToFolder": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passkey"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemsCount"
+            },
+            {
+              "type": 0,
+              "value": " Passkeys "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemsCount"
+    },
+    {
+      "type": 0,
+      "value": " moved to "
+    },
+    {
+      "type": 1,
+      "value": "folderName"
+    }
+  ],
+  "passkeyRemovedFromFolder": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passkey"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemsCount"
+            },
+            {
+              "type": 0,
+              "value": " Passkeys"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemsCount"
+    },
+    {
+      "type": 0,
+      "value": " removed from "
+    },
+    {
+      "type": 1,
+      "value": "folderName"
+    }
+  ],
+  "passkeyVaultEmptyDisclaimer": [
+    {
+      "type": 0,
+      "value": "When you create a passkey with NordPass on a website, it will appear here"
+    }
+  ],
+  "passkeyVaultEmptyTitle": [
+    {
+      "type": 0,
+      "value": "Enjoy an easier way to log in"
+    }
+  ],
+  "passkeys": [
+    {
+      "type": 0,
+      "value": "Passkeys"
+    }
+  ],
+  "password": [
+    {
+      "type": 0,
+      "value": "Password"
+    }
+  ],
+  "passwordCopied": [
+    {
+      "type": 0,
+      "value": "Password copied"
+    }
+  ],
+  "passwordGenerator": [
+    {
+      "type": 0,
+      "value": "Password Generator"
+    }
+  ],
+  "passwordGeneratorAppearWhenTryingToLogIn": [
+    {
+      "type": 0,
+      "value": "Password Generator appears when trying to log in"
+    }
+  ],
+  "passwordGeneratorCheckbox1": [
+    {
+      "type": 0,
+      "value": "Use uppercase letters (A-Z)"
+    }
+  ],
+  "passwordGeneratorCheckbox2": [
+    {
+      "type": 0,
+      "value": "Use lowercase letters (a-z)"
+    }
+  ],
+  "passwordGeneratorCheckbox3": [
+    {
+      "type": 0,
+      "value": "Use digits (0-9)"
+    }
+  ],
+  "passwordGeneratorCheckbox4": [
+    {
+      "type": 0,
+      "value": "Use symbols (@!$%*)"
+    }
+  ],
+  "passwordGeneratorCheckbox5": [
+    {
+      "type": 0,
+      "value": "Avoid ambiguous characters"
+    }
+  ],
+  "passwordGeneratorDescription": [
+    {
+      "type": 0,
+      "value": "Create secure passwords for your accounts"
+    }
+  ],
+  "passwordHealth": [
+    {
+      "type": 0,
+      "value": "Password Health"
+    }
+  ],
+  "passwordHealthDescription": [
+    {
+      "type": 0,
+      "value": "Identify passwords that can put you at risk"
+    }
+  ],
+  "passwordHistory": [
+    {
+      "type": 0,
+      "value": "Password History"
+    }
+  ],
+  "passwordItems": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Password"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Passwords"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "passwordSecurity": [
+    {
+      "type": 0,
+      "value": "Password Health"
+    }
+  ],
+  "passwordStrengthModerate": [
+    {
+      "type": 0,
+      "value": "Moderate password"
+    }
+  ],
+  "passwordStrengthStrong": [
+    {
+      "type": 0,
+      "value": "Strong password"
+    }
+  ],
+  "passwordStrengthWeak": [
+    {
+      "type": 0,
+      "value": "Weak password"
+    }
+  ],
+  "passwords": [
+    {
+      "type": 0,
+      "value": "Passwords"
+    }
+  ],
+  "pendingInvite": [
+    {
+      "type": 0,
+      "value": "Your invite is pending"
+    }
+  ],
+  "pendingItems": [
+    {
+      "type": 0,
+      "value": "Pending "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "items"
+    }
+  ],
+  "pendingItemsMessageBeforeLogin": [
+    {
+      "type": 0,
+      "value": "You will see "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "this item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "these items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "items"
+    },
+    {
+      "type": 0,
+      "value": " once "
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": " confirms the share"
+    }
+  ],
+  "pendingItemsUserShareItemWithYou": [
+    {
+      "type": 1,
+      "value": "sharerEmail"
+    },
+    {
+      "type": 0,
+      "value": " has shared an item with you"
+    }
+  ],
+  "personalInfo": [
+    {
+      "type": 0,
+      "value": "Personal Info"
+    }
+  ],
+  "personalInfoItems": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Personal Info"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Personal Info items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "phone": [
+    {
+      "type": 0,
+      "value": "Phone"
+    }
+  ],
+  "phoneCopied": [
+    {
+      "type": 0,
+      "value": "Phone copied"
+    }
+  ],
+  "premium": [
+    {
+      "type": 0,
+      "value": "Premium"
+    }
+  ],
+  "premiumBannerSubtitle": [
+    {
+      "type": 0,
+      "value": "Unlock all NordPass features"
+    }
+  ],
+  "premiumBannerTitle": [
+    {
+      "type": 0,
+      "value": "Upgrade to"
+    }
+  ],
+  "premiumPlan": [
+    {
+      "type": 0,
+      "value": "Premium Plan"
+    }
+  ],
+  "premiumTrial": [
+    {
+      "type": 0,
+      "value": "Premium Trial"
+    }
+  ],
+  "rateUs": [
+    {
+      "type": 0,
+      "value": "Rate Us"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": 0,
+      "value": "Recommendations ("
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "refresh": [
+    {
+      "type": 0,
+      "value": "Refresh"
+    }
+  ],
+  "remove": [
+    {
+      "type": 0,
+      "value": "Remove"
+    }
+  ],
+  "removeAccessExplanation": [
+    {
+      "type": 0,
+      "value": "You'll lose access to this item and the action cannot be reversed"
+    }
+  ],
+  "removeAccessHeader": [
+    {
+      "type": 0,
+      "value": "Remove my access?"
+    }
+  ],
+  "removeFromFolder": [
+    {
+      "type": 0,
+      "value": "Remove from Folder"
+    }
+  ],
+  "removeMyAccess": [
+    {
+      "type": 0,
+      "value": "Remove My Access"
+    }
+  ],
+  "rename": [
+    {
+      "type": 0,
+      "value": "Rename"
+    }
+  ],
+  "reportProblemLegalDisclaimer": [
+    {
+      "type": 0,
+      "value": "Your anonymous feedback will help us to fix technical problems and improve our service. Please note we cannot guarantee that your issue will be solved immediately."
+    }
+  ],
+  "resetToDefault": [
+    {
+      "type": 0,
+      "value": "Reset to default"
+    }
+  ],
+  "restore": [
+    {
+      "type": 0,
+      "value": "Restore"
+    }
+  ],
+  "search": [
+    {
+      "type": 0,
+      "value": "Search"
+    }
+  ],
+  "searchResultsFor": [
+    {
+      "type": 0,
+      "value": "Search results for"
+    }
+  ],
+  "seconds": [
+    {
+      "type": 0,
+      "value": "Sec"
+    }
+  ],
+  "secureNote": [
+    {
+      "type": 0,
+      "value": "Secure Note"
+    }
+  ],
+  "secureNoteCopied": [
+    {
+      "type": 0,
+      "value": "Secure Note copied"
+    }
+  ],
+  "secureNotes": [
+    {
+      "type": 0,
+      "value": "Secure Notes"
+    }
+  ],
+  "secureNotesItems": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Secure Note"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Secure Notes"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "securityLabel": [
+    {
+      "type": 0,
+      "value": "Security"
+    }
+  ],
+  "settings": [
+    {
+      "type": 0,
+      "value": "Settings"
+    }
+  ],
+  "share": [
+    {
+      "type": 0,
+      "value": "Share"
+    }
+  ],
+  "shareFeedback": [
+    {
+      "type": 0,
+      "value": "Share feedback"
+    }
+  ],
+  "shared": [
+    {
+      "type": 0,
+      "value": "Shared"
+    }
+  ],
+  "sharedFolders": [
+    {
+      "type": 0,
+      "value": "Shared Folders"
+    }
+  ],
+  "sharedItems": [
+    {
+      "type": 0,
+      "value": "Shared Items"
+    }
+  ],
+  "sharedItemsCountMessage": [
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": " shared "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "an item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "items"
+            },
+            {
+              "type": 0,
+              "value": " items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "items"
+    },
+    {
+      "type": 0,
+      "value": " with you."
+    }
+  ],
+  "sharedWith": [
+    {
+      "type": 0,
+      "value": "Shared with"
+    }
+  ],
+  "show": [
+    {
+      "type": 0,
+      "value": "Show"
+    }
+  ],
+  "showOptions": [
+    {
+      "type": 0,
+      "value": "Show Options"
+    }
+  ],
+  "someone": [
+    {
+      "type": 0,
+      "value": "Someone"
+    }
+  ],
+  "sortBy": [
+    {
+      "type": 0,
+      "value": "Sort By"
+    }
+  ],
+  "sortingOrder": [
+    {
+      "type": 0,
+      "value": "Sorting Order"
+    }
+  ],
+  "standaloneBannerSubtitle": [
+    {
+      "type": 0,
+      "value": " You can now use NordPass without opening desktop app"
+    }
+  ],
+  "standaloneBannerTitle": [
+    {
+      "type": 0,
+      "value": "New extension experience!"
+    }
+  ],
+  "stateCopied": [
+    {
+      "type": 0,
+      "value": "State copied"
+    }
+  ],
+  "strongPassword": [
+    {
+      "type": 0,
+      "value": "Strong Password"
+    }
+  ],
+  "suggestedItems": [
+    {
+      "type": 0,
+      "value": "Suggested items"
+    }
+  ],
+  "switchAccount": [
+    {
+      "type": 0,
+      "value": "Switch account"
+    }
+  ],
+  "switchToPrivate": [
+    {
+      "type": 0,
+      "value": "Switch to private"
+    }
+  ],
+  "switchedAccountTo": [
+    {
+      "type": 0,
+      "value": "Switched account to "
+    },
+    {
+      "type": 1,
+      "value": "email"
+    }
+  ],
+  "thanksForReportingAnIssue": [
+    {
+      "type": 0,
+      "value": "Thanks for reporting an issue."
+    }
+  ],
+  "thanksForYourFeedback": [
+    {
+      "type": 0,
+      "value": "Thanks for your feedback."
+    }
+  ],
+  "title": [
+    {
+      "type": 0,
+      "value": "Title"
+    }
+  ],
+  "tools": [
+    {
+      "type": 0,
+      "value": "Tools"
+    }
+  ],
+  "trash": [
+    {
+      "type": 0,
+      "value": "Trash"
+    }
+  ],
+  "tryOtherNordApps": [
+    {
+      "type": 0,
+      "value": "Try other Nord apps"
+    }
+  ],
+  "turnOffAutofillInfo": [
+    {
+      "type": 0,
+      "value": "Autofill can be turned off and on via the right-click context menu. Read more in our "
+    },
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "turnOnAutofillOnThisPage": [
+    {
+      "type": 0,
+      "value": "Turn on autofill on this page"
+    }
+  ],
+  "twoFactorCode": [
+    {
+      "type": 0,
+      "value": "Two-Factor Code"
+    }
+  ],
+  "undefinedError": [
+    {
+      "type": 0,
+      "value": "An undefined error occurred. If it persists, please contact support."
+    }
+  ],
+  "unlockNordPass": [
+    {
+      "type": 0,
+      "value": "Unlock NordPass"
+    }
+  ],
+  "unlockNordPassToEasilyAutofillForms": [
+    {
+      "type": 0,
+      "value": "Unlock NordPass to easily autofill forms"
+    }
+  ],
+  "unprotectedWebsite": [
+    {
+      "type": 0,
+      "value": "Unprotected website"
+    }
+  ],
+  "updateNordPassToStart": [
+    {
+      "type": 0,
+      "value": "You are using an old NordPass version. To use an extension, please update the app first."
+    }
+  ],
+  "updateRequired": [
+    {
+      "type": 0,
+      "value": "Update required"
+    }
+  ],
+  "upgradeToShareText": [
+    {
+      "type": 0,
+      "value": "To share items with people you trust, upgrade to Premium"
+    }
+  ],
+  "upgradeToShareTitle": [
+    {
+      "type": 0,
+      "value": "This is a Premium feature"
+    }
+  ],
+  "useDeviceWhereTotpWasSetUp": [
+    {
+      "type": 0,
+      "value": "Use the device where authenticator was set up"
+    }
+  ],
+  "usePassword": [
+    {
+      "type": 0,
+      "value": "Use Password"
+    }
+  ],
+  "userProfileAvatar": [
+    {
+      "type": 0,
+      "value": "User Profile Avatar"
+    }
+  ],
+  "view": [
+    {
+      "type": 0,
+      "value": "View"
+    }
+  ],
+  "viewInExtensionTab": [
+    {
+      "type": 0,
+      "value": "View in tab"
+    }
+  ],
+  "visitHelpCenter": [
+    {
+      "type": 0,
+      "value": "Visit Help Center or reach our Customer Support team to get assistance."
+    }
+  ],
+  "weHaveResetThisFieldToDefault": [
+    {
+      "type": 0,
+      "value": "We’ve reset this field to its default autofill logic."
+    }
+  ],
+  "weHopeYouContinueToEnjoyUsingNordPass": [
+    {
+      "type": 0,
+      "value": "We hope you continue to enjoy using NordPass."
+    }
+  ],
+  "weWillNowAutofillYourDetailsOnThisField": [
+    {
+      "type": 0,
+      "value": "We'll now autofill your details on this field."
+    }
+  ],
+  "weWillNowAutofillYourDetailsOnThisPage": [
+    {
+      "type": 0,
+      "value": "We'll now autofill your details on this page."
+    }
+  ],
+  "weWillStartLookingIntoItRightAway": [
+    {
+      "type": 0,
+      "value": "We'll start looking into it right away."
+    }
+  ],
+  "weWillSuggestACreditCardFromNowOn": [
+    {
+      "type": 0,
+      "value": "We’ll suggest a credit card from now on."
+    }
+  ],
+  "weWillSuggestAPasswordFromNowOn": [
+    {
+      "type": 0,
+      "value": "We’ll suggest a password from now on."
+    }
+  ],
+  "weWillSuggestAPersonalInfoFromNowOn": [
+    {
+      "type": 0,
+      "value": "We’ll suggest a personal info item from now on."
+    }
+  ],
+  "weWillSuggestARegistrationFormFromNowOn": [
+    {
+      "type": 0,
+      "value": "We’ll suggest a registration form from now on."
+    }
+  ],
+  "weWontAutofillOnThisField": [
+    {
+      "type": 0,
+      "value": "We won't autofill on this field."
+    }
+  ],
+  "weWontAutofillOnThisPage": [
+    {
+      "type": 0,
+      "value": "We won't autofill on this page."
+    }
+  ],
+  "weakPassword": [
+    {
+      "type": 0,
+      "value": "Weak Password"
+    }
+  ],
+  "websiteAddressCopied": [
+    {
+      "type": 0,
+      "value": "Website Address copied"
+    }
+  ],
+  "websiteUrl": [
+    {
+      "type": 0,
+      "value": "Website Address"
+    }
+  ],
+  "websites": [
+    {
+      "type": 0,
+      "value": "Websites"
+    }
+  ],
+  "where": [
+    {
+      "type": 0,
+      "value": "Where?"
+    }
+  ],
+  "winGetStartedStep": [
+    {
+      "type": 0,
+      "value": "Download NordPass Background App"
+    }
+  ],
+  "winGetStartedSubText": [
+    {
+      "type": 0,
+      "value": "Windows 7 or later"
+    }
+  ],
+  "winGetStartedText": [
+    {
+      "type": 0,
+      "value": "Download for Windows"
+    }
+  ],
+  "wrongItemTypeSuggested": [
+    {
+      "type": 0,
+      "value": "Wrong item type suggested"
+    }
+  ],
+  "youAreBackOnline": [
+    {
+      "type": 0,
+      "value": "You're back online"
+    }
+  ],
+  "youAreOffline": [
+    {
+      "type": 0,
+      "value": "You're offline."
+    }
+  ],
+  "youCanTurnItBackOnAtAnyTime": [
+    {
+      "type": 0,
+      "value": "You can turn it back on at any time."
+    }
+  ],
+  "youCanUpdateThisSettingAgainAtAnyTime": [
+    {
+      "type": 0,
+      "value": "You can update this setting again at any time."
+    }
+  ],
+  "zipCodeCopied": [
+    {
+      "type": 0,
+      "value": "ZIP or Postal Code copied"
+    }
+  ],
+  "zipOrPostalCode": [
+    {
+      "type": 0,
+      "value": "ZIP or Postal Code"
+    }
+  ]
+}

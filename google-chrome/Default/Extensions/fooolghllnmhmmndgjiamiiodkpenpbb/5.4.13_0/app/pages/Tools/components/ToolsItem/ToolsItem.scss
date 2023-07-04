@@ -1,0 +1,22 @@
+.tools-item {
+  height: 80px;
+
+  &:hover {
+    > svg {
+      color: var(--grey-darkest);
+
+      .theme-dark & {
+        color: var(--grey-white);
+      }
+    }
+  }
+
+  &__title {
+    line-height: 20px;
+  }
+
+  &__description {
+    line-height: 18px;
+    letter-spacing: -.12px;
+  }
+}

@@ -1,0 +1,219 @@
+<div id="notification-link" class="notification-links" tpInjected>
+</div>
+<div id="chat-wrapper" tpInjected>
+  <div class="tp-menu hidden" id="tp-member-menu">
+    <div class="tp-menu-header">
+      <button class="tp-back-button" id="tp-member-back">
+        <img src="{LEFT_ARROW}">
+      </button>
+      <p class="tp-menu-label extension-txt txt-white">
+        Party Members
+      </p>
+    </div>
+    <div id="tp-member-list-container">
+
+    </div>
+  </div>
+  <div id="chat-container">
+    <div id="chat-header-container">
+      <ul id="chat-menu-container" data-tp-id="chat_menu_container">
+        <li id="function-title">
+          <div id="title">
+            <p class="extension-title" data-tp-id="chat_menu_container-extension_title">Teleparty</p>
+          </div>
+        </li>
+        <li id="function-user">
+
+          <div id="reset-icon" class="tp-toolcontainer" style="display: none">
+            <img class="reset-link" src="{RESET_SGV}" data-tp-id="chat_menu_container-reset_video" />
+            <span class="tooltiptext extension-txt" style="width: 120px;">Return to video</span>
+          </div>
+
+          <div id="link-icon" class="tp-toolcontainer">
+            <img class="chat-link" src="{LINK_SVG}" data-tp-id="chat_menu_container-copy_link">
+            <span class="tooltiptext extension-txt" style="width: 120px;">Copy link</span>
+      <ul class="extension-border-bot" id="chat-menu-container">
+        <button id="close-chat" class="tooltip-holder">
+          <img src="{CLOSE_CHAT}">
+          <span class="tooltiptext extension-txt" style="width: 120px;margin-right: 10px;top: 0; ">Minimize Chat</span>
+        </button>
+        <li id="function-user">
+          <div class="tooltip-holder" id="user-count-holder">
+            <img id="user-count-image" src="{FRIENDS_SVG}">
+            <p style="cursor: pointer;" class="extension-txt txt-white" id="user-count">
+            </p>
+            <span class="tooltiptext extension-txt" style="width: 100px;">Member list</span>
+          </div>
+          <div id="link-icon" class="tooltip-holder">
+            <img class="chat-link" src="{LINK_SVG}">
+            <input id="share-url" type="text" readonly="true" autocomplete="off" autofocus style="display:none;" />
+            <span class="tooltiptext tooltiptext-lower extension-txt" style="width: 100px;">Copy link</span>
+          </div>
+          <a id="user-icon" class="tooltip-holder">
+            <img src="{USER_ICON}" />
+            <span class="tooltiptext tooltiptext-lower extension-txt" style="width: 120px;">Change Settings</span>
+          </a>
+        </li>
+      </ul>
+      <div id="sidebar-tabs-container">
+        <button class="sidebar-tab sidebar-active" id="party-tab">
+          <img src="{CHAT_SVG}">
+          <p class="extension-txt txt-white" id="">
+            Party
+          </p>
+        </button>
+        <button class="sidebar-tab sidebar-tab-inactive" id="friends-tab">
+          <img src="{FRIENDS_SVG}">
+          <p class="extension-txt txt-white" id="">
+            Friends
+          </p>
+        </button>
+      </div>
+
+
+      <div id="chat-link-container" style='display:none;'>
+        <div id="chat-link">
+          <div id="chat-link-url">
+            <p>The url link goes here.</p>
+          </div>
+          <div id="chat-link-icon">
+            <img src="{LINK_SVG}">
+          </div>
+        </div>
+      </div>
+
+      <div id="chat-icon-container" style="display:none">
+        <div id="icon-title-container">
+          <div id="icon-title">
+            <p class="extension-description" data-tp-id="chat_container-switch_icon_label">Click to switch icon</p>
+          </div>
+        </div>
+        <div id="icon-holder-container">
+          <div id="icon-holder-template">
+            <div class="icon-holder-wrap">
+              <p class="extension-txt-indicator"></p>
+              <ul id="icon-holder"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="chat-history-container">
+      <div id="chat-history">
+
+      </div>
+    </div>
+    <div id="setting-edit" class="chat-settings-container setting-container" style="display:none">
+      <div class="setting-usericon">
+        <div class="section-b-inner section-inner">
+          <a class="user-icon">
+            <img src="{USER_ICON}" data-tp-id="setting_edit-edit_user_icon" />
+          </a>
+        </div>
+      </div>
+
+      <div class="section-c setting-nickname">
+        <div class="section-c-inner section-inner">
+          <div class="nickname-section row-wrap">
+            <div class="nickname-wrap row-one">
+              <p class="extension-description" data-tp-id="setting_edit-nickname_label">Nickname</p>
+            </div>
+            <div class="nickname-input row-two">
+              <input id="nickname-edit" class="extension-txt" autocomplete="off" type="text"
+                placeholder="{USER_NICKNAME}" data-tp-id="setting_edit-edit_nickname_input" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="settings-save" class="chat-settings-container setting-container" style="display:none">
+      <div class="section-d">
+        <div class="section-d-inner section-inner">
+
+          <div class="btns">
+            <button id="saveChanges" class='extension-btn' data-tp-id="setting_edit-save_changes_button">Save
+              Changes</button>
+            <button id="cancelNickname" class='extension-btn cancel-btn'
+              data-tp-id="setting_edit-cancel_changes_button">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="chat-history-container" data-tp-id="chat_history_container">
+      <div id="chat-history">
+
+      </div>
+    </div>
+
+
+    <div id="chat-input-container" class="extension-border-top">
+      <div id="reaction-holder" data-tp-id="chat_input_container-reaction_holder">
+        <button class="tp-reaction-btn" id="tp-heart-button">
+          <img class="tp-reaction-static" src={HEART_STATIC} data-tp-id="chat_input_container-reaction_holder-heart" />
+          <img class="tp-reaction-gif" src={HEART_GIF} data-tp-id="chat_input_container-reaction_holder-heart" />
+        </button>
+        <button class="tp-reaction-btn" id="tp-angry-button">
+          <img class="tp-reaction-static" src={ANGRY_STATIC} data-tp-id="chat_input_container-reaction_holder-angry" />
+          <img class="tp-reaction-gif" src={ANGRY_GIF} data-tp-id="chat_input_container-reaction_holder-angry" />
+        </button>
+        <button class="tp-reaction-btn" id="tp-cry-button">
+          <img class="tp-reaction-static" src={CRY_STATIC} data-tp-id="chat_input_container-reaction_holder-cry" />
+          <img class="tp-reaction-gif" src={CRY_GIF} data-tp-id="chat_input_container-reaction_holder-cry" />
+        </button>
+        <button class="tp-reaction-btn" id="tp-laugh-button">
+          <img class="tp-reaction-static" src={LAUGH_STATIC} data-tp-id="chat_input_container-reaction_holder-laugh" />
+          <img class="tp-reaction-gif" src={LAUGH_GIF} data-tp-id="chat_input_container-reaction_holder-laugh" />
+        </button>
+        <button class="tp-reaction-btn" id="tp-surprise-button">
+          <img class="tp-reaction-static" src={SURPRISE_STATIC}
+            data-tp-id="chat_input_container-reaction_holder-surprise" />
+          <img class="tp-reaction-gif" src={SURPRISE_GIF} data-tp-id="chat_input_container-reaction_holder-surprise" />
+        </button>
+        <button class="tp-reaction-btn" id="tp-fire-button">
+          <img class="tp-reaction-static" src={FIRE_STATIC} data-tp-id="chat_input_container-reaction_holder-fire" />
+          <img class="tp-reaction-gif" src={FIRE_GIF} data-tp-id="chat_input_container-reaction_holder-fire" />
+        </button>
+      </div>
+      <div id="gif-emoji-switcher">
+          <iframe id="emoji-picker-container" style="padding: 0px" data-tp-id="chat_input_container-emoji_picker" src="{EMOJI_FRAME}"></iframe>
+        <div id="gif-picker-container">
+          <div id="gif-input-wrapper">
+            <button id="gif-input-back">
+              <img id="gif-back-btn" src="{GIF_BACK_BUTTON}" />
+            </button>
+            <input id="gif-search" class="search" placeholder="Search Tenor GIFs" autocomplete="off">
+          </div>
+
+          <div id="gif-results-wrapper" data-tp-id="chat_input_container-gif_popup">
+            <div id="category-container"></div>
+            <div id="gif-columns-wrapper">
+              <div class="gif-results" id="gif-results-left"></div>
+              <div class="gif-results" id="gif-results-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-input" class="extension-txt" contenteditable="true" spellcheck="false"
+        placeholder="Type a message" data-placeholder="Type a message..." data-tp-id="chat_input_container-chat_input"></div>
+      <!-- <input  class="" type="text" placeholder="Type a message..." autocomplete="off"> -->
+      <div id="bottom-chat-controls">
+        <button id="reaction-btn">
+          <img id="reaction-btn-icon" src="{REACTION_PICKER_ICON}" />
+        </button>
+        <button id="gif-btn">
+          <img id="gif-btn-icon" src="{GIF_PICKER_ICON}" />
+        </button>
+        <button id="emoji-picker-btn">
+          <img id="emoji-picker-btn-icon" src="{EMOJI_PICKER_ICON}" />
+        </button>
+
+      </div>
+      <!-- </input> -->
+    </div>
+    <div id="presence-indicator" class="extension-txt-indicator" data-tp-id="chat_input_container-presence_indicator">
+      <p class="extension-txt-indicator">People are currently typing...</p>
+    </div>
+  </div>
+</div>

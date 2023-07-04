@@ -1,0 +1,6 @@
+2023/05/22-18:12:40.768 fea Creating DB /home/alex/.config/google-chrome/Default/IndexedDB/https_discuss.streamlit.io_0.indexeddb.leveldb since it was missing.
+2023/05/22-18:12:40.778 fea Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_discuss.streamlit.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/22-18:13:53.090 feb Level-0 table #5: started
+2023/05/22-18:13:53.094 feb Level-0 table #5: 9544 bytes OK
+2023/05/22-18:13:53.097 feb Delete type=0 #3
+2023/05/22-18:13:53.097 feb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

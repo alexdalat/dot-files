@@ -1,0 +1,23 @@
+.view-field-value {
+  &__actions {
+    visibility: hidden;
+  }
+
+  > div {
+    padding: 1px 6px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    max-width: 280px;
+
+    &:hover {
+      > .view-field-value__actions {
+        visibility: visible;
+        display: inline-flex;
+
+        > div > button {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}

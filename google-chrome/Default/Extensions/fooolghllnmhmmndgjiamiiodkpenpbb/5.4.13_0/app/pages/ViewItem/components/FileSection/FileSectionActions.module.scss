@@ -1,0 +1,11 @@
+.file-section-actions__container {
+  display: grid;
+  gap: 8px;
+  grid-auto-flow: column;
+  align-items: center;
+  visibility: hidden;
+}
+
+:global(.file-section:hover) .file-section-actions__container {
+  visibility: visible;
+}

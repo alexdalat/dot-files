@@ -1,0 +1,14 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "app/chrome/background.js" ]
+   },
+   "description": "Simple editor for Storage Area for Chrome Packaged Apps & Extensions",
+   "devtools_page": "app/html/devtoolsBackground.html",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8vRbkLDOOzazoS4dT7sLZzjarpmN5w9jPF5XJSbpGwkLXUC6PiFoHSSV3xDnUHhDxaxjrN2XxAV2qqaZjZhL890oOJqY7JulWBRiSogqIOF6DfuBwEOFOzBKAyzTdl1xqwHqcEt0W3eABah9qFzZFeINegMziZZA9Vt473LuxGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Storage Area Explorer",
+   "permissions": [ "clipboardRead", "clipboardWrite", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.3"
+}

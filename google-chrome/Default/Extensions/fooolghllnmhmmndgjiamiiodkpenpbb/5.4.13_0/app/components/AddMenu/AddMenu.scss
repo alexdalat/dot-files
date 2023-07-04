@@ -1,0 +1,11 @@
+.add-item-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .15), 0 0 1px 0 rgba(0, 0, 0, .35);
+  transition: background-color .2s ease-out, color .2s ease-out;
+  border-radius: 50%;
+  border: none;
+}

@@ -1,0 +1,7 @@
+datasets_dir: /home/alex/dev/python/yolov5/datasets
+weights_dir: weights
+runs_dir: runs
+uuid: 6c3062e5ab3d81c85de8ed176a4ab0afec3905851c44b39f6ae58af53a79dbd0
+sync: true
+api_key: ''
+settings_version: 0.0.3

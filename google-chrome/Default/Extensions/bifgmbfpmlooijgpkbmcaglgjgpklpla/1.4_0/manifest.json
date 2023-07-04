@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "index.js" ],
+      "matches": [ "https://*/webwork2/*" ]
+   } ],
+   "description": "A WebWork Helper",
+   "icons": {
+      "128": "logo-128_x_128.png",
+      "16": "logo-16_x_16.png",
+      "32": "logo-32_x_32.png",
+      "48": "logo-48_x_48.png",
+      "60": "logo-60_x_60.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJgOb/I/cwUynZFmlKLQnQyL4qv9b4QcN0WNjCEQ9DRgBbso11oKWCbOElCwKYUjqHZZ8Ej09bJT1MxSePxo9LlD7q0+I0OEoH8/L3NO3UUGKFvVZYa/xiwHzKHODehyq8N8D/1dMShsR1E29UxlyDY41TGhIRq6TeSoCanv/kScXn7PeofoUqioxJRpkm4SufqblVLCEM918s0p1sz5qHLmMPsLCYouKufykUowp2RyxNZI7bUfP88iokpA8feYsuqjYPTbrXyz6ugYN5puP9pAdWWxFB5VM9XRAlSfClvP7rB+8bZa8SJDBBvjbCkONeEvGLbke1IE2cej0OwKDwIDAQAB",
+   "manifest_version": 3,
+   "name": "WebWork Helper",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}

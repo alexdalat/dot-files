@@ -1,0 +1,5 @@
+.profile {
+  &__logout-button:global(.nord-button.nord-button--v-outlined.nord-button--c-grey) {
+    color: var(--red);
+  }
+}

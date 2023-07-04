@@ -1,0 +1,16 @@
+[Added Associations]
+application/vnd.debian.binary-package=snap-store_ubuntu-software-local-file.desktop;
+application/x-zerosize=netron_netron.desktop;
+application/octet-stream=org.gnome.gedit.desktop;netron_netron.desktop;
+image/webp=display-im6.q16.desktop;feh.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;
+application/x-ms-dos-executable=wine.desktop;
+application/x-desktop=wine.desktop;
+
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop

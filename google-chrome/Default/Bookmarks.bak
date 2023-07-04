@@ -1,0 +1,191 @@
+{
+   "checksum": "74053d7c8291cd8805691bc3bcdc5a80",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13309294951754593",
+            "date_last_used": "13329286300722642",
+            "guid": "ef4c0bad-4e43-4aea-abda-7874037e4f9b",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/"
+         }, {
+            "date_added": "13316671112943380",
+            "date_last_used": "13330544314671099",
+            "guid": "5d26c2e8-db97-4f50-a842-d8907c8157ea",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Calendarr",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/u/0/r?pli=1"
+         }, {
+            "children": [ {
+               "date_added": "13313726376695824",
+               "date_last_used": "13315172735056763",
+               "guid": "f3270f2c-5eb5-4798-a9bf-f6ebcc2962af",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Streamendous",
+               "type": "url",
+               "url": "https://www.streamendous.com/"
+            }, {
+               "date_added": "13310161228683680",
+               "date_last_used": "13324094804368252",
+               "guid": "2a8eda36-f0f7-42d9-8071-a85d6e5b0490",
+               "id": "9",
+               "name": "PeraMovies",
+               "type": "url",
+               "url": "https://www.peramovies.me/"
+            }, {
+               "date_added": "13285476770092866",
+               "date_last_used": "13315172735914955",
+               "guid": "693a27e7-779e-4586-8a7c-386d02570abd",
+               "id": "10",
+               "name": "Streameast",
+               "type": "url",
+               "url": "https://www.streameast.io/fh/"
+            }, {
+               "date_added": "13317593607519562",
+               "date_last_used": "0",
+               "guid": "f7dac635-8ca2-414e-ab87-b0657c7c686d",
+               "id": "11",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "XFinity stream",
+               "type": "url",
+               "url": "https://www.xfinity.com/stream/"
+            }, {
+               "date_added": "13318303191856041",
+               "date_last_used": "0",
+               "guid": "4a3051a7-5be7-4b4e-b871-579bcf33644b",
+               "id": "12",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "SOAP2DAY",
+               "type": "url",
+               "url": "https://soap2day.to/"
+            }, {
+               "date_added": "13318303346837638",
+               "date_last_used": "0",
+               "guid": "7877e855-1317-4c55-aa52-b5a97a372e9c",
+               "id": "13",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Soccer",
+               "type": "url",
+               "url": "https://footybite.to/"
+            }, {
+               "date_added": "13318303437887523",
+               "date_last_used": "0",
+               "guid": "49e96fe4-fe78-46c1-9511-d0f34ff186b5",
+               "id": "14",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Netflix",
+               "type": "url",
+               "url": "https://www.netflix.com/"
+            } ],
+            "date_added": "13316671136129216",
+            "date_last_used": "0",
+            "date_modified": "13318303437887523",
+            "guid": "4cf3fdec-9c36-4202-9b5e-329434c700a1",
+            "id": "7",
+            "name": "Streams",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13325567762002834",
+               "date_last_used": "13325659256847875",
+               "guid": "79b168b7-620b-4934-ab9e-0dd765066360",
+               "id": "16",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Firefly",
+               "type": "url",
+               "url": "http://alex-pc/"
+            }, {
+               "date_added": "13325566577225202",
+               "date_last_used": "0",
+               "guid": "45e74edf-f5f6-4a33-943a-19d2d02c5bfa",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Data Importer",
+               "type": "url",
+               "url": "http://alex-pc:81/"
+            } ],
+            "date_added": "13325566574783165",
+            "date_last_used": "0",
+            "date_modified": "13329339730695334",
+            "guid": "d43b5d08-0840-43be-b16b-83c3eb87ad29",
+            "id": "15",
+            "name": " Firefly",
+            "type": "folder"
+         } ],
+         "date_added": "13327806440766004",
+         "date_last_used": "0",
+         "date_modified": "13316671112943380",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13327806440766005",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13118194614714848",
+            "date_last_used": "0",
+            "guid": "5b19693f-2815-4efc-a4de-0a70313d5041",
+            "id": "18",
+            "name": "WeAreDevs",
+            "type": "url",
+            "url": "http://wearedevs.net/"
+         }, {
+            "date_added": "13164171484649188",
+            "date_last_used": "0",
+            "guid": "e8101179-6717-4c9a-ad22-7281762f77e1",
+            "id": "19",
+            "name": "Discord - Developer Documentation",
+            "type": "url",
+            "url": "https://discordapp.com/developers/applications/me/417867478580985857?success=created"
+         }, {
+            "date_added": "13233690054553459",
+            "date_last_used": "0",
+            "guid": "1d780250-cf70-43ad-9422-35c4efa035f5",
+            "id": "20",
+            "name": "Reflection Form - Virtual Learning - Solubility Curves",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScRWjNJs3Lt-RsHjbZKUBxiQzxuwhG8lJA06Lz3LcNbWnz8NA/viewform"
+         } ],
+         "date_added": "13327806440766006",
+         "date_last_used": "0",
+         "date_modified": "13233690054553459",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu8BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgmAYzPvBP4FACGAYzPvBP4FADIYChYIAhFsP9b+BP4FABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJyFfW/gT+BQARyFfW/gT+BQApBm3W/gT+BQAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmA+O35BP4FABGA+O35BP4FACk9U9b+BP4FADCA8bfPz8D/AroBAggBEgAgASoYa0RxZ2ZCaVlhOW1LM2x4MytoZGs5dz09SAMSrAIIEhKnAgocbkh5T0UrckJRRTE4czIyeU9wZjNWNkpZM0ljPRKmAVo6QURxdEFad2FNTXJFVnRsWmdkamI4NE0zNm9UaXBXblFXaWY0WVNVaTVmRjBIVzJwTlh1Q1Z5KzNwOU82dEZNbFA5UzFwbVVia0c1MzBOMm00U1pIS2RiOTlERWZ2U0NxOUhHUHhHMTFnVFF2ZXdzZis5RVdDR1ZZWEI0Wm0wRE9Rb0J0M1ZOczUrSUpiS21ybGtySE1GTkJCbWU2R2dkN0pBPT0YACAAKAAwg9XN++DF9AI4hN774owrQITe++KMK0ocaVZuV1pqMXNhVFUxQUc4MXlUdDR3MElrNWtNPVoeIhxidGYwWWJXeUlVaCtDZk9jeDg4MEN0blBLNk09ZaMYjcMS6wEIEBLmAQocMEM2NVF2UW5HK3JaQzJ4aXY0ZTQvZDY5NHhNPRJmWjpBRHF0QVp3QjZ0QVZmZVZuMVhBRFJvNUsxQlJUK3lhcW1pQU9NeDVKZjB2UGhRb0diMnZ5eXNJRXdoYzR3NW9tSEpSbzBqb2R0ZUJ5NnZ0eFdVeU1jdVVJUDhPdTFqRzc3Zz09GAAgACgAMNHZkND4oP4CONLslMj2MEDS7JTI9jBKHHJrNmlPaWhuTGdLUHY3clRzSGZ3REl6RWtaOD1aHiIcSjArWHFuSFpCT1h3Wkd2SjVXYVVUVzZMSStFPWXkMEeaEq8CCBQSqgIKHFpiVi9CRjJiUi81YkFZSFRadTJCLyttaDlwaz0SpgFaOkFEcXRBWndhTU1yRVZ0bFpnZGpiODRNMzZvVGlwdUVXZkp5bTFYMkxuM1R5ZlBKdWQrTlZJVkRIR1BSSGxWbE9lbDJxMmVJUEFPS2U1NlhiVVQwb21LQzFEQUwxc2FRYzdqckFHVUVFV1BMUENRL2NaeU9MK21WTVlwMUM3dTlQZXlsQnR2a3FxNERaL2pDNFVOUkNEZmNybjUySThBTXFCZz09GAAgACgAMIPVzfvgxfQCOPqQisC+LkD6kIrAvi5KHDNzdE5XVGJnRVpZTEdNcHVMMUQ1dnlBaWcxYz1aISIf//+sRkxPc040Vm53WmxaT2ZrYk9yMkFzODhENDVBPWXx4DHJEu4BCA8S6QEKHEVIak9RaEtuUU1STHplWDJlV00zMkpvTEZ5Yz0SZlo6QURxdEFad0I2dEFWZmVWbjFYQURSbzVLMUJSVFpJL09YN3MyQ3d4ZGRzRTZTNy9GVSs5M1N3YStTMzVwei9JMElOU0pzc0VWUXoyY0JCeHBBN3I4d0pXa2F0VnFKVjZEakE9PRgAIAAoADC+v4Oun57+Aji/sczH9jBAv7HMx/YwShxXa2k5RjhyUlZ2N0RLbFprbVlISmpKd3p4cTQ9WiEiH////U4vRExjZy9DVXN0V2VmNWUzUFRybm5TSTV0WT1lAAAAABLsAQgOEucBChx6amk0NUpCRnJ6VFhyRFZnNXV4ak9GQTFhV289EmZaOkFEcXRBWndCNnRBVmZlVm4xWEFEUm81SzFCUlRJSWt1SFhiUFlQaG5oN3cwai9lRmpteXY3elV2RUZKM2VEWXdIaThIVnJlK1gwNHdsZC8rV0pYbVMwTGp1Wkx1OXNuSGJBPT0YACAAKAAwxNr5ie7K/AI4wNihwNswQMDYocDbMEocNjFYSUpnOVlUVkUrem5CSDhNSVZqWlcrUXg0PVofIh3+WjFKdlNJbXNIdEthVTdNblNIemFtQWFId0k0PWVZRck/EuwBCA0S5wEKHGwyV3Fyai91U2VSNG5HRDUvU3dVMnpPZVA2bz0SZlo6QURxdEFad0I2dEFWZmVWbjFYQURSbzVLMUJSVGNLNDFQMGR6THVka0pYcm1QTnJZU1FnVUVFbnNaaHFURG1aYlAwcmVqenBWTmwxVGZYSWU3OW4zbU1qK2xYd3JwempEOWc9PRgAIAAoADCqo8Xe7cr8AjiVkZzA2zBAlZGcwNswShxvMHA1ckpkZE1uM0ZhK0IzN3BncDRJVjRIcEE9Wh8iHfw5YkxoKzlhNXFhRXVDL3AwaDYvZWpoa294ZE09ZQAAAAASrgIIExKpAgocTkNqWHJzSEFtUG8wVzRxbXkrOXgwa3F1U2hZPRKmAVo6QURxdEFad2FNTXJFVnRsWmdkamI4NE0zNm9UaXBXblFXaWY0WVNVaTVmRjBIVzJwTlhvUWtkejhaQzhrbWFycEo3YTQ5TkVOOEZzRzFzbmxLdHYybFRkNWNvRUtUS3RqcGl0SmV6VDlWOXY3UkNRaUNjWjJsSWk3bWtmMXd2RGZxeHZYQ0tkejE5Vm0xc1M0Y2dOZG1tNFlHaW1rYnNhaXdnPT0YACAAKAAwg9XN++DF9AI4hY7lq7UsQIWO5au1LEocYzNVMWxDa2RQNS9zZk1qUXVTNEpHVy9UOW40PVogIh7//1g5a0d1KzBwbjYzaFExSDNtUkQvazVhN0pLWT1lxWmHoxLsAQgKEucBChxoNHI5eVJJMlFTZlFNVzkveU8zSlJJd3gzNkU9EmZaOkFEcXRBWndCNnRBVmZlVm4xWEFEUm81SzFCUlQwVEFBZWhPVDVrQzlVYnlTZVhrVGdWalIyaWk2OGtFZGFCbDM0ODJPTTBjWXZYTGRXVEs2T2hTUit0WHlNM0RkTXgwVkRnPT0YACAAKAAwp9CqpK2b/AI4rvKkm+EvQK7ypJvhL0ocbWZoQzB2YlNwSzRHU0ZHQldHVnpJbGVVWlpJPVofIh3NdytVaEx1RmRTaVVmUHA1R3g2dzE2YUNob0V3PWXbtYQoEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFad1JaVzErOGNMZVIvcHNvTDFnbkM1MW0rRTYzeFgzbEZJWUhvVnNKQWpPL1lsUituc0x4UTBWczYrOEdqZ3EydXlrM2d3ZGJ5M2tBKzZ3VXkreUhraXVUSHIyU2c9PRgAIAAoADDUvsSxuN/+AjgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEuwBCAwS5wEKHEI0ZEVjSFp1aFJDQ0JEdzVpMjVCUy9IYTJxTT0SZlo6QURxdEFad0I2dEFWZmVWbjFYQURSbzVLMUJSVEN1UzBsK1ovMDIvKzA1OEhjem50ZlFvU29WNUZ4aUtXS3ZCWjFtMXZHSG0wVytZOGVrN1U4NUxHYzh0SEpWb256K3hnd0E9PRgAIAAoADDlw/KS7cr8Ajix1pLA2zBAsdaSwNswShxqaHhtV2pFM2hmci84MkxHNGkzMlYvUlZPVXM9Wh8iHflqRmFFYzgxLzQ2NVBHSC9lMkVRWitiOE53R3c9ZT6V3kwS6wEIERLmAQocN1Jpd2VBbThkVnhhS2g3Qm9pTmlyN1k3NFVrPRJmWjpBRHF0QVp3QjZ0QVZmZVZuMVhBRFJvNUsxQlJUbXc4UnlxVWFUaFFrcTBrNG5VVjBrakFScHpKU3kvWkt5YmdEVG1oQ2pqZ2RsalBoeHU5K1cxWWx1OG9XNTVUSDZ0NmF4dz09GAAgACgAMJakic74oP4COMnEzMf2MEDJxMzH9jBKHEVrUlplMjRVV0N2VmIwdmszU3JGSzF6RDZIND1aHiIcZVJVazA5aWhFZGxLQkFSRnRKc2RUS0owTnFvPWUAAAAAEuwBCAsS5wEKHGN0WVgyNUc1dlJLVHZBNW0xY0w4RTVPMDFoQT0SZlo6QURxdEFad0I2dEFWZmVWbjFYQURSbzVLMUJSVDI4bWNsM2M1aVJBYjQ2UjNBc3dIU1hRaWxOWlFmRnZlTFIveVIyb09WcmlxcjlNd2lpeSsxazJSZzZjUEJFYkdKYTVOK3c9PRgAIAAoADDnvs7imbb8AjjgiuXt2DBA4Irl7dgwShxkZm53NnJ3N1FpQ21xdXRTRGMrUUJ6MS9EOFU9Wh8iHfNVNjJiNEt3YjJGSTQzTW5kYUJiK09jTjRtZ0k9ZSvRAVES7AEICRLnAQocbHFlbGRhL2F5Ly9hc3Q5UGgzYXBTTVlwODNvPRJmWjpBRHF0QVp3QjZ0QVZmZVZuMVhBRFJvNUsxQlJUSWhSM3dJYXd6VkdVSG1jY0NvemxudjlQYmpqOUdLME01bnh5b0ZDRk52WktzYzREMWcrbnVTZHNWQkU1cG5tWm5tY3Bwdz09GAAgACgAMJz6hsu08/0COIvX4JW9MECL1+CVvTBKHDYwRFZmL1I2ZnVEQzlNbTlTRVRRd041SUhGND1aHyIdmzArZE1seENGWHVTc1BpanJ4MFBsVWg0YjRrST1ldQ4WhxLrAQgIEuYBChxQWjRPK0cyY205YzA0RFQ2WkUvejhGODF4UFU9EmZaOkFEcXRBWndCNnRBVmZlVm4xWEFEUm81SzFCUlR0NFhTT3VJenBhMnFUcXhLWjdxV1cwSlgyQ2plM3M5cTlvcW9rNHlsbTZ3cWZFcDRVU3JnWjFGZnBFcEkyZFFCc21IMXRnPT0YACAAKAAw75uRo62b/AI4+4XgucowQPuF4LnKMEocSlNaZ1d4VDRKOGhPVk1aMi9wYmZUV2pXT1NjPVoeIhw2UUlGRWlEdVBjZlBHeTFWWTNNQ2N4aUFDT1k9Zb2bUSoS6wEIBRLmAQocUjdJT2F1Y2kvcjlRK1RqY3RkWnF5VkhGZzg0PRJmWjpBRHF0QVp3QjZ0QVZmZVZuMVhBRFJvNUsxQlJUdExGcHhCdFk1YnFIYzIvTjJpL3Vkd2huR3Q3RlFjWEt2d2VDY2t1ZUJyWFhrZmtNdlRaQnp0UUJ5MHVZSS9WUG53d2lUQT09GAAgAigCMIq75LK43/4COMqq1/i5MECUzOHz/jBKHGdPM1oxRFo4bGIrdmIxOFgvdE1pQmlXVFpETT1aHiIcZk1qZFZ2ZEJQdVZxNFNwNktBNXB4L2lEOGhvPWWLoIzREsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad1pmT1I3RWhQUnU3RGF2dU1VRDdkbjM0NWlVNm16d2VDZHpId0tOMGU5bGpweVcyb0dQN0JmQVIrZkNRczV3c2VrTXlLR2RMMEl3QVRKUUpTWDAxeGhHV2M2Wmc9PRgAIAAoADDUvsSxuN/+AjgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEuwBCAYS5wEKHG90di93RmF0ZTJPamZ1bENuWmU1TEpsd3RpTT0SZlo6QURxdEFad0I2dEFWZmVWbjFYQURSbzVLMUJSVGtQK3p1b0lDenZYcTRBcWVZR1ZEWjNpaEsvSHdrbGRDY0crZXlrbjczWTRRMUMrUDlTWm9saU9DV3h3UTh2TUR5SVdBU3c9PRgAIAMoAzD38Mnyjq//AjjwvfS11TBA3uqVjYkxShwrSnQ1ZVY5NTlzYUJuRjBnL0xzV3ZtSlRWNkk9Wh8iHbJXcE1mZ2RBWFhla2lJVDQ0UXZGRXVycjVTdlE9ZYawhh4S7gEIBxLpAQocelZMYlFNSWdtbXAzSjdFK3VHdjErR2lLUlFJPRJmWjpBRHF0QVp3QjZ0QVZmZVZuMVhBRFJvNUsxQlJUZlRVcDdoLzhhTVI1ekZsYjJGTmpxSGJqUVo1ME1BTUN1N2o4RHJxN2NNeE1GeHpaMUVRS0ExVFgwVXJjajlMMkhleTFuZz09GAAgACgAMLnri6Ktm/wCOIHz9bXVMECB8/W11TBKHFpERWhhT3hzVGwvMHhHR3h5VnZqWTRvZEpGVT1aISIf///7RURKMExtY1BtZnpaaVlxa2JDT3M3dlE2aytFPWUAAAAAEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeW5aY29KczZVNktmZmdlTk1qSVZTNENGeXJmU2M2MU1tMnRNVkxBdmIwS2wreXdCZCtSaWJlQURET08wVkEyZ0YyMzUvNhgAIAAoADDUvsSxuN/+AjgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAMAE4AA==",
+   "version": 1
+}

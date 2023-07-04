@@ -1,0 +1,25 @@
+2023/07/04-08:00:54.721 1604 Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/chrome-extension_oocalimimngaihdkbihfgmpkcpnmlaoa_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/04-08:00:54.722 1604 Recovering log #200
+2023/07/04-08:00:54.722 1604 Reusing old log /home/alex/.config/google-chrome/Default/IndexedDB/chrome-extension_oocalimimngaihdkbihfgmpkcpnmlaoa_0.indexeddb.leveldb/000200.log 
+2023/07/04-08:00:54.722 1604 Delete type=2 #198
+2023/07/04-08:00:54.735 1610 Level-0 table #205: started
+2023/07/04-08:00:54.738 1610 Level-0 table #205: 1498 bytes OK
+2023/07/04-08:00:54.746 1610 Delete type=0 #200
+2023/07/04-08:00:54.748 1604 Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\x05' @ 2163 : 1
+2023/07/04-08:00:54.748 1604 Compacting 1@0 + 1@1 files
+2023/07/04-08:00:54.751 1604 Generated table #206@0: 49 keys, 1425 bytes
+2023/07/04-08:00:54.751 1604 Compacted 1@0 + 1@1 files => 1425 bytes
+2023/07/04-08:00:54.755 1604 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/04-08:00:54.755 1604 Delete type=2 #205
+2023/07/04-08:00:54.755 1604 Manual compaction at level-0 from '\x00;\x00\x00\x05' @ 2163 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/04-08:01:29.967 1610 Level-0 table #208: started
+2023/07/04-08:01:29.970 1610 Level-0 table #208: 905 bytes OK
+2023/07/04-08:01:29.976 1610 Delete type=2 #202
+2023/07/04-08:01:29.976 1610 Delete type=0 #204
+2023/07/04-08:01:29.977 1605 Manual compaction at level-0 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at '\x00<\x00\x00\x05' @ 2196 : 1
+2023/07/04-08:01:29.977 1605 Compacting 1@0 + 1@1 files
+2023/07/04-08:01:29.981 1605 Generated table #209@0: 56 keys, 1493 bytes
+2023/07/04-08:01:29.981 1605 Compacted 1@0 + 1@1 files => 1493 bytes
+2023/07/04-08:01:29.985 1605 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/04-08:01:29.985 1605 Delete type=2 #208
+2023/07/04-08:01:29.985 1604 Manual compaction at level-0 from '\x00<\x00\x00\x05' @ 2196 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,1481 @@
+{
+    "noResultsFoundFor": {
+        "translation": "Aucun résultat trouvé pour"
+    },
+    "sharedWith": {
+        "translation": "Partagé avec"
+    },
+    "copiedTooltip": {
+        "translation": "Copié !"
+    },
+    "youAreOffline": {
+        "translation": "Vous n'êtes pas connecté."
+    },
+    "masterPassword": {
+        "translation": "Mot de passe maître"
+    },
+    "addNewFolder": {
+        "translation": "Ajouter un nouveau dossier"
+    },
+    "emptyVaultSharedPrimaryText": {
+        "translation": "Aucun élément partagé"
+    },
+    "cancel": {
+        "translation": "Annuler"
+    },
+    "duplicate": {
+        "translation": "Dupliquer"
+    },
+    "copy": {
+        "translation": "Copier"
+    },
+    "copyCvvCvc": {
+        "translation": "Copier le CVV\/CVC"
+    },
+    "download": {
+        "translation": "Télécharger"
+    },
+    "password": {
+        "translation": "Mot de passe"
+    },
+    "linuxGetStartedStepText": {
+        "translation": "Ouvrez le terminal et exécutez la ligne de commande suivante :"
+    },
+    "addCreditCard": {
+        "translation": "Ajouter une carte de crédit"
+    },
+    "moveToTrash": {
+        "translation": "Déplacer dans la corbeille"
+    },
+    "allItems": {
+        "translation": "Tous les éléments"
+    },
+    "sharedItems": {
+        "translation": "Éléments partagés"
+    },
+    "folders": {
+        "translation": "Dossiers"
+    },
+    "sortBy": {
+        "translation": "Trier par"
+    },
+    "organizationBannerText": {
+        "translation": "Rejoignez l’organisation avec les mots de passe actuels ou videz votre coffre-fort."
+    },
+    "removeAccessExplanation": {
+        "translation": "Vous perdrez l'accès à cet élément et l'action ne peut pas être annulée"
+    },
+    "title": {
+        "translation": "Titre"
+    },
+    "passwordGeneratorCheckbox3": {
+        "translation": "Utilisez des chiffres (0 à 9)"
+    },
+    "creditCard": {
+        "translation": "Carte de crédit"
+    },
+    "emptyFolderSecondaryText": {
+        "translation": "Restez organisé en ajoutant des mots de passe ou d'autres éléments à ce dossier"
+    },
+    "switchToPrivate": {
+        "translation": "Basculer en privé"
+    },
+    "winGetStartedText": {
+        "translation": "Télécharger pour Windows"
+    },
+    "length": {
+        "translation": "Longueur"
+    },
+    "premium": {
+        "translation": "Premium"
+    },
+    "expirationDate": {
+        "translation": "Date d’expiration"
+    },
+    "settings": {
+        "translation": "Paramètres"
+    },
+    "emptyVaultSharedSecondaryText": {
+        "translation": "Les éléments partagés entre vous et quelqu'un d'autre apparaîtront ici"
+    },
+    "emailUs": {
+        "translation": "Envoyez-nous un e-mail"
+    },
+    "upgradeToShareText": {
+        "translation": "Pour partager des éléments avec des personnes en qui vous avez confiance, passez à Premium"
+    },
+    "addNewFolderTooltip": {
+        "translation": "Ajouter un nouveau dossier"
+    },
+    "importPasswords": {
+        "translation": "Importer des mots de passe"
+    },
+    "getNordPassDesktopApp": {
+        "translation": "Télécharger l’application de bureau NordPass"
+    },
+    "helpCenter": {
+        "translation": "Centre d’aide"
+    },
+    "getStartedAfterInstallStep": {
+        "translation": "Lancez l’application installée, connectez-vous et utilisez NordPass."
+    },
+    "sortingOrder": {
+        "translation": "Ordre de tri"
+    },
+    "pendingItems": {
+        "translation": "{items, plural, one {Élément} other {Éléments}} en attente"
+    },
+    "emptyVaultPasswordPrimaryText": {
+        "translation": "Oubliez les réinitialisations de mot de passe"
+    },
+    "passwordGeneratorCheckbox2": {
+        "translation": "Utilisez des lettres minuscules (a à z)"
+    },
+    "delete": {
+        "translation": "Supprimer"
+    },
+    "show": {
+        "translation": "Afficher"
+    },
+    "youAreBackOnline": {
+        "translation": "Vous êtes de nouveau en ligne"
+    },
+    "copyNote": {
+        "translation": "Copier la note"
+    },
+    "winGetStartedSubText": {
+        "translation": "Windows 7 ou version ultérieure"
+    },
+    "phone": {
+        "translation": "Téléphone"
+    },
+    "share": {
+        "translation": "Partager"
+    },
+    "deleteFolderQuestion": {
+        "translation": "Supprimer le dossier ?"
+    },
+    "pendingInvite": {
+        "translation": "Votre invitation est en attente"
+    },
+    "logOut": {
+        "translation": "Déconnexion"
+    },
+    "emptyVaultPersonalPrimaryText": {
+        "translation": "Remplissez des formulaires en ligne sans stress"
+    },
+    "upgradeToShareTitle": {
+        "translation": "Ceci est une fonctionnalité Premium"
+    },
+    "copyPassword": {
+        "translation": "Copier le mot de passe"
+    },
+    "notSpecified": {
+        "translation": "Non précisé"
+    },
+    "forgotMasterPasswordQuestion": {
+        "translation": "Mot de passe maître oublié ?"
+    },
+    "emptyFolderPrimaryText": {
+        "translation": "Le dossier est vide"
+    },
+    "passwordStrengthWeak": {
+        "translation": "Mot de passe faible"
+    },
+    "enteringUnprotectedWebsiteWarning": {
+        "translation": "La saisie de vos données peut mettre vos informations en danger. Si possible, passez à une connexion privée"
+    },
+    "pendingItemsMessageBeforeLogin": {
+        "translation": "Vous verrez {items, plural, one {cet élément} other {ces éléments}} une fois que {email} aura confirmé le partage"
+    },
+    "city": {
+        "translation": "Ville"
+    },
+    "launchWebsite": {
+        "translation": "Lancer le site Web"
+    },
+    "searchResultsFor": {
+        "translation": "Résultats de recherche pour"
+    },
+    "suggestedItems": {
+        "translation": "Éléments suggérés"
+    },
+    "moveItemsFromFolderToTrash": {
+        "translation": "Déplacer les éléments de ce dossier vers la corbeille"
+    },
+    "passwordStrengthStrong": {
+        "translation": "Mot de passe fort"
+    },
+    "declineItem": {
+        "translation": "Refuser l’élément"
+    },
+    "hide": {
+        "translation": "Masquer"
+    },
+    "categories": {
+        "translation": "Catégories"
+    },
+    "errorWhileAccessingItem": {
+        "translation": "Une erreur s'est produite lors de l'accès à cet élément."
+    },
+    "emptyVaultNotesPrimaryText": {
+        "translation": "Libérez votre mémoire"
+    },
+    "addressLine2": {
+        "translation": "Ligne d’adresse 2"
+    },
+    "addNewCreditCard": {
+        "translation": "Ajouter une carte de crédit"
+    },
+    "lock": {
+        "translation": "Verrouiller"
+    },
+    "passwords": {
+        "translation": "Mots de passe"
+    },
+    "winGetStartedStep": {
+        "translation": "Téléchargez l’application NordPass Background"
+    },
+    "passwordGeneratorCheckbox1": {
+        "translation": "Utilisez des lettres majuscules (A à Z)"
+    },
+    "descending": {
+        "translation": "Décroissant"
+    },
+    "emptyVaultPersonalSecondaryText": {
+        "translation": "Enregistrez votre adresse et vos coordonnées pour remplir rapidement les formulaires d'inscription"
+    },
+    "addPersonalInfo": {
+        "translation": "Ajouter des informations personnelles"
+    },
+    "passwordGeneratorCheckbox4": {
+        "translation": "Utilisez des symboles (@!&%*)"
+    },
+    "addSecureNotes": {
+        "translation": "Ajouter des notes sécurisées"
+    },
+    "passwordGeneratorCheckbox5": {
+        "translation": "Évitez les caractères ambigus"
+    },
+    "addPassword": {
+        "translation": "Ajouter un mot de passe"
+    },
+    "visitHelpCenter": {
+        "translation": "Consultez le centre d’aide ou contactez notre équipe d’assistance clientèle pour obtenir de l’aide."
+    },
+    "pendingItemsUserShareItemWithYou": {
+        "translation": "{sharerEmail} a partagé un élément avec vous"
+    },
+    "noAddedCreditCards": {
+        "translation": "Vous n’avez pas encore ajouté de carte de crédit"
+    },
+    "moveSharedItemModalToDescription": {
+        "translation": "Vous avez partagé cet élément avec d’autres personnes. Le déplacer vers la corbeille supprimera également l’accès des autres utilisateurs."
+    },
+    "logIntoAccount": {
+        "translation": "Connectez-vous à votre compte"
+    },
+    "websiteUrl": {
+        "translation": "URL du site Web"
+    },
+    "personalInfo": {
+        "translation": "Informations personnelles"
+    },
+    "noPasswordsSaved": {
+        "translation": "Aucun mot de passe enregistré pour ce site Web"
+    },
+    "cardholderName": {
+        "translation": "Nom du titulaire de la carte"
+    },
+    "rename": {
+        "translation": "Renommer"
+    },
+    "trash": {
+        "translation": "Corbeille"
+    },
+    "removeMyAccess": {
+        "translation": "Supprimer mon accès"
+    },
+    "joinNow": {
+        "translation": "S’inscrire maintenant"
+    },
+    "addItem": {
+        "translation": "Ajouter un élément"
+    },
+    "installDesktopAppText": {
+        "translation": "Pour commencer à utiliser l’extension de navigateur NordPass, vous devez d’abord l’associer avec l’application de bureau NordPass."
+    },
+    "addressLine1": {
+        "translation": "Ligne d’adresse 1"
+    },
+    "limitedRightsToView": {
+        "translation": "Vous avez des droits limités sur cet élément"
+    },
+    "needHelpQuestion": {
+        "translation": "Besoin d’aide ?"
+    },
+    "secureNote": {
+        "translation": "Note sécurisée"
+    },
+    "emptyVaultCCSecondaryText": {
+        "translation": "Ajoutez les détails de votre carte de crédit pour les remplir automatiquement lors de vos achats en ligne"
+    },
+    "emptyVaultCCPrimaryText": {
+        "translation": "Faites vos achats sans lever le petit doigt"
+    },
+    "unlockNordPass": {
+        "translation": "Déverrouiller NordPass"
+    },
+    "emptyVaultPasswordSecondaryText": {
+        "translation": "Ajoutez vos mots de passe et accédez-y sur n'importe quel appareil, à tout moment"
+    },
+    "getStartedInstallStep": {
+        "translation": "Téléchargez et installez l’application de bureau sur votre ordinateur."
+    },
+    "copyEmailUsername": {
+        "translation": "Copier l’adresse e-mail ou le nom d’utilisateur"
+    },
+    "deleteFolderText": {
+        "translation": "La suppression du dossier ne supprimera pas les éléments de ce dossier. Si vous souhaitez supprimer à la fois le dossier et les éléments, veuillez cocher la case ci-dessous."
+    },
+    "macGetStartedSubText": {
+        "translation": "macOS X Yosemite (10.10) ou version ultérieure"
+    },
+    "tools": {
+        "translation": "Outils"
+    },
+    "emailOrUsername": {
+        "translation": "E-mail ou nom d’utilisateur"
+    },
+    "zipOrPostalCode": {
+        "translation": "Code postal"
+    },
+    "copied": {
+        "translation": "Copié"
+    },
+    "passwordGenerator": {
+        "translation": "Générateur mot de passe"
+    },
+    "decline": {
+        "translation": "Refuser"
+    },
+    "cardNumber": {
+        "translation": "Numéro de carte"
+    },
+    "note": {
+        "translation": "Note"
+    },
+    "copyCardNumber": {
+        "translation": "Copier le numéro de carte"
+    },
+    "refresh": {
+        "translation": "Actualiser"
+    },
+    "lastUsed": {
+        "translation": "Dernière utilisation"
+    },
+    "usePassword": {
+        "translation": "Utilisez un mot de passe"
+    },
+    "enterMasterPassword": {
+        "translation": "Saisir le Mot de passe maître"
+    },
+    "accept": {
+        "translation": "Accepter"
+    },
+    "linuxGetStartedStep": {
+        "translation": "Exécuter la ligne de commande"
+    },
+    "email": {
+        "translation": "E-mail"
+    },
+    "emptyVaultNotesSecondaryText": {
+        "translation": "Notez un code Wi-Fi, un code d'alarme de sécurité au bureau ou l'anniversaire de votre ami"
+    },
+    "ascending": {
+        "translation": "Croissant"
+    },
+    "folder": {
+        "translation": "Dossier"
+    },
+    "undefinedError": {
+        "translation": "Une erreur non définie s'est produite. Si elle persiste, veuillez contacter l'assistance."
+    },
+    "passwordStrengthModerate": {
+        "translation": "Mot de passe moyen"
+    },
+    "country": {
+        "translation": "Pays"
+    },
+    "secureNotes": {
+        "translation": "Notes sécurisées"
+    },
+    "edit": {
+        "translation": "Modifier"
+    },
+    "macGetStartedText": {
+        "translation": "Télécharger pour macOS"
+    },
+    "creditCards": {
+        "translation": "Cartes de crédit"
+    },
+    "search": {
+        "translation": "Rechercher"
+    },
+    "sharedItemsCountMessage": {
+        "translation": "{email} a partagé {items, plural, one {un élément} other {{items} des éléments}} avec vous."
+    },
+    "copyCardholderName": {
+        "translation": "Copier le nom du titulaire de la carte"
+    },
+    "dontHaveAppQuestion": {
+        "translation": "Vous n'avez pas l'application ?"
+    },
+    "fullName": {
+        "translation": "Nom Complet"
+    },
+    "address": {
+        "translation": "Adresse"
+    },
+    "copyFullAddress": {
+        "translation": "Copier l’adresse complète"
+    },
+    "passwordSecurity": {
+        "translation": "Qualité des mots de passe"
+    },
+    "weakPassword": {
+        "translation": "Mot de passe faible"
+    },
+    "moderatePassword": {
+        "translation": "Mot de passe moyen"
+    },
+    "strongPassword": {
+        "translation": "Mot de passe fort"
+    },
+    "removeFromFolder": {
+        "translation": "Supprimer du dossier"
+    },
+    "moveToFolder": {
+        "translation": "Déplacer vers le dossier"
+    },
+    "passwordGeneratorDescription": {
+        "translation": "Créez des mots de passe sécurisés pour vos comptes"
+    },
+    "passwordHealth": {
+        "translation": "Qualité des mots de passe"
+    },
+    "passwordHealthDescription": {
+        "translation": "Identifiez les mots de passe qui peuvent vous mettre en danger"
+    },
+    "breachScanner": {
+        "translation": "Analyse des fuites de données"
+    },
+    "breachScannerDescription": {
+        "translation": "Vérifiez si vos données sensibles ont été divulguées en ligne"
+    },
+    "nordVpnDescription": {
+        "translation": "Protégez-vous et protégez vos données des regards indiscrets lorsque vous naviguez en ligne"
+    },
+    "nordLockerDescription": {
+        "translation": "Conservez vos fichiers à l’abri. Bénéficiez gratuitement de 3 Go de stockage cloud chiffré"
+    },
+    "showOptions": {
+        "translation": "Afficher les options"
+    },
+    "hideOptions": {
+        "translation": "Masquer les options"
+    },
+    "limitedRightsMessage": {
+        "translation": "Vous avez des droits limités sur cet élément"
+    },
+    "tryOtherNordApps": {
+        "translation": "Essayez d'autres applications Nord"
+    },
+    "generateNew": {
+        "translation": "Générer un nouveau"
+    },
+    "unprotectedWebsite": {
+        "translation": "Site Web non protégé"
+    },
+    "enterAnyway": {
+        "translation": "Saisir tout de même"
+    },
+    "emptyPersonalInfo": {
+        "translation": "Vous n’avez pas encore ajouté d’informations personnelles"
+    },
+    "openNordPass": {
+        "translation": "Ouvrir NordPass"
+    },
+    "openNordPassToStart": {
+        "translation": "Pour utiliser l’extension de navigateur, ouvrez d’abord l’application NordPass"
+    },
+    "emptyVaultPrimaryText": {
+        "translation": "Commençons"
+    },
+    "emptyVaultSecondaryText": {
+        "translation": "Ajouter votre premier élément. Vous le trouverez ici chaque fois que vous en aurez besoin."
+    },
+    "importItems": {
+        "translation": "Importer des éléments"
+    },
+    "getPremium": {
+        "translation": "Passer à l’abonnement Premium"
+    },
+    "newItems": {
+        "translation": "Nouveaux éléments"
+    },
+    "declineItemHeader": {
+        "translation": "Refuser l’élément ?"
+    },
+    "declineItemContent": {
+        "translation": "Vous refuserez d'accepter l'accès partagé à cet élément"
+    },
+    "deleteItemModalHeader": {
+        "translation": "Supprimer l'élément ?"
+    },
+    "removeAccessHeader": {
+        "translation": "Supprimer mon accès ?"
+    },
+    "restore": {
+        "translation": "Restaurer"
+    },
+    "deleteItemModalContent": {
+        "translation": "Cet élément sera perdu et vous ne pourrez plus le restaurer"
+    },
+    "emptyTrashPrimaryText": {
+        "translation": "La corbeille est vide"
+    },
+    "emptyTrashSecondaryText": {
+        "translation": "Tous les éléments placés dans la corbeille peuvent être restaurés jusqu'à ce que vous les supprimiez définitivement"
+    },
+    "declineItemDescription": {
+        "translation": "Vous refuserez d'accepter l'accès partagé à cet élément"
+    },
+    "pairingCode": {
+        "translation": "Votre code de jumelage NordPass"
+    },
+    "updateNordPassToStart": {
+        "translation": "Vous utilisez une ancienne version de NordPass. Pour utiliser une extension, veuillez d'abord mettre à jour l'application."
+    },
+    "updateRequired": {
+        "translation": "Mise à jour nécessaire"
+    },
+    "premiumPlan": {
+        "translation": "Abonnement Premium"
+    },
+    "businessPlan": {
+        "translation": "Abonnement Business"
+    },
+    "freePlan": {
+        "translation": "Abonnement gratuit"
+    },
+    "lockApp": {
+        "translation": "Verrouiller l’application"
+    },
+    "switchAccount": {
+        "translation": "Changer de compte"
+    },
+    "addAnotherAccount": {
+        "translation": "Ajouter un autre compte"
+    },
+    "remove": {
+        "translation": "Supprimer"
+    },
+    "cardPin": {
+        "translation": "Code PIN"
+    },
+    "cvvLabel": {
+        "translation": "CVV"
+    },
+    "enterprisePlan": {
+        "translation": "Abonnement Entreprise"
+    },
+    "itemCopied": {
+        "translation": "{item} copié(s)"
+    },
+    "itemRemovedFromFolder": {
+        "translation": "{item} supprimé de {folderName}"
+    },
+    "passwordItems": {
+        "translation": "{count, plural, one {Mot de passe} other {Mots de passe}}"
+    },
+    "secureNotesItems": {
+        "translation": "{count, plural, one {Note sécurisée} other {Notes sécurisées}}"
+    },
+    "personalInfoItems": {
+        "translation": "{count, plural, one {Informations personnelles} other {Éléments d'informations personnelles}}"
+    },
+    "creditCardItems": {
+        "translation": "{count, plural, one {Carte de crédit} other {Cartes de crédit}}"
+    },
+    "deletingItemsError": {
+        "translation": "Une erreur s'est produite lors de la suppression de cet élément."
+    },
+    "duplicatingPersonalInfoError": {
+        "translation": "Une erreur s'est produite lors de la duplication de cet élément."
+    },
+    "errorOnRestoring": {
+        "translation": "Une erreur s'est produite lors de la restauration de cet élément."
+    },
+    "errorOnDeclining": {
+        "translation": "Une erreur s'est produite lors du refus de cet élément."
+    },
+    "logOutAll": {
+        "translation": "Se déconnecter de tout"
+    },
+    "authenticityErrorTitle": {
+        "translation": "Terminer la configuration de l’extension de navigateur"
+    },
+    "authenticityErrorDescription": {
+        "translation": "Pour utiliser l’extension de navigateur NordPass, vous devez l’associer avec l’application"
+    },
+    "authenticityErrorButton": {
+        "translation": "Effectuez l’association encore une fois"
+    },
+    "locked": {
+        "translation": "Verrouillé"
+    },
+    "loggedOut": {
+        "translation": "Déconnecté"
+    },
+    "businessPlusPlan": {
+        "translation": "Business Pro"
+    },
+    "someone": {
+        "translation": "Une personne"
+    },
+    "moveSharedItemToTrashModalDescription": {
+        "translation": "Déplacer l’élément vers la corbeille ?"
+    },
+    "offlineScreenYouAreOffline": {
+        "translation": "Vous n'êtes pas connecté"
+    },
+    "offlineScreenYouAreOfflineDescription": {
+        "translation": "Vous pouvez continuer à gérer les éléments une fois que votre connexion a été restaurée"
+    },
+    "businessPlanTrial": {
+        "translation": "Essai de la version Business"
+    },
+    "businessPlusPlanTrial": {
+        "translation": "Essai de la version Business+"
+    },
+    "enterprisePlanTrial": {
+        "translation": "Essai de la version Entreprise"
+    },
+    "viewInExtensionTab": {
+        "translation": "Afficher dans l’onglet"
+    },
+    "noAvailableActions": {
+        "translation": "Aucune action disponible"
+    },
+    "switchedAccountTo": {
+        "translation": "A basculé le compte vers {email}"
+    },
+    "userProfileAvatar": {
+        "translation": "Avatar du profil d'utilisateur"
+    },
+    "addNewSharedFolder": {
+        "translation": "Ajouter un nouveau dossier"
+    },
+    "sharedFolders": {
+        "translation": "Dossiers partagés"
+    },
+    "deleteSharedFolderModalDescription": {
+        "translation": "Ce dossier et ses éléments seront définitivement supprimés. Cette action supprimera également l'accès des autres utilisateurs à ce dossier."
+    },
+    "emergencyAccess": {
+        "translation": "Accès d'urgence"
+    },
+    "emergencyAccessDescription": {
+        "translation": "GéreR l'accès des personnes à vos mots de passe en cas d'urgence"
+    },
+    "getPremiumOff": {
+        "translation": "Bénéficiez de Premium à -{percent} %"
+    },
+    "days": {
+        "translation": "Jours"
+    },
+    "hrs": {
+        "translation": "Heures"
+    },
+    "min": {
+        "translation": "Min"
+    },
+    "seconds": {
+        "translation": "Sec"
+    },
+    "premiumBannerTitle": {
+        "translation": "Passer à"
+    },
+    "premiumBannerSubtitle": {
+        "translation": "Débloquez toutes les fonctionnalités NordPass"
+    },
+    "alreadyHaveApp": {
+        "translation": "Vous avez déjà installé l'application ?"
+    },
+    "openNow": {
+        "translation": "Ouvrir"
+    },
+    "loggedInWith": {
+        "translation": "Connecté avec"
+    },
+    "addressLine1Copied": {
+        "translation": "Adresse ligne 1 copiée"
+    },
+    "addressLine2Copied": {
+        "translation": "Adresse ligne 2 copiée"
+    },
+    "cityCopied": {
+        "translation": "Ville copiée"
+    },
+    "stateCopied": {
+        "translation": "Département copié"
+    },
+    "zipCodeCopied": {
+        "translation": "Code postal copié"
+    },
+    "countryCopied": {
+        "translation": "Pays ou région copié"
+    },
+    "nameCopied": {
+        "translation": "Nom copié"
+    },
+    "fullNameCopied": {
+        "translation": "Nom complet copié"
+    },
+    "emailCopied": {
+        "translation": "Adresse e-mail copiée"
+    },
+    "phoneCopied": {
+        "translation": "Numéro de téléphone copié"
+    },
+    "addressCopied": {
+        "translation": "Adresse copiée"
+    },
+    "noteCopied": {
+        "translation": "Note copiée"
+    },
+    "passwordCopied": {
+        "translation": "Mot de passe copié"
+    },
+    "emailOrUserNameCopied": {
+        "translation": "Adresse e-mail ou nom d'utilisateur copié"
+    },
+    "websiteAddressCopied": {
+        "translation": "Adresse du site Web copiée"
+    },
+    "cardHolderNameCopied": {
+        "translation": "Nom du titulaire de la carte copié"
+    },
+    "cardNumberCopied": {
+        "translation": "Numéro de carte copié"
+    },
+    "expirationDateCopied": {
+        "translation": "Date d'expiration copiée"
+    },
+    "cvvCopied": {
+        "translation": "CVV copié"
+    },
+    "secureNoteCopied": {
+        "translation": "Note Sécurisée copiée"
+    },
+    "beta": {
+        "translation": "Bêta"
+    },
+    "turnOnAutofillOnThisPage": {
+        "translation": "Activer le remplissage automatique sur cette page"
+    },
+    "doNotAutofillOnThisPage": {
+        "translation": "Ne pas utiliser de remplissage automatique sur cette page"
+    },
+    "youCanTurnItBackOnAtAnyTime": {
+        "translation": "Vous pouvez revenir en arrière à tout moment ."
+    },
+    "downloadLogs": {
+        "translation": "Télécharger les logs"
+    },
+    "passwordHistory": {
+        "translation": "Historique de mot de passe"
+    },
+    "shared": {
+        "translation": "Partagé"
+    },
+    "offlineMessage": {
+        "translation": "Vous êtes hors ligne. Connectez-vous à internet."
+    },
+    "shareFeedback": {
+        "translation": "Partager le commentaire"
+    },
+    "standaloneBannerTitle": {
+        "translation": "Nouvelle expérience d’extension !"
+    },
+    "standaloneBannerSubtitle": {
+        "translation": "Vous pouvez désormais utiliser NordPass sans ouvrir l’application de bureau."
+    },
+    "openAdminPanel": {
+        "translation": "Ouvrir le panneau d'administration"
+    },
+    "cantDuplicateWithAttachments": {
+        "translation": "Impossible de dupliquer des données personnelles ayant des pièces jointes"
+    },
+    "cannotShareItemsWithAttachments": {
+        "translation": "Impossible de partager des éléments avec des pièces jointes"
+    },
+    "twoFactorCode": {
+        "translation": "Code à deux facteurs"
+    },
+    "useDeviceWhereTotpWasSetUp": {
+        "translation": "Utilisez le dispositif où l’authentificateur a été configuré."
+    },
+    "passkeys": {
+        "translation": "Clés d’accès"
+    },
+    "passkeyRemovedFromFolder": {
+        "translation": "{itemsCount, plural, one {Clé d’accès supprimée} other {{itemsCount} Clés d’accès supprimées}} de {folderName}"
+    },
+    "passkeyItems": {
+        "translation": "{count, plural, one {Clé d’accès} other {Éléments de la clé d’accès}}"
+    },
+    "passkeyMovedToFolder": {
+        "translation": "{itemsCount, plural, one {Clé d’accès déplacée} other {{itemsCount} Clés d’accès déplacées}} vers {folderName}"
+    },
+    "passkeyDeletedFeedback": {
+        "translation": "{count, plural, one {Clé d’accès supprimée} other {{count} Clés d’accès supprimées}}"
+    },
+    "passkeyVaultEmptyTitle": {
+        "translation": "Profitez d’un moyen de connexion plus facile"
+    },
+    "passkeyVaultEmptyDisclaimer": {
+        "translation": "Lorsque vous créez une clé d’accès avec NordPass sur un site Web, elle apparaîtra ici"
+    },
+    "errorCode0000": {
+        "translation": "Un problème est survenu. Veuillez réessayer ou redémarrer l'application."
+    },
+    "errorCode0001": {
+        "translation": "Mot de passe maître incorrect. Veuillez vérifier et réessayer."
+    },
+    "errorCode0002": {
+        "translation": "Votre code de connexion a expiré. Veuillez vous reconnecter."
+    },
+    "errorCode0003": {
+        "translation": "Code de récupération incorrect. Veuillez vérifier et réessayer."
+    },
+    "errorCode0004": {
+        "translation": "Le code est incorrect. Veuillez réessayer"
+    },
+    "errorCode0005": {
+        "translation": "Code MFA incorrect. Vérifiez de nouveau et réessayez."
+    },
+    "errorCode0006": {
+        "translation": "Adresse e-mail non valide. Veuillez saisir l'adresse e-mail au format suivant : nom@exemple.com"
+    },
+    "errorCode0007": {
+        "translation": "Vérifiez si le message chiffré est valide et réessayez"
+    },
+    "errorCode0008": {
+        "translation": "Veuillez rétablir votre connexion Internet et réessayer"
+    },
+    "errorCode0009": {
+        "translation": "Veuillez rétablir votre connexion Internet et réessayer"
+    },
+    "errorCode0010": {
+        "translation": "Veuillez rétablir votre connexion Internet et réessayer"
+    },
+    "errorCode0011": {
+        "translation": "Pour continuer à utiliser NordPass, mettez à jour la dernière version de l’application dans le magasin d’applications."
+    },
+    "errorCode0012": {
+        "translation": "Mot de passe maître incorrect. Veuillez vérifier et réessayer."
+    },
+    "errorCode0013": {
+        "translation": "Limite d’analyse des violations atteinte. Veuillez réessayer dans 1 minute."
+    },
+    "errorCode0014": {
+        "translation": "Votre organisation ne permet pas aux membres d’exporter leurs mots de passe."
+    },
+    "errorCode0015": {
+        "translation": "Élément déjà partagé avec ce groupe."
+    },
+    "errorCode0016": {
+        "translation": "L'invitation a déjà été acceptée ou annulée. Accédez aux paramètres pour vérifier si vous faites partie de l'organisation."
+    },
+    "errorCode0017": {
+        "translation": "Un problème est survenu. Veuillez réessayer ou redémarrer l'application."
+    },
+    "errorCode0018": {
+        "translation": "Des droits d’accès spécifiques ont déjà été accordés."
+    },
+    "errorCode0019": {
+        "translation": "Vous ne pouvez pas donner un accès d'urgence à vous-même"
+    },
+    "errorCode0020": {
+        "translation": "Algorithme de chiffrement non valide. Veuillez réessayer ou redémarrer l'application."
+    },
+    "errorCode0021": {
+        "translation": "Une erreur s’est produite lors du chargement du stockage, veuillez réessayer."
+    },
+    "errorCode0022": {
+        "translation": "Identifiants de connexion non valides. Veuillez vérifier et réessayer."
+    },
+    "errorCode0023": {
+        "translation": "Une erreur est survenue lors de la génération de la clé. Veuillez réessayer."
+    },
+    "errorCode0024": {
+        "translation": "Compte introuvable dans la base de données. Veuillez vérifier les informations ou redémarrer l'application."
+    },
+    "errorCode0025": {
+        "translation": "Données insuffisantes pour effectuer l'analyse des violations"
+    },
+    "errorCode0026": {
+        "translation": "Un élément n'a pas pu être déchiffré"
+    },
+    "errorCode0027": {
+        "translation": "Numéro de carte de crédit non valide. Veuillez vérifier et réessayer."
+    },
+    "errorCode0028": {
+        "translation": "Charge utile non valide. Veuillez réessayer ou redémarrer l'application."
+    },
+    "errorCode0029": {
+        "translation": "L'adresse e-mail divulguée n'est pas vérifiée"
+    },
+    "errorCode0030": {
+        "translation": "Aucune donnée n’a pu être trouvée"
+    },
+    "errorCode0031": {
+        "translation": "La limite d'éléments a été atteinte"
+    },
+    "errorCode0032": {
+        "translation": "Une erreur est survenue lors de la récupération de l'identité de l'utilisateur. Veuillez vérifier et réessayer."
+    },
+    "errorCode0033": {
+        "translation": "Impossible de donner un accès d'urgence à ce compte. Veuillez en essayer un autre."
+    },
+    "errorCode0034": {
+        "translation": "Impossible d'envoyer des commentaires. Veuillez réessayer."
+    },
+    "errorCode0035": {
+        "translation": "Limite de taille de fichier dépassée. La taille maximale des fichiers est de 3 Mo."
+    },
+    "errorCode0036": {
+        "translation": "L'authentification multifacteur (MFA) ne peut pas être désactivée si elle a été activée au niveau de l'organisation"
+    },
+    "errorCode0037": {
+        "translation": "Échec de la récupération de l'adresse IP. Veuillez réessayer."
+    },
+    "errorCode0038": {
+        "translation": "Identité non valide trouvée. Veuillez contacter l'équipe d'assistance à la clientèle pour obtenir de l’aide."
+    },
+    "errorCode0039": {
+        "translation": "Une erreur est survenue au niveau de la base de données. Veuillez vérifier votre connexion Internet et réessayer."
+    },
+    "errorCode0040": {
+        "translation": "Clé non valable. Veuillez réessayer."
+    },
+    "errorCode0041": {
+        "translation": "Le mot de passe maître existe déjà"
+    },
+    "errorCode0042": {
+        "translation": "Jeton OAuth introuvable. Veuillez contacter l'équipe d'assistance à la clientèle pour obtenir de l’aide."
+    },
+    "errorCode0043": {
+        "translation": "L'utilisateur n'appartient pas à l'organisation"
+    },
+    "errorCode0044": {
+        "translation": "Aucun droit de partage n'est accordé. Veuillez vérifier et réessayer."
+    },
+    "errorCode0045": {
+        "translation": "L'élément ne peut être partagé qu'avec un accès en lecture seule"
+    },
+    "errorCode0046": {
+        "translation": "L'élément n'est partagé avec personne"
+    },
+    "errorCode0047": {
+        "translation": "Impossible de confirmer le statut de partage de l'élément"
+    },
+    "errorCode0048": {
+        "translation": "Seul le propriétaire d'un élément peut modifier la propriété"
+    },
+    "errorCode0049": {
+        "translation": "Impossible de confirmer le statut de partage de l'élément"
+    },
+    "errorCode0050": {
+        "translation": "L'élément n'est pas encore partagé"
+    },
+    "errorCode0051": {
+        "translation": "Déjà partagée avec ce groupe"
+    },
+    "errorCode0052": {
+        "translation": "Groupe introuvable dans la base de données"
+    },
+    "errorCode0053": {
+        "translation": "Message indiqué non valide. Veuillez réessayer."
+    },
+    "errorCode0054": {
+        "translation": "Impossible de supprimer l'approbation, car elle a peut-être déjà été supprimée"
+    },
+    "errorCode0055": {
+        "translation": "Adresse e-mail ou clé publique non valide"
+    },
+    "errorCode0056": {
+        "translation": "Utilisateur déjà approuvé"
+    },
+    "errorCode0058": {
+        "translation": "L'approbation de cet utilisateur a déjà été demandée"
+    },
+    "errorCode0059": {
+        "translation": "Les clés publiques ne correspondent pas"
+    },
+    "errorCode0060": {
+        "translation": "Impossible de vérifier la relation d'approbation"
+    },
+    "errorCode0061": {
+        "translation": "Vous ne pouvez pas partager un article avec vous-même"
+    },
+    "errorCode0062": {
+        "translation": "Élément déjà partagé avec un ou plusieurs utilisateurs"
+    },
+    "errorCode0063": {
+        "translation": "Aucun élément sélectionné pour le partage"
+    },
+    "errorCode0064": {
+        "translation": "Éléments déjà partagés avec toutes les personnes sélectionnées"
+    },
+    "errorCode0065": {
+        "translation": "Échec de la copie : la source n’existe pas."
+    },
+    "errorCode0066": {
+        "translation": "Échec de la copie : la destination existe déjà."
+    },
+    "errorCode0067": {
+        "translation": "Informations sur l'utilisateur introuvables. Veuillez redémarrer l'application."
+    },
+    "errorCode0068": {
+        "translation": "L'élément a été supprimé"
+    },
+    "errorCode0069": {
+        "translation": "Les clés d'éléments ne sont pas valides"
+    },
+    "errorCode0070": {
+        "translation": "Aucune adresse e-mail n'est définie. Veuillez redémarrer l'application."
+    },
+    "errorCode0071": {
+        "translation": "Sélectionnez une seule option"
+    },
+    "errorCode0072": {
+        "translation": "Aucune option trouvée"
+    },
+    "errorCode0073": {
+        "translation": "Impossible de déchiffrer les options. Veuillez redémarrer l'application."
+    },
+    "errorCode0074": {
+        "translation": "Motif invalide. Veuillez contacter l'équipe d'assistance à la clientèle pour obtenir de l’aide."
+    },
+    "errorCode0075": {
+        "translation": "L'élément n'est pas un mot de passe"
+    },
+    "errorCode0076": {
+        "translation": "Référentiel d'éléments non défini. Veuillez redémarrer l'application."
+    },
+    "errorCode0077": {
+        "translation": "L'élément Coffre-fort de l'organisation n'est pas défini. Veuillez redémarrer l'application."
+    },
+    "errorCode0078": {
+        "translation": "Clé de l'organisation non définie. Veuillez redémarrer l'application."
+    },
+    "errorCode0079": {
+        "translation": "Conteneur invalide. Veuillez contacter l'équipe d'assistance à la clientèle pour obtenir de l’aide."
+    },
+    "errorCode0080": {
+        "translation": "Échec du chiffrement de la clé secrète. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0081": {
+        "translation": "Échec de la préparation de la clé secrète du client. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0082": {
+        "translation": "Échec de la préparation de la clé secrète de l'organisation du client. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0083": {
+        "translation": "Clé secrète introuvable. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0084": {
+        "translation": "Clé privée introuvable. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0085": {
+        "translation": "La clé privée secrète n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0086": {
+        "translation": "La clé secrète n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0087": {
+        "translation": "Échec de la préparation des clés secrètes. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0088": {
+        "translation": "La clé de l'élément n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0089": {
+        "translation": "La clé privée de l'élément n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0090": {
+        "translation": "Échec de la préparation des clés de l'élément. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0091": {
+        "translation": "Échec du chiffrement de la clé de l'élément. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0092": {
+        "translation": "Échec de la préparation de la clé de l'élément du client. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0093": {
+        "translation": "Échec de la préparation de la clé de l'organisation du client. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0094": {
+        "translation": "Impossible de transférer vers un coffre-fort sans utilisateur."
+    },
+    "errorCode0095": {
+        "translation": "Élément indiquée invalide. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0096": {
+        "translation": "Conteneur introuvable ou non valide. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0097": {
+        "translation": "Type d'élément non valide"
+    },
+    "errorCode0098": {
+        "translation": "Veuillez vous connecter pour effectuer cette action"
+    },
+    "errorCode0099": {
+        "translation": "Échec de l'analyse des traductions. Veuillez réessayer ou redémarrer l'application."
+    },
+    "errorCode0100": {
+        "translation": "L’application n’est pas en mode sans utilisateur."
+    },
+    "errorCode0101": {
+        "translation": "La paire de clés de l'élément n'a pas pu être chargée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0102": {
+        "translation": "La valeur de clé de l'élément n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0103": {
+        "translation": "La valeur de l'élément déchiffré n'a pas pu être chargée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0104": {
+        "translation": "Échec du chiffrement de la valeur de clé. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0105": {
+        "translation": "La clé privée n'a pas pu être chiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0106": {
+        "translation": "Échec de la résolution du secret. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0107": {
+        "translation": "Échec du chiffrement de l'élément. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0108": {
+        "translation": "Le secret de l'élément déchiffré n'a pas pu être chargé. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0109": {
+        "translation": "La clé privée du conteneur n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0110": {
+        "translation": "La paire de clés du conteneur n'a pas pu être chargée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0111": {
+        "translation": "La clé privée secrète du conteneur n'a pas pu être déchiffrée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0112": {
+        "translation": "La paire de clés secrètes du conteneur n'a pas pu être chargée. Veuillez redémarrer l'application ou contacter notre équipe d'assistance à la clientèle."
+    },
+    "errorCode0113": {
+        "translation": "Échec de la génération des clés."
+    },
+    "errorCode0114": {
+        "translation": "Échec de l’init db sans utilisateur."
+    },
+    "errorCode0115": {
+        "translation": "Échec du décryptage d’un ou plusieurs éléments sans utilisateur."
+    },
+    "errorCode0116": {
+        "translation": "Échec de la génération des clés protégées."
+    },
+    "errorCode0117": {
+        "translation": "Échec de la génération des clés secrètes."
+    },
+    "errorCode0118": {
+        "translation": "Échec de l’enregistrement des éléments dans la base de données."
+    },
+    "errorCode0119": {
+        "translation": "Échec de la sauvegarde des dossiers dans l’API."
+    },
+    "errorCode0120": {
+        "translation": "Échec de la sauvegarde des éléments dans l’API."
+    },
+    "errorCode0121": {
+        "translation": "Action non disponible dans la version actuelle de l'application"
+    },
+    "errorCode0122": {
+        "translation": "Impossible de copier les données dans le presse-papiers. Veuillez réessayer."
+    },
+    "errorCode0123": {
+        "translation": "Impossible de supprimer les données du presse-papiers. Veuillez réessayer."
+    },
+    "errorCode0124": {
+        "translation": "Impossible de copier les données dans le presse-papiers. Veuillez réessayer."
+    },
+    "errorCode0125": {
+        "translation": "Une erreur s'est produite avec les paramètres du presse-papiers. Veuillez réessayer."
+    },
+    "errorCode0126": {
+        "translation": "Impossible de fermer le presse-papiers. Veuillez réessayer."
+    },
+    "errorCode0127": {
+        "translation": "Le compte n'a pas pu être ajouté. Veuillez redémarrer l'application et essayer de vous connecter à nouveau."
+    },
+    "errorCode0128": {
+        "translation": "Impossible de supprimer tous les contacts d'accès d'urgence"
+    },
+    "errorCode0129": {
+        "translation": "Aucun compte n'existe pour cette adresse e-mail. Veuillez vérifier et réessayer."
+    },
+    "errorCode0999": {
+        "translation": "Une erreur inconnue s’est produite."
+    },
+    "reportProblemLegalDisclaimer": {
+        "translation": "Vos commentaires anonymes nous aideront à résoudre les problèmes techniques et à améliorer notre service. Veuillez noter que nous ne pouvons pas garantir que votre problème sera résolu immédiatement."
+    },
+    "new": {
+        "translation": "Nouveau"
+    },
+    "premiumTrial": {
+        "translation": "Essai Premium"
+    },
+    "iHaveAnIssueWithAutofillingDetails": {
+        "translation": "J’ai un problème avec le remplissage automatique des données."
+    },
+    "iHaveAnIssueWithAutosavingDetails": {
+        "translation": "J’ai un problème avec l’enregistrement automatique des données."
+    },
+    "aWebsiteIWasOnCrashed": {
+        "translation": "Un site Web sur lequel j’étais a planté."
+    },
+    "iHaveAnIssueWithNordPassIcons": {
+        "translation": "J’ai un problème avec les icônes NordPass."
+    },
+    "iHaveADifferentIssueOrQuestion": {
+        "translation": "J’ai un autre problème ou une question différente."
+    },
+    "imEnjoyingUsingNordPass": {
+        "translation": "J’aime utiliser NordPass"
+    },
+    "where": {
+        "translation": "Où ?"
+    },
+    "incorrectItemSuggestion": {
+        "translation": "Suggestion d’un élément incorrect."
+    },
+    "noItemSuggestion": {
+        "translation": "Aucune suggestion d’élément."
+    },
+    "noNordPassIconsAppearOnScreen": {
+        "translation": "Aucune icône NordPass n’apparaît à l’écran."
+    },
+    "passwordGeneratorAppearWhenTryingToLogIn": {
+        "translation": "Le générateur de mot de passe apparaît lors de la tentative de connexion."
+    },
+    "iHaveAnotherIssue": {
+        "translation": "J’ai un autre problème."
+    },
+    "itemForDifferentWebsiteSuggested": {
+        "translation": "Proposition d’élément pour un site Web différent."
+    },
+    "wrongItemTypeSuggested": {
+        "translation": "Le type d’élément suggéré n’est pas le bon."
+    },
+    "autosavePromptAppearsRandomly": {
+        "translation": "L’invite d’enregistrement automatique apparaît de manière aléatoire."
+    },
+    "noIconsAppearsOnScreen": {
+        "translation": "Aucune icône n’apparaît à l’écran."
+    },
+    "iconsAppearRandomlyOnScreen": {
+        "translation": "Les icônes apparaissent de manière aléatoire à l’écran."
+    },
+    "issueOccursOnThisWebsite": {
+        "translation": "Le problème se produit sur ce site Web."
+    },
+    "issueOccursOnAnotherWebsite": {
+        "translation": "Le problème se produit sur un autre site Web."
+    },
+    "nordPassIconsAppearOnScreenButNoItemsSuggested": {
+        "translation": "Les icônes NordPass apparaissent à l’écran, mais aucun élément n’est suggéré."
+    },
+    "thanksForYourFeedback": {
+        "translation": "Merci pour vos commentaires ."
+    },
+    "weHopeYouContinueToEnjoyUsingNordPass": {
+        "translation": "Nous espérons que vous continuerez à apprécier l’utilisation de NordPass."
+    },
+    "thanksForReportingAnIssue": {
+        "translation": "Merci d’avoir signalé un problème."
+    },
+    "weWillStartLookingIntoItRightAway": {
+        "translation": "Nous allons nous en occuper immédiatement."
+    },
+    "feedback": {
+        "translation": "Commentaires"
+    },
+    "passkeyFieldLabel": {
+        "translation": "Clés d’accès"
+    },
+    "createdOnDateText": {
+        "translation": "Créé le {date}"
+    },
+    "more": {
+        "translation": "Plus"
+    },
+    "passkeyDescription": {
+        "translation": "Une clé d’accès est un identifiant unique utilisé pour se connecter à un site Web spécifique. Les clés d’accès sont plus sûres et plus faciles à utiliser que les mots de passe, et sont chiffrées de bout en bout. {learnMoreLink}"
+    },
+    "learnMore": {
+        "translation": "En savoir plus"
+    },
+    "attachedFiles": {
+        "translation": "Fichiers joints"
+    },
+    "attachFile": {
+        "translation": "Joindre un fichier"
+    },
+    "cannotAttachFilesToSharedItems": {
+        "translation": "Impossible de joindre des fichiers à des éléments partagés"
+    },
+    "deleteFileModalHeader": {
+        "translation": "Supprimer le fichier ?"
+    },
+    "deleteFileModalContent": {
+        "translation": "Cela supprimera définitivement {fileName}"
+    },
+    "deleteFileFeedback": {
+        "translation": "{fileName} supprimé"
+    },
+    "b2bTrialBannerHeader": {
+        "translation": "Améliorez l’abonnement de votre organisation"
+    },
+    "b2bTrialBannerMessage": {
+        "translation": "Pour continuer à utiliser NordPass, choisissez l’abonnement supérieur."
+    },
+    "rateUs": {
+        "translation": "Donnez-nous votre avis"
+    },
+    "enjoyingNordPass": {
+        "translation": "Vous aimez NordPass ?"
+    },
+    "commentToRateExtension": {
+        "translation": "Dites-nous ce que vous pensez de nos services en laissant une note sur le Chrome Web Store."
+    },
+    "unlockNordPassToEasilyAutofillForms": {
+        "translation": "Déverrouillez NordPass pour faciliter le remplissage automatique des formulaires"
+    },
+    "logInToNordPassToEasilyAutofillForms": {
+        "translation": "Connectez-vous à NordPass pour faciliter le remplissage automatique des formulaires"
+    },
+    "logIn": {
+        "translation": "Se connecter"
+    },
+    "autofillIsTurnedOn": {
+        "translation": "Le remplissage automatique est activé."
+    },
+    "doNotAutofillOnThisField": {
+        "translation": "Ne pas remplir automatiquement ce champ"
+    },
+    "doAutofillOnThisField": {
+        "translation": "Activer le remplissage automatique pour ce champ"
+    },
+    "changeAutofillBehavior": {
+        "translation": "Modifier le comportement du remplissage automatique"
+    },
+    "disableAutofillOption": {
+        "translation": "Désactiver le remplissage automatique pour ce champ ou cette page"
+    },
+    "turnOffAutofillInfo": {
+        "translation": "Le remplissage automatique peut être désactivé ou activé dans le menu contextuel du clic droit. Pour en savoir plus, consultez notre {link}."
+    },
+    "helpCenterArticle": {
+        "translation": "article du centre d’aide"
+    },
+    "weWontAutofillOnThisPage": {
+        "translation": "Nous n’appliquerons pas le remplissage automatique sur cette page ."
+    },
+    "weWontAutofillOnThisField": {
+        "translation": "Ce champ ne sera pas rempli automatiquement."
+    },
+    "weWillNowAutofillYourDetailsOnThisPage": {
+        "translation": "Nous allons maintenant utiliser le remplissage automatique de vos coordonnées sur cette page ."
+    },
+    "weWillNowAutofillYourDetailsOnThisField": {
+        "translation": "Nous renseignerons désormais vos données automatiquement dans ce champ."
+    },
+    "view": {
+        "translation": "Afficher"
+    },
+    "changeTypeNewFeatureTooltipText": {
+        "translation": "Modifiez le comportement du remplissage automatique des champs du site Web pour mieux répondre à vos besoins, ou faites-nous part de votre expérience générale de l’utilisation de NordPass."
+    },
+    "keepExtensionUnlocked": {
+        "translation": "Garder l’extension déverrouillée"
+    },
+    "PUSWarningPart1": {
+        "translation": "En désactivant le verrouillage automatique, vous pourrez accéder à votre compte NordPass dans ce navigateur Web sans avoir à saisir votre mot de passe principal."
+    },
+    "PUSWarningPart2": {
+        "translation": "Pour des raisons de sécurité, nous vous recommandons de ne choisir cette option que si vous utilisez l’extension NordPass sur un appareil auquel vous faites confiance."
+    },
+    "confirm": {
+        "translation": "Confirmer"
+    },
+    "neverAutoLock": {
+        "translation": "Régler le verrouillage automatique sur jamais ?"
+    },
+    "autoUnlockFail": {
+        "translation": "L’extension n’a pas réussi à se déverrouiller automatiquement. Veuillez saisir votre mot de passe principal."
+    },
+    "autofillSomethingElse": {
+        "translation": "Remplir automatiquement autre chose"
+    },
+    "detailsForARegistrationForm": {
+        "translation": "Données pour un formulaire d’inscription"
+    },
+    "resetToDefault": {
+        "translation": "Rétablir les valeurs par défaut"
+    },
+    "youCanUpdateThisSettingAgainAtAnyTime": {
+        "translation": "Vous pouvez mettre à jour ce paramètre à tout moment."
+    },
+    "weWillSuggestACreditCardFromNowOn": {
+        "translation": "Nous suggérerons dorénavant une carte de crédit."
+    },
+    "weWillSuggestAPasswordFromNowOn": {
+        "translation": "Nous suggérerons dorénavant un mot de passe."
+    },
+    "weWillSuggestARegistrationFormFromNowOn": {
+        "translation": "Nous suggérerons dorénavant un formulaire d’inscription."
+    },
+    "weWillSuggestAPersonalInfoFromNowOn": {
+        "translation": "Nous suggérerons dorénavant une donnée personnelle."
+    },
+    "weHaveResetThisFieldToDefault": {
+        "translation": "Nous avons rétabli pour ce champ la logique de remplissage automatique par défaut."
+    },
+    "errorCode2094": {
+        "translation": "Le partage en dehors de l'entreprise n'est pas disponible. Pour continuer, supprimez les e-mails en rouge."
+    },
+    "websites": {
+        "translation": "Sites web"
+    },
+    "recommendations": {
+        "translation": ""
+    },
+    "adjustAutolockTime": {
+        "translation": ""
+    },
+    "securityLabel": {
+        "translation": "Sécurité"
+    }
+}

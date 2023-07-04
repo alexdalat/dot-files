@@ -1,0 +1,7 @@
+2023/06/01-14:52:39.340 1052 Reusing MANIFEST /home/alex/.config/google-chrome/Default/IndexedDB/https_widget.clym-sdk.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/01-14:52:39.340 1052 Recovering log #3
+2023/06/01-14:52:39.340 1052 Reusing old log /home/alex/.config/google-chrome/Default/IndexedDB/https_widget.clym-sdk.net_0.indexeddb.leveldb/000003.log 
+2023/06/01-14:53:48.836 1051 Level-0 table #5: started
+2023/06/01-14:53:48.839 1051 Level-0 table #5: 13451 bytes OK
+2023/06/01-14:53:48.843 1051 Delete type=0 #3
+2023/06/01-14:53:48.843 1051 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

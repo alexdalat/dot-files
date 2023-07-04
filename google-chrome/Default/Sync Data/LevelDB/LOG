@@ -1,0 +1,6 @@
+2023/07/04-08:00:54.459 1623 Reusing MANIFEST /home/alex/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/07/04-08:00:54.459 1623 Recovering log #216
+2023/07/04-08:00:54.460 1623 Reusing old log /home/alex/.config/google-chrome/Default/Sync Data/LevelDB/000216.log 
+2023/07/04-08:20:36.482 1605 Level-0 table #220: started
+2023/07/04-08:20:36.486 1605 Level-0 table #220: 116588 bytes OK
+2023/07/04-08:20:36.490 1605 Delete type=0 #216

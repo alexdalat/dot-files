@@ -1,0 +1,62 @@
+html {
+  font-size: 11px; // makes all classes act as in small screen. More predictable.
+}
+
+body {
+  overflow: hidden;
+  min-height: 586px;
+  min-width: 375px;
+  font-family: Inter, sans-serif;
+  background-color: var(--grey-white);
+  .theme-dark &, &.theme-dark {
+    background-color: var(--dmd-4);
+  }
+}
+
+*:not(input):not(textarea) {
+  &,
+  &::after,
+  &::before {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+}
+
+.selectable, .selectable::after, .selectable::before {
+  user-select: text;
+}
+
+.rounded-20px {
+  border-radius: 20px;
+}
+
+.is-popup {
+  min-height: 586px;
+  max-height: 586px;
+  height: 586px;
+  width: 375px;
+}
+
+.hover-actions {
+  display: none;
+
+  &:hover {
+    visibility: visible;
+  }
+}
+
+.hover-invisible-action {
+  visibility: hidden;
+}
+
+*:hover > .hover-actions {
+  display: inline-block;
+}
+
+*:hover > .hover-invisible-action {
+  visibility: visible;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

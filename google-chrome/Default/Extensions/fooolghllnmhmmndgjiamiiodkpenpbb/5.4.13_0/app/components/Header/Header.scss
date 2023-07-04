@@ -1,0 +1,13 @@
+.header {
+  border-bottom: 1px solid var(--grey-white);
+
+  .theme-dark & {
+    border-bottom: 1px solid var(--dmd-4);
+  }
+
+  &__menu {
+    .menu-button {
+      margin-right: 14px;
+    }
+  }
+}
