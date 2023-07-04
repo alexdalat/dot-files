@@ -1,0 +1,5 @@
+*
+!.gitignore
+!i3/
+!tmux/
+!polybar/
