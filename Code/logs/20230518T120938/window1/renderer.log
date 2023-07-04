@@ -1,0 +1,9 @@
+2023-05-18 12:09:39.635 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-18 12:09:39.915 [info] Started initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode/extensions
+2023-05-18 12:09:40.047 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/alex/.vscode/extensions
+2023-05-18 12:09:42.874 [info] [perf] Render performance baseline is 25ms
+2023-05-18 12:11:04.285 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-18 12:11:07.146 [info] [perf] Render performance baseline is 25ms
+2023-05-18 12:14:04.502 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-18 12:14:07.377 [info] [perf] Render performance baseline is 25ms
+2023-05-18 12:19:29.322 [error] [File Watcher (parcel)] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/alex/.local/lib/python3.10/site-packages)

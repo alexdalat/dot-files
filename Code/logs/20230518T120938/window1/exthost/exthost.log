@@ -1,0 +1,45 @@
+2023-05-18 12:09:40.204 [info] Extension host with pid 63272 started
+2023-05-18 12:09:40.245 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-18 12:09:40.262 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-18 12:09:40.313 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-18 12:09:40.380 [info] Eager extensions activated
+2023-05-18 12:09:40.381 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-05-18 12:09:40.423 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:09:40.425 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:09:40.474 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-05-18 12:11:00.258 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-18 12:11:02.201 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: '*'
+2023-05-18 12:11:04.029 [info] Extension host terminating: renderer closed the MessagePort
+2023-05-18 12:11:04.033 [info] Extension host with pid 63272 exiting with code 0
+2023-05-18 12:11:04.658 [info] Extension host with pid 63589 started
+2023-05-18 12:11:04.681 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-18 12:11:04.720 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-18 12:11:04.722 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-05-18 12:11:04.726 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-18 12:11:04.740 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-18 12:11:04.767 [info] Eager extensions activated
+2023-05-18 12:11:04.795 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:11:04.796 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:11:04.802 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-05-18 12:11:04.832 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-05-18 12:11:23.322 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-18 12:11:23.362 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-18 12:14:04.240 [info] Extension host terminating: renderer closed the MessagePort
+2023-05-18 12:14:04.251 [info] Extension host with pid 63589 exiting with code 0
+2023-05-18 12:14:04.899 [info] Extension host with pid 63781 started
+2023-05-18 12:14:04.899 [info] Skipping acquiring lock for /home/alex/.config/Code/User/workspaceStorage/4eead540f2c46bc09edd9713f273944b.
+2023-05-18 12:14:04.927 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-05-18 12:14:04.929 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-05-18 12:14:04.954 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-18 12:14:04.956 [info] Eager extensions activated
+2023-05-18 12:14:04.958 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:14:04.959 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 12:14:04.993 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-05-18 12:14:05.073 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-05-18 12:14:07.529 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-05-18 12:14:22.910 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-18 12:14:50.636 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-18 12:14:50.649 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-18 12:15:10.137 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2023-05-18 12:15:10.525 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-05-18 12:17:22.509 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
