@@ -1,0 +1,42 @@
+[user]
+	name = alexdalat
+	username = alexdalat
+	email = alexdalat@gmail.com
+[credential]
+	helper = store
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[pull]
+	ff = only
+[alias]
+	tree = log --graph --all --decorate --source --name-only --abbrev-commit 
+	tree2 = log --graph --all --decorate --source --name-only --abbrev-commit --pretty=oneline
+	st = status -sb
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	rv = remote -v
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	dv = !nvim -d
+	tf = ls-tree --full-tree --name-only -r HEAD
+	rutf = !git rm --cached `git ls-files -i -c --exclude-from=.gitignore`
+[log]
+  date = relative
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
