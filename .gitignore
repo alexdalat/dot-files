@@ -21,3 +21,6 @@
 
 !git/
 !git/**
+
+!nvim/
+!nvim/**
