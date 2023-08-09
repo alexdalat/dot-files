@@ -1,5 +1,8 @@
 *
+!README.md
+!active-setup.png
 !.gitignore
+!.gitmodules
 
 !i3/
 !i3/**
