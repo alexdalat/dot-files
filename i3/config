@@ -52,10 +52,10 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+x kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -95,8 +95,8 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+x layout toggle split
+# bindsym $mod+w layout tabbed
+# bindsym $mod+x layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -192,23 +192,24 @@ bindsym $mod+r mode "resize"
 
 
 
-
-
-
-
 # i3 custom config (alex)
 gaps inner 10
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
 
 # background
-exec --no-startup-id feh --bg-scale /home/alex/Pictures/Backgrounds/main.jpg
+# exec --no-startup-id feh --bg-scale /home/alex/Pictures/Backgrounds/main.jpg
+# animated backgrounds
+exec --no-startup-id cd /home/alex/code/py/external/shadow && poetry run shadow -m root example/aurora.glsl -f 40 -s 0.6 -q 0.8
 
 # catppuccin theme
 include catppuccin-macchiato 
 
 # polybar
 exec_always --no-startup-id /home/$USER/.config/i3/polybar.sh &
+
+# picom
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf &
 
 ## Screenshots
 bindsym Ctrl+Shift+5 exec flameshot gui
