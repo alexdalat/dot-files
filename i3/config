@@ -200,7 +200,7 @@ default_floating_border pixel 0
 # background
 # exec --no-startup-id feh --bg-scale /home/alex/Pictures/Backgrounds/main.jpg
 # animated backgrounds
-exec --no-startup-id cd /home/alex/code/py/external/shadow && poetry run shadow -m root example/aurora.glsl -f 40 -s 0.6 -q 0.8
+# exec --no-startup-id cd /home/alex/code/py/external/shadow && poetry run shadow -m root example/aurora.glsl -f 20 -s 0.6 -q 0.8
 
 # catppuccin theme
 include catppuccin-macchiato 
@@ -213,6 +213,8 @@ exec_always --no-startup-id picom --config ~/.config/picom/picom.conf &
 
 ## Screenshots
 bindsym Ctrl+Shift+5 exec flameshot gui
+
+exec --no-startup-id bash ~/scripts/startup/set_144dp.sh
 
 
 
