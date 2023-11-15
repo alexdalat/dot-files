@@ -14,26 +14,12 @@ require 'neo-tree'.setup {
     },
     filesystem = {
         filtered_items = {
-            visible = false, -- when true, they will just be displayed differently than normal items
+            visible = true, -- when true, they will just be displayed differently than normal items
             hide_dotfiles = true,
             hide_gitignored = true,
             hide_hidden = true,
-            hide_by_name = {
-                --"node_modules"
-            },
-            hide_by_pattern = { -- uses glob style patterns
-                --"*.meta",
-                --"*/src/*/tsconfig.json",
-            },
             always_show = {
                 ".gitignore",
-            },
-            never_show = { -- remains hidden even if visible is toggled to true, this overrides always_show
-                --".DS_Store",
-                --"thumbs.db"
-            },
-            never_show_by_pattern = { -- uses glob style patterns
-                --".null-ls_*",
             },
         },
     },
@@ -51,7 +37,7 @@ require 'neo-tree'.setup {
               renamed   = "󰁕",-- this can only be used in the git_status source
               -- Status type
               untracked = "",
-              ignored   = "",
+              ignored   = "",
               unstaged  = "", -- default: "󰄱"
               staged    = "✚",
               conflict  = "",

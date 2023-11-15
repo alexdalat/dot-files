@@ -24,7 +24,17 @@ vim.keymap.set('n', '<C-p>', ":lua require('fzf-lua').files()<CR>", default_opts
 -- Terminal
 vim.keymap.set('n', '<leader>t', ':vsplit | wincmd l | terminal<CR>', default_opts)
 vim.keymap.set('n', '<leader>th', ':split | wincmd j | terminal<CR>', default_opts)
--- Switch tabs with s
+-- Split tabs with <leader>s
+vim.keymap.set('n', '<leader>sh', ':split<CR>', default_opts)
+vim.keymap.set('n', '<leader>sv', ':vsplit<CR>', default_opts)
+-- Switch tabs with Ctrl + <hjkl>
+vim.keymap.set('n', '<C-j>', '<C-w>j', default_opts)
+vim.keymap.set('n', '<C-k>', '<C-w>k', default_opts)
+vim.keymap.set('n', '<C-h>', '<C-w>h', default_opts)
+vim.keymap.set('n', '<C-l>', '<C-w>l', default_opts)
+
+
+
 
 -- Debugging
 local dap_bindings = {
