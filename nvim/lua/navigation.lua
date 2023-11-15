@@ -37,12 +37,6 @@ require 'neo-tree'.setup {
             },
         },
     },
-    -- set window size
-    view = {
-        width = 15,
-        side = "left",
-        auto_resize = false,
-    },
     default_component_configs = {
         name = {
             trailing_slash = true,

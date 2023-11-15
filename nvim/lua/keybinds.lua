@@ -24,6 +24,7 @@ vim.keymap.set('n', '<C-p>', ":lua require('fzf-lua').files()<CR>", default_opts
 -- Terminal
 vim.keymap.set('n', '<leader>t', ':vsplit | wincmd l | terminal<CR>', default_opts)
 vim.keymap.set('n', '<leader>th', ':split | wincmd j | terminal<CR>', default_opts)
+-- Switch tabs with s
 
 -- Debugging
 local dap_bindings = {
@@ -49,12 +50,16 @@ end
 local task_bindings = {
     bb = "AsyncTask build",
     bB = "AsyncTask build-release",
-    br = "AsyncTask run"
+    br = "AsyncTask run",
+    be = "AsyncTaskEdit",
 }
 
 for k, v in pairs(task_bindings) do
     vim.keymap.set('n', '<leader>' .. k, ':' .. v .. '<CR>', default_opts)
 end
+
+
+
 
 
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
