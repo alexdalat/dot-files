@@ -5,7 +5,6 @@ require 'neo-tree'.setup {
             event = "file_opened",
             ---@diagnostic disable-next-line: unused-local
             handler = function(file_path)
-                -- auto close
                 -- vimc.cmd("Neotree close")
                 -- OR
                 require("neo-tree.command").execute({ action = "close" })
@@ -43,5 +42,26 @@ require 'neo-tree'.setup {
         width = 15,
         side = "left",
         auto_resize = false,
-    }
+    },
+    default_component_configs = {
+        name = {
+            trailing_slash = true,
+            use_git_status_colors = true,
+        },
+        git_status = {
+            symbols = {
+              -- Change type
+              added     = "", -- or "✚", but this is redundant info if you use git_status_colors on the name
+              modified  = "", -- or "", but this is redundant info if you use git_status_colors on the name
+              deleted   = "✖",-- this can only be used in the git_status source
+              renamed   = "󰁕",-- this can only be used in the git_status source
+              -- Status type
+              untracked = "",
+              ignored   = "",
+              unstaged  = "", -- default: "󰄱"
+              staged    = "✚",
+              conflict  = "",
+            },
+        },
+    },
 }
