@@ -15,13 +15,19 @@ wk.register({
         y = { '"+y', 'Copy to clipboard' },
         Y = { '"+yg_', 'Copy line without line break' },
     },
-    -- File and Save
-    f = { ':Neotree toggle<CR>', 'File navigation' },
-    -- Terminal
+}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+
+wk.register({
+    -- Telescope / Terminal
     t = {
-        name = "Terminal",
-        t = { ':vsplit | wincmd l | terminal<CR>', 'Terminal (vertical)' },
+        name = "Telescope / Terminal",
+        v = { ':vsplit | wincmd l | terminal<CR>', 'Terminal (vertical)' },
         h = { ':split | wincmd j | terminal<CR>', 'Terminal (horizontal)' },
+
+        f = { ':Telescope find_files<CR>', 'Find file' },
+        b = { ':Telescope buffers<CR>', 'Find buffer' },
+        h = { ':Telescope help_tags<CR>', 'Find help' },
+        g = { ':Telescope live_grep<CR>', 'Find string' },
     },
     -- Split tabs
     s = {
@@ -29,6 +35,8 @@ wk.register({
         h = { ':split<CR>', 'Split horizontal' },
         v = { ':vsplit<CR>', 'Split vertical' },
     },
+    -- File
+    f = { ':Neotree toggle<CR>', 'File navigation' },
     -- Debugging
     d = {
         name = "Debug",
@@ -82,12 +90,13 @@ wk.register({
 
 
 -- Non-leader
+local tsb = require('telescope.builtin')
 wk.register({
     ["[d"] = { vim.diagnostic.goto_prev, 'Previous diagnostic' },
     ["]d"] = { vim.diagnostic.goto_next, 'Next diagnostic' },
 
     ["<C-s>"] = { ':w<CR>', 'Save' },
-    ["<C-p>"] = { ":lua require('fzf-lua').files()<CR>", 'Find file' },
+    ["<C-p>"] = { tsb.find_files, 'Find file' },
 
     ["<C-h>"] = { '<C-w>h', 'Move left' },
     ["<C-j>"] = { '<C-w>j', 'Move down' },

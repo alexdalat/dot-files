@@ -57,8 +57,7 @@ call plug#begin('~/.config/nvim/plugged/')
         Plug 'nvim-lua/plenary.nvim'
         Plug 'nvim-tree/nvim-web-devicons'
         Plug 'MunifTanjim/nui.nvim'
-    Plug 'https://github.com/ibhagwan/fzf-lua', {'branch': 'main'}
-        Plug 'https://github.com/junegunn/fzf', { 'do': 'yes \| ./install' }
+    Plug 'nvim-telescope/telescope.nvim'
 
     " Other
     Plug 'rcarriga/nvim-notify'
@@ -78,6 +77,7 @@ lua require('profiling')
 
 let g:asyncrun_open = 6  " Setup
 let g:asynctasks_confirm = 0  " Don't ask to name file
+let g:asynctasks_term_pos = 'bottom'  " Open terminal at bottom (not quickfix)
 
 
 " TrueColor stuff
