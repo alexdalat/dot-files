@@ -45,6 +45,9 @@ call plug#begin('~/.config/nvim/plugged/')
             Plug 'https://github.com/theHamsta/nvim-dap-virtual-text'
                 Plug 'https://github.com/nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+    " Profiling
+    Plug 'https://github.com/t-troebst/perfanno.nvim'
+
     " Project specific task running / compilation
     Plug 'skywind3000/asynctasks.vim'
         Plug 'skywind3000/asyncrun.vim'
@@ -60,6 +63,7 @@ call plug#begin('~/.config/nvim/plugged/')
     " Other
     Plug 'rcarriga/nvim-notify'
     Plug 'https://github.com/catppuccin/nvim', { 'as': 'catppuccin' }
+    Plug 'https://github.com/folke/which-key.nvim'
 
 call plug#end()
 
@@ -68,8 +72,13 @@ lua require('debugging')
 lua require('lsp')
 lua require('navigation')
 lua require('keybinds')
+lua require('profiling')
 
-let g:asyncrun_open = 6
+
+
+let g:asyncrun_open = 6  " Setup
+let g:asynctasks_confirm = 0  " Don't ask to name file
+
 
 " TrueColor stuff
 if !has('gui_running') && &term =~ '\%(screen\|tmux\)'
