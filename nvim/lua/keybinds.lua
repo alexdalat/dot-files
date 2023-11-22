@@ -15,7 +15,9 @@ wk.register({
         y = { '"+y', 'Copy to clipboard' },
         Y = { '"+yg_', 'Copy line without line break' },
     },
-}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = false })
+
+local dap = require('dap')
 
 wk.register({
     -- Telescope / Terminal
@@ -40,20 +42,20 @@ wk.register({
     -- Debugging
     d = {
         name = "Debug",
-        c = { "require'dap'.continue()", 'Continue' },
-        t = { "require'dap'.terminate()", 'Terminate' },
-        cc = { "require'dap'.run_last()", 'Run last' },
-        s = { "require'dap'.step_over()", 'Step over' },
-        i = { "require'dap'.step_into()", 'Step into' },
-        o = { "require'dap'.step_out()", 'Step out' },
+        c = { ":lua require'dap'.continue()<CR>", 'Continue' },
+        C = { ":lua require'dap'.run_last()<CR>", 'Run last' },
+        t = { ":lua require'dap'.terminate()<CR>", 'Terminate' },
+        s = { ":lua require'dap'.step_over()<CR>", 'Step over' },
+        i = { ":lua require'dap'.step_into()<CR>", 'Step into' },
+        o = { ":lua require'dap'.step_out()<CR>", 'Step out' },
         b = {
             name = "Breakpoints",
-            b = { "require'persistent-breakpoints.api'.toggle_breakpoint()", 'Toggle breakpoint' },
-            B = { "require'persistent-breakpoints.api'.set_conditional_breakpoint()", 'Set conditional breakpoint' },
-            l = { "require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))", 'Log point' },
-            c = { "require'dap'.clear_breakpoints()", 'Clear breakpoints' },
+            b = { ":lua require'persistent-breakpoints.api'.toggle_breakpoint()<CR>", 'Toggle breakpoint' },
+            B = { ":lua require'persistent-breakpoints.api'.set_conditional_breakpoint()<CR>", 'Set conditional breakpoint' },
+            l = { ":lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", 'Log point' },
+            c = { ":lua require'dap'.clear_breakpoints()<CR>", 'Clear breakpoints' },
         },
-        u = { "require'dapui'.toggle()", 'Toggle UI' },
+        u = { ":lua require'dapui'.toggle()<CR>", 'Toggle UI' },
     },
     -- Task running / compilation
     b = {
@@ -86,7 +88,7 @@ wk.register({
     -- LSP
     e = { vim.diagnostic.open_float, 'Open diagnostics' },
 
-}, { prefix = "<leader>", mode = "n", noremap = true, silent = true })
+}, { prefix = "<leader>", mode = "n", noremap = true, silent = false })
 
 
 -- Non-leader
@@ -103,34 +105,38 @@ wk.register({
     ["<C-k>"] = { '<C-w>k', 'Move up' },
     ["<C-l>"] = { '<C-w>l', 'Move right' },
 
-}, { mode = "n", noremap = true, silent = true })
+}, { mode = "n", noremap = true, silent = false })
 
 
 -- LSP mappings for buffer-local
 vim.api.nvim_create_autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('UserLspConfig', {}),
     callback = function(ev)
-        local o = { buffer = ev.buf, noremap = true, silent = true }
-        local lsp_mappings = {
-            gD = { vim.lsp.buf.declaration, 'Declaration' },
-            gd = { vim.lsp.buf.definition, 'Definition' },
-            gr = { vim.lsp.buf.references, 'References' },
-            gi = { vim.lsp.buf.implementation, 'Implementation' },
-            gt = { vim.lsp.buf.type_definition, 'Type definition' },
-            gs = { vim.lsp.buf.signature_help, 'Signature help' },
-            K = { vim.lsp.buf.hover, 'Hover' },
+
+        wk.register({
+            F = { vim.lsp.buf.format { async = true }, 'Format' },
             ca = { vim.lsp.buf.code_action, 'Code action', mode = { 'n', 'v' } },
+            K = { vim.lsp.buf.hover, 'Hover' },
             rn = { vim.lsp.buf.rename, 'Rename' },
-            wa = { vim.lsp.buf.add_workspace_folder, 'Add workspace folder' },
-            wr = { vim.lsp.buf.remove_workspace_folder, 'Remove workspace folder' },
-            wl = { function()
-                print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
-            end, 'List workspace folders' },
-            F = { function()
-                vim.lsp.buf.format { async = true }
-            end, 'Format' },
-        }
-        wk.register(lsp_mappings, o)
+            w = {
+                name = "Workspace",
+                a = { vim.lsp.buf.add_workspace_folder, 'Add workspace folder' },
+                r = { vim.lsp.buf.remove_workspace_folder, 'Remove workspace folder' },
+                l = { print(vim.inspect(vim.lsp.buf.list_workspace_folders())), 'List workspace folders' },
+            },
+        }, { prefix = "<leader>", mode = 'n', noremap = true, silent = false, buffer = ev.buf })
+
+        wk.register({
+            g = {
+                name = "Go to",
+                D = { vim.lsp.buf.declaration, 'Declaration' },
+                d = { vim.lsp.buf.definition, 'Definition' },
+                r = { vim.lsp.buf.references, 'References' },
+                i = { vim.lsp.buf.implementation, 'Implementation' },
+                t = { vim.lsp.buf.type_definition, 'Type definition' },
+                s = { vim.lsp.buf.signature_help, 'Signature help' },
+            },
+        }, { prefix = "<leader>", mode = { 'n', 'v' }, noremap = true, silent = false, buffer = ev.buf })
     end,
 })
 

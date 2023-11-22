@@ -1,11 +1,34 @@
 
 --- nvim-dap
 local dap = require('dap')
+
+local function find_lldb_vscode()
+    local paths = { -- paths to be searched for the debugger installation
+        '/usr/lib/llvm-14/bin/lldb-vscode',
+        '/opt/homebrew/opt/llvm/bin/lldb-vscode',
+    }
+
+    for _, path in ipairs(paths) do
+        local file = io.open(path, "r")
+        if file then
+            file:close()
+            return path
+        end
+    end
+    return nil
+end
+
 dap.adapters.lldb = {
     type = 'executable',
-    command = '/opt/homebrew/opt/llvm/bin/lldb-vscode', -- adjust as needed, must be absolute path
+    command = find_lldb_vscode(), -- must be absolute path
     name = 'lldb'
 }
+
+if not dap.adapters.lldb.command then
+    vim.notify('LLDB not found', vim.log.levels.ERROR)
+else
+    vim.notify('LLDB found at ' .. dap.adapters.lldb.command, vim.log.levels.INFO)
+end
 
 dap.configurations.cpp = {
     {
