@@ -114,7 +114,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
     callback = function(ev)
 
         wk.register({
-            F = { vim.lsp.buf.format { async = true }, 'Format' },
+            F = { vim.lsp.buf.format, 'Format' },
             ca = { vim.lsp.buf.code_action, 'Code action', mode = { 'n', 'v' } },
             K = { vim.lsp.buf.hover, 'Hover' },
             rn = { vim.lsp.buf.rename, 'Rename' },
