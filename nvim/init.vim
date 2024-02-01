@@ -3,9 +3,11 @@
 set number
 set wrap
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab " 4-spaces instead of tab indentation
+
+set spell spelllang=en_us
 
 
 function! RelativeFilePath()
@@ -18,12 +20,13 @@ set winbar+=%m
 set statusline=%{RelativeFilePath()}\ 
 set statusline+=%y\                     " File type
 set statusline+=%=                      " Left/right separation
-set statusline+=%l/%L,%c\                  " Line and column number
-"set statusline+=\ [%p%%]\               " Percentage through the file
+set statusline+=%l/%L,\ %c\                  " Line and column number
 
 call plug#begin('~/.config/nvim/plugged/')
 
     " LSP
+    Plug 'williamboman/mason.nvim'
+        Plug 'williamboman/mason-lspconfig.nvim'
     Plug 'https://github.com/neovim/nvim-lspconfig'
     Plug 'https://github.com/hrsh7th/nvim-cmp'
         Plug 'hrsh7th/cmp-nvim-lsp'
@@ -39,7 +42,7 @@ call plug#begin('~/.config/nvim/plugged/')
 
     " Debugging
     Plug 'https://github.com/mfussenegger/nvim-dap.git'
-        Plug 'https://github.com/Weissle/persistent-breakpoints.nvim'
+        "Plug 'https://github.com/Weissle/persistent-breakpoints.nvim'
         Plug 'https://github.com/rcarriga/nvim-dap-ui'
             Plug 'https://github.com/folke/neodev.nvim'
             Plug 'https://github.com/theHamsta/nvim-dap-virtual-text'
@@ -49,8 +52,10 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'https://github.com/t-troebst/perfanno.nvim'
 
     " Project specific task running / compilation
-    Plug 'skywind3000/asynctasks.vim'
-        Plug 'skywind3000/asyncrun.vim'
+    "Plug 'https://github.com/skywind3000/asynctasks.vim'
+    "    Plug 'skywind3000/asyncrun.vim', {'on': ['AsyncRun', 'AsyncStop'] }
+    "    Plug 'https://github.com/GustavoKatel/telescope-asynctasks.nvim'
+    Plug 'https://github.com/stevearc/overseer.nvim'
 
     " Navigation
     Plug 'https://github.com/nvim-neo-tree/neo-tree.nvim'
@@ -63,21 +68,23 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'rcarriga/nvim-notify'
     Plug 'https://github.com/catppuccin/nvim', { 'as': 'catppuccin' }
     Plug 'https://github.com/folke/which-key.nvim'
+    Plug 'https://github.com/stevearc/dressing.nvim'
+    Plug 'https://github.com/luukvbaal/statuscol.nvim'
+        Plug 'https://github.com/lewis6991/gitsigns.nvim'
 
 call plug#end()
 
-lua require('config')
+lua require('init')
 lua require('debugging')
 lua require('lsp')
 lua require('navigation')
 lua require('keybinds')
 lua require('profiling')
+lua require('overseer_user')
 
-
-
-let g:asyncrun_open = 6  " Setup
-let g:asynctasks_confirm = 0  " Don't ask to name file
-let g:asynctasks_term_pos = 'bottom'  " Open terminal at bottom (not quickfix)
+"let g:asyncrun_open = 6  " Setup
+"let g:asynctasks_confirm = 0  " Don't ask to name file
+"let g:asynctasks_term_pos = 'bottom'  " Open terminal at bottom (not quickfix)
 
 
 " TrueColor stuff

@@ -17,7 +17,11 @@ wk.register({
     },
 }, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = false })
 
-local dap = require('dap')
+-- Copilot
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+
+local dap = require("dap")
 
 wk.register({
     -- Telescope / Terminal
@@ -28,7 +32,7 @@ wk.register({
 
         f = { ':Telescope find_files<CR>', 'Find file' },
         b = { ':Telescope buffers<CR>', 'Find buffer' },
-        h = { ':Telescope help_tags<CR>', 'Find help' },
+        H = { ':Telescope help_tags<CR>', 'Find help' },
         g = { ':Telescope live_grep<CR>', 'Find string' },
     },
     -- Split tabs
@@ -42,29 +46,47 @@ wk.register({
     -- Debugging
     d = {
         name = "Debug",
-        c = { ":lua require'dap'.continue()<CR>", 'Continue' },
-        C = { ":lua require'dap'.run_last()<CR>", 'Run last' },
-        t = { ":lua require'dap'.terminate()<CR>", 'Terminate' },
-        s = { ":lua require'dap'.step_over()<CR>", 'Step over' },
-        i = { ":lua require'dap'.step_into()<CR>", 'Step into' },
-        o = { ":lua require'dap'.step_out()<CR>", 'Step out' },
+        c = { dap.continue, 'Continue' },
+        C = { dap.run_last, 'Run last' },
+        t = { dap.terminate, 'Terminate' },
+        s = { dap.step_over, 'Step over' },
+        i = { dap.step_into, 'Step into' },
+        o = { dap.step_out, 'Step out' },
+        
         b = {
             name = "Breakpoints",
-            b = { ":lua require'persistent-breakpoints.api'.toggle_breakpoint()<CR>", 'Toggle breakpoint' },
-            B = { ":lua require'persistent-breakpoints.api'.set_conditional_breakpoint()<CR>", 'Set conditional breakpoint' },
+            --b = { ":lua require'persistent-breakpoints.api'.toggle_breakpoint()<CR>", 'Toggle breakpoint' },
+            --B = { ":lua require'persistent-breakpoints.api'.set_conditional_breakpoint()<CR>", 'Set conditional breakpoint' },
+            b = { dap.toggle_breakpoint, 'Toggle breakpoint' },
+            c = { dap.set_breakpoint, 'Set conditional breakpoint' },
             l = { ":lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", 'Log point' },
-            c = { ":lua require'dap'.clear_breakpoints()<CR>", 'Clear breakpoints' },
+            C = { dap.clear_breakpoints, 'Clear breakpoints' },
+            L = { dap.list_breakpoints, 'List breakpoints' },
         },
         u = { ":lua require'dapui'.toggle()<CR>", 'Toggle UI' },
     },
     -- Task running / compilation
     b = {
-        name = "Build/Run",
-        b = { ":AsyncTask build<CR>", 'Build' },
-        B = { ":AsyncTask build-release<CR>", 'Build release' },
-        r = { ":AsyncTask run<CR>", 'Run' },
-        e = { ":AsyncTaskEdit<CR>", 'Edit task' },
-        p = { ":AsyncTask profile<CR>", 'Profile' },
+        name = "Overseer",
+        --l = { ":AsyncTaskLast<CR>", 'Last task' },
+        --e = { ":AsyncTaskEdit<CR>", 'Edit tasks' },
+        --L = { ":AsyncTaskList<CR>", 'List tasks' },
+        --p = { ":AsyncTaskProfile debug release<CR>", 'Change build profile' },
+        --s = { ":Telescope asynctasks all<CR>", 'Select Task' },
+        --b = { ":AsyncTask build<CR>", 'Build (default)' },
+        --r = { ":AsyncTask run<CR>", 'Execute (default)' },
+        --P = { ":AsyncTask profile<CR>", 'Profile (default)' },
+        R = { ":OverseerRun<CR>", 'Run' },
+        t = { ":OverseerToggle<CR>", 'Toggle' },
+        q = { ":OverseerQuickAction<CR>", 'Quick Action' },
+        r = { ":OverseerQuickAction restart<CR>", 'Restart' },
+        c = { ":OverseerBuild<CR>", 'Create Task' },
+        b = {
+            name = "Bundles",
+            s = { ":OverseerSaveBundle<CR>", 'Save' },
+            l = { ":OverseerLoadBundle<CR>", 'Load' },
+            d = { ":OverseerDeleteBundle<CR>", 'Delete' },
+        },
     },
     -- Profiling
     p = {
@@ -100,10 +122,17 @@ wk.register({
     ["<C-s>"] = { ':w<CR>', 'Save' },
     ["<C-p>"] = { tsb.find_files, 'Find file' },
 
+    -- Movement
     ["<C-h>"] = { '<C-w>h', 'Move left' },
     ["<C-j>"] = { '<C-w>j', 'Move down' },
     ["<C-k>"] = { '<C-w>k', 'Move up' },
     ["<C-l>"] = { '<C-w>l', 'Move right' },
+
+    -- Resize
+    ["<C-Right>"] = { '<C-w><', 'Decrease width' },
+    ["<C-Up>"] = { '<C-w>-', 'Decrease height' },
+    ["<C-Down>"] = { '<C-w>+', 'Increase height' },
+    ["<C-Left>"] = { '<C-w>>', 'Increase width' },
 
 }, { mode = "n", noremap = true, silent = false })
 
@@ -122,7 +151,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
                 name = "Workspace",
                 a = { vim.lsp.buf.add_workspace_folder, 'Add workspace folder' },
                 r = { vim.lsp.buf.remove_workspace_folder, 'Remove workspace folder' },
-                l = { print(vim.inspect(vim.lsp.buf.list_workspace_folders())), 'List workspace folders' },
+                l = { ":lua vim.api.nvim_echo({{vim.inspect(vim.lsp.buf.list_workspace_folders())}}, false, {})<CR>", 'List workspace folders' },
             },
         }, { prefix = "<leader>", mode = 'n', noremap = true, silent = false, buffer = ev.buf })
 

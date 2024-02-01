@@ -2,6 +2,8 @@
 --- nvim-dap
 local dap = require('dap')
 
+dap.defaults.fallback.focus_terminal = true  -- can also be added to individual configs
+
 local function find_lldb_vscode()
     local paths = { -- paths to be searched for the debugger installation
         '/usr/lib/llvm-14/bin/lldb-vscode',
@@ -25,9 +27,9 @@ dap.adapters.lldb = {
 }
 
 if not dap.adapters.lldb.command then
-    vim.notify('LLDB not found', vim.log.levels.ERROR)
+    vim.notify('LLDB not found', vim.log.levels.WARN)
 else
-    vim.notify('LLDB found at ' .. dap.adapters.lldb.command, vim.log.levels.INFO)
+    --vim.notify('LLDB found at ' .. dap.adapters.lldb.command, vim.log.levels.INFO)
 end
 
 dap.configurations.cpp = {
@@ -42,6 +44,7 @@ dap.configurations.cpp = {
         stopOnEntry = false,
         args = {},
         runInTerminal = true, -- necessary for interactive console
+        showDisassembly = "never",
     },
 }
 
@@ -50,19 +53,7 @@ dap.configurations.rust = dap.configurations.cpp
 
 
 --- nvim-dap-ui
-local dapui = require("dapui")
-dapui.setup()
 
--- Auto open and close dapui
-dap.listeners.after.event_initialized["dapui_config"] = function()
-    dapui.open()
-end
-dap.listeners.before.event_terminated["dapui_config"] = function()
-    dapui.close()
-end
-dap.listeners.before.event_exited["dapui_config"] = function()
-    dapui.close()
-end
 --- Keybinds:
 -- edit: e
 -- expand: Enter
@@ -70,6 +61,19 @@ end
 -- remove: d
 -- repl: r
 -- toggle: t
+local dapui = require("dapui")
+dapui.setup()
+
+-- Auto open and close dapui
+dap.listeners.after.event_initialized["dapui_config"] = function()
+    --dapui.open()
+end
+dap.listeners.before.event_terminated["dapui_config"] = function()
+    dapui.close()
+end
+dap.listeners.before.event_exited["dapui_config"] = function()
+    dapui.close()
+end
 
 -- Dependency for nvim-dap-ui
 require("neodev").setup({
@@ -119,9 +123,9 @@ require("nvim-dap-virtual-text").setup {
     virt_text_win_col = nil -- position the virtual text at a fixed window column
 }
 
-require('persistent-breakpoints').setup {
-    save_dir = vim.fn.stdpath('data') .. '/nvim_checkpoints',
-    load_breakpoints_event = "BufReadPost",
-}
+--require('persistent-breakpoints').setup {
+--    save_dir = vim.fn.stdpath('data') .. '/nvim_checkpoints',
+--    load_breakpoints_event = "BufReadPost",
+--}
 
 
