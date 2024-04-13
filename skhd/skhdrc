@@ -1,6 +1,3 @@
-# dnd button update
-0xB2 -> : sketchybar --trigger dnd_toggle
-
 # open terminal
 alt - 0x24 : open -na iTerm.app
 
@@ -23,7 +20,7 @@ alt - 9 : yabai -m space --focus 9 && sketchybar --trigger windows_on_spaces
 alt - 0 : yabai -m space --focus 10 && sketchybar --trigger windows_on_spaces
 
 # delete focused space
-alt - q : yabai -m space --destroy
+alt + shift - q : yabai -m space --destroy
 
 # toggle window split type
 alt - e : yabai -m window --toggle split
