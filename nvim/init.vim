@@ -44,6 +44,7 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'https://github.com/mfussenegger/nvim-dap.git'
         "Plug 'https://github.com/Weissle/persistent-breakpoints.nvim'
         Plug 'https://github.com/rcarriga/nvim-dap-ui'
+            Plug 'nvim-neotest/nvim-nio'
             Plug 'https://github.com/folke/neodev.nvim'
             Plug 'https://github.com/theHamsta/nvim-dap-virtual-text'
                 Plug 'https://github.com/nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

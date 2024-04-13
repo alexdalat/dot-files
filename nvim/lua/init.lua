@@ -4,7 +4,7 @@ require('guess-indent').setup {}
 
 -- Catppuccin
 require("catppuccin").setup({
-    flavour = "mocha",
+    flavour = "macchiato",
     integrations = {
         cmp = true,
         neotree = true,
