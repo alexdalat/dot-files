@@ -1,3 +1,25 @@
+
+-- Keybinds --
+
+local wk = require("which-key")
+
+wk.register({
+    f = { ':Neotree toggle<CR>', 'File navigation' },
+
+    t = {
+        name = "Telescope / Terminal",
+        f = { ':Telescope find_files<CR>', 'Find file' },
+        b = { ':Telescope buffers<CR>', 'Find buffer' },
+        H = { ':Telescope help_tags<CR>', 'Find help' },
+        g = { ':Telescope live_grep<CR>', 'Find string' },
+
+    },
+}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+
+-- End keybinds --
+
+
+
 require 'neo-tree'.setup {
     -- close_if_last_window = true,
     event_handlers = {

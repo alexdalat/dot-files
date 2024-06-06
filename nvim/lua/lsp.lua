@@ -1,3 +1,43 @@
+-- Keybinds --
+
+local wk = require("which-key")
+
+wk.register({
+    e = { vim.diagnostic.open_float, 'Open diagnostics' },
+}, { prefix = "<leader>", mode = "n", noremap = true, silent = false })
+
+vim.api.nvim_create_autocmd('LspAttach', {
+    group = vim.api.nvim_create_augroup('UserLspConfig', {}),
+    callback = function(ev)
+        wk.register({
+            F = { vim.lsp.buf.format, 'Format' },
+            a = { vim.lsp.buf.code_action, 'Code action', mode = { 'n', 'v' } },
+            k = { vim.lsp.buf.hover, 'Hover' },
+            r = { vim.lsp.buf.rename, 'Rename' },
+            w = {
+                name = "Workspace",
+                a = { vim.lsp.buf.add_workspace_folder, 'Add workspace folder' },
+                r = { vim.lsp.buf.remove_workspace_folder, 'Remove workspace folder' },
+                l = { ":lua vim.api.nvim_echo({{vim.inspect(vim.lsp.buf.list_workspace_folders())}}, false, {})<CR>", 'List workspace folders' },
+            },
+        }, { prefix = "<leader>", mode = 'n', noremap = true, silent = false, buffer = ev.buf })
+
+        wk.register({
+            g = {
+                name = "Go to",
+                D = { vim.lsp.buf.declaration, 'Declaration' },
+                d = { vim.lsp.buf.definition, 'Definition' },
+                r = { vim.lsp.buf.references, 'References' },
+                i = { vim.lsp.buf.implementation, 'Implementation' },
+                t = { vim.lsp.buf.type_definition, 'Type definition' },
+                s = { vim.lsp.buf.signature_help, 'Signature help' },
+            },
+        }, { prefix = "<leader>", mode = { 'n', 'v' }, noremap = true, silent = false, buffer = ev.buf })
+    end,
+})
+
+-- End keybinds --
+
 
 require("mason").setup({
     ui = {
@@ -45,17 +85,52 @@ cmp.setup({
     })
 })
 
+-- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline({ '/', '?' }, {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = {
+        { name = 'buffer' }
+    }
+})
+
+-- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline(':', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = cmp.config.sources({
+        { name = 'path' }
+    }, {
+        { name = 'cmdline' }
+    }),
+    matching = { disallow_symbol_nonprefix_matching = false }
+})
+
+
+
+-- LSP Stuff
+vim.api.nvim_create_autocmd("LspAttach", {
+    callback = function(args)
+        local bufnr = args.buf
+        local client = vim.lsp.get_client_by_id(args.data.client_id)
+        if vim.tbl_contains({ 'null-ls' }, client.name) then -- blacklist lsp
+            return
+        end
+        require("lsp_signature").on_attach({
+            -- ... setup options here ...
+        }, bufnr)
+    end,
+})
+
 
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- Automatically setup servers
 require('mason-lspconfig').setup_handlers({
-  function(server)
-    lspconfig[server].setup({
-      capabilities = capabilities,
-    })
-  end,
+    function(server)
+        lspconfig[server].setup({
+            capabilities = capabilities,
+        })
+    end,
 })
 
 -- Other manually setup servers:

@@ -1,4 +1,28 @@
 
+-- Keybinds --
+
+local wk = require("which-key")
+wk.register({
+    b = {
+        name = "Overseer",
+        R = { ":OverseerRun<CR>", 'Run' },
+        t = { ":OverseerToggle<CR>", 'Toggle' },
+        q = { ":OverseerQuickAction<CR>", 'Quick Action' },
+        r = { ":OverseerQuickAction restart<CR>", 'Restart' },
+        c = { ":OverseerBuild<CR>", 'Create Task' },
+        b = {
+            name = "Bundles",
+            s = { ":OverseerSaveBundle<CR>", 'Save' },
+            l = { ":OverseerLoadBundle<CR>", 'Load' },
+            d = { ":OverseerDeleteBundle<CR>", 'Delete' },
+        },
+        u = { ":OverseerToggle<CR>", 'Toggle UI' },
+    },
+}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = false })
+
+-- End keybinds --
+
+
 require('overseer').setup({
     templates = { "builtin" },
     task_list = {

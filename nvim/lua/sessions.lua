@@ -1,7 +1,27 @@
 
+local util = require("utils")
+
+-- Keybinds --
+
+local ms = require("mini.sessions")
+
+local wk = require("which-key")
+wk.register({
+  S = {
+    name = "Session",
+    s = { function() util.text_input(function(name) ms.write(name) end, "Save session: ", ".svim", "file") end, "Save" },
+    l = { function() ms.select('read') end, "Load" },
+    d = { function() ms.select('delete') end, "Delete" },
+  },
+}, { prefix = "<leader>", mode = "n", noremap = true, silent = true })
+
+-- End keybinds -- 
+
+
+
 local function get_cwd_as_name()
   local dir = vim.fn.getcwd(0)
-  return dir:gsub("[^A-Za-z0-9]", "_")
+  return dir:gsub("[^A-Za-z0-9]", "/")
 end
 
 local overseer = require("overseer")

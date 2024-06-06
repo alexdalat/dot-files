@@ -1,7 +1,47 @@
 
---- nvim-dap
 local dap = require('dap')
+local util = require('utils')
 
+-- Keybinds --
+
+---- dap-ui ----
+-- edit: e
+-- expand: Enter
+-- open: o
+-- remove: d
+-- repl: r
+-- toggle: t
+----------------
+
+local wk = require("which-key")
+
+wk.register({
+     d = {
+        name = "Debug",
+        c = { dap.continue, 'Continue' },
+        C = { dap.run_last, 'Run last' },
+        t = { dap.terminate, 'Terminate' },
+        s = { dap.step_over, 'Step over' },
+        i = { dap.step_into, 'Step into' },
+        o = { dap.step_out, 'Step out' },
+        b = {
+            name = "Breakpoints",
+            --b = { ":lua require'persistent-breakpoints.api'.toggle_breakpoint()<CR>", 'Toggle breakpoint' },
+            --B = { ":lua require'persistent-breakpoints.api'.set_conditional_breakpoint()<CR>", 'Set conditional breakpoint' },
+            b = { dap.toggle_breakpoint, 'Toggle breakpoint' },
+            l = { function() util.text_input(function(log_msg) dap.set_breakpoint(nil, nil, log_msg) end, "Log message: ", "x: {x}") end, 'Log point' },
+            C = { dap.clear_breakpoints, 'Clear breakpoints' },
+            L = { dap.list_breakpoints, 'List breakpoints' },
+        },
+        u = { ":lua require'dapui'.toggle()<CR>", 'Toggle UI' },
+    },
+}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+
+-- End keybinds --
+
+
+
+--- nvim-dap
 dap.defaults.fallback.focus_terminal = true  -- can also be added to individual configs
 
 local function find_lldb_vscode()
@@ -53,14 +93,6 @@ dap.configurations.rust = dap.configurations.cpp
 
 
 --- nvim-dap-ui
-
---- Keybinds:
--- edit: e
--- expand: Enter
--- open: o
--- remove: d
--- repl: r
--- toggle: t
 local dapui = require("dapui")
 dapui.setup()
 

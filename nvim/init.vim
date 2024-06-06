@@ -7,6 +7,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab " 4-spaces instead of tab indentation
 
+set timeoutlen=100  " faster whichkey
+
 set spell spelllang=en_us
 
 
@@ -35,10 +37,17 @@ call plug#begin('~/.config/nvim/plugged/')
         Plug 'hrsh7th/cmp-cmdline'
     Plug 'hrsh7th/cmp-vsnip'
         Plug 'hrsh7th/vim-vsnip'
+    Plug 'https://github.com/ray-x/lsp_signature.nvim'
 
     " Editing
     Plug 'https://github.com/NMAC427/guess-indent.nvim'
     Plug 'https://github.com/github/copilot.vim'
+    Plug 'https://github.com/nvim-neotest/neotest'
+        Plug 'kevinhwang91/promise-async'
+        Plug 'https://github.com/alfaix/neotest-gtest'
+        Plug 'https://github.com/nvim-neotest/neotest-python'
+    Plug 'https://github.com/folke/todo-comments.nvim'  " TODO highlighting
+
 
     " Debugging
     Plug 'https://github.com/mfussenegger/nvim-dap.git'
@@ -64,6 +73,7 @@ call plug#begin('~/.config/nvim/plugged/')
         Plug 'nvim-tree/nvim-web-devicons'
         Plug 'MunifTanjim/nui.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+    Plug 'https://github.com/kevinhwang91/nvim-ufo'
 
     " Other
     Plug 'rcarriga/nvim-notify'
@@ -73,8 +83,14 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'https://github.com/luukvbaal/statuscol.nvim'
         Plug 'https://github.com/lewis6991/gitsigns.nvim'
 
+    " Mini
+    Plug 'echasnovski/mini.starter'
+    Plug 'echasnovski/mini.sessions'
+
 call plug#end()
 
+lua require('utils')
+lua require('sessions')
 lua require('init')
 lua require('debugging')
 lua require('lsp')
@@ -82,6 +98,8 @@ lua require('navigation')
 lua require('keybinds')
 lua require('profiling')
 lua require('overseer_user')
+lua require('folds')
+lua require('neotest_user')
 
 "let g:asyncrun_open = 6  " Setup
 "let g:asynctasks_confirm = 0  " Don't ask to name file
