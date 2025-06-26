@@ -1,6 +1,6 @@
 # dot-files
 
-Following https://www.jakewiesler.com/blog/managing-dotfiles?utm_source=chatgpt.com
+Following https://www.jakewiesler.com/blog/managing-dotfiles
 
 ## Requirements:
 
