@@ -13,7 +13,7 @@ stow .
 ## Requirements:
 
 ### tmux:
- - tpm: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+ - tpm: `git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm` then `<Ctrl+b> I` inside an isntance
  - nerdfonts
 
 ### Neovim:
