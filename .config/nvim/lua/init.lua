@@ -124,13 +124,11 @@ vim.cmd([[
 local td = require('todo-comments')
 td.setup{}
 
-wk.register({
-  T = {
-    name = "Todo Comments",
-    n = { function() td.jump_next() end, "Next" },
-    p = { function() td.jump_prev() end, "Prev" },
-    T = { ":TodoTelescope keywords=TODO,FIX<CR>", "Todo Telescope" },
-    N = { ":TodoTelescope keywords=NOTE<CR>", "Note Telescope" },
-  },
-}, { prefix = "<leader>", mode = "n" })
-
+wk.add({
+  mode = "n",
+  { "<leader>T", group = "Todo Comments" },
+  { "<leader>Tn", function() td.jump_next() end, desc = "Next" },
+  { "<leader>Tp", function() td.jump_prev() end, desc = "Prev" },
+  { "<leader>TT", ":TodoTelescope keywords=TODO,FIX<CR>", desc = "Todo Telescope" },
+  { "<leader>TN", ":TodoTelescope keywords=NOTE<CR>", desc = "Note Telescope" },
+})

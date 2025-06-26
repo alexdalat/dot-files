@@ -86,6 +86,7 @@ call plug#begin('~/.config/nvim/plugged/')
     " Mini
     Plug 'echasnovski/mini.starter'
     Plug 'echasnovski/mini.sessions'
+    Plug 'echasnovski/mini.icons'
 
 call plug#end()
 

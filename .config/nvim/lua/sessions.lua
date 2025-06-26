@@ -1,4 +1,3 @@
-
 local util = require("utils")
 
 -- Keybinds --
@@ -6,16 +5,15 @@ local util = require("utils")
 local ms = require("mini.sessions")
 
 local wk = require("which-key")
-wk.register({
-  S = {
-    name = "Session",
-    s = { function() util.text_input(function(name) ms.write(name) end, "Save session: ", ".svim", "file") end, "Save" },
-    l = { function() ms.select('read') end, "Load" },
-    d = { function() ms.select('delete') end, "Delete" },
-  },
-}, { prefix = "<leader>", mode = "n", noremap = true, silent = true })
+wk.add({
+  mode = { "n" },
+  { "<leader>S",  group = "Session" },
+  { "<leader>Ss", function() util.text_input(function(name) require("mini.sessions").write(name) end, "Save session: ", ".svim", "file") end, desc = "Save" },
+  { "<leader>Sl", function() require("mini.sessions").select("read") end, desc = "Load" },
+  { "<leader>Sd", function() require("mini.sessions").select("delete") end, desc = "Delete" },
+})
 
--- End keybinds -- 
+-- End keybinds --
 
 
 

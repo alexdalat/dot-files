@@ -2,17 +2,14 @@
 local telescope = require("telescope")
 
 -- keybinds --
-require("which-key").register({
-
-    t = {
-        name = "[t]elescope",
-        f = { ":Telescope find_files<CR>", 'Find file' },
-        b = { ":Telescope buffers<CR>", 'Find buffer' },
-        H = { ":Telescope help_tags<CR>", 'Find help' },
-        g = { ":Telescope live_grep<CR>", 'Find string' },
-    },
-
-}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+wk.add({
+  mode = { "n", "v" },
+  -- group defined in navigation.lua
+  { "<leader>tf", ":Telescope find_files<CR>", desc = "Find file" },
+  { "<leader>tb", ":Telescope buffers<CR>", desc = "Find buffer" },
+  { "<leader>tH", ":Telescope help_tags<CR>", desc = "Find help" },
+  { "<leader>tg", ":Telescope live_grep<CR>", desc = "Find string" },
+})
 -- end keybinds --
 
 

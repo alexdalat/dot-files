@@ -2,37 +2,37 @@
 
 local wk = require("which-key")
 
-wk.register({
-    e = { vim.diagnostic.open_float, 'Open diagnostics' },
-}, { prefix = "<leader>", mode = "n", noremap = true, silent = false })
+wk.add({
+    mode = "n",
+    { "<leader>e", vim.diagnostic.open_float, desc = "Open diagnostics" },
+})
 
 vim.api.nvim_create_autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('UserLspConfig', {}),
     callback = function(ev)
-        wk.register({
-            F = { vim.lsp.buf.format, 'Format' },
-            a = { vim.lsp.buf.code_action, 'Code action', mode = { 'n', 'v' } },
-            k = { vim.lsp.buf.hover, 'Hover' },
-            r = { vim.lsp.buf.rename, 'Rename' },
-            w = {
-                name = "Workspace",
-                a = { vim.lsp.buf.add_workspace_folder, 'Add workspace folder' },
-                r = { vim.lsp.buf.remove_workspace_folder, 'Remove workspace folder' },
-                l = { ":lua vim.api.nvim_echo({{vim.inspect(vim.lsp.buf.list_workspace_folders())}}, false, {})<CR>", 'List workspace folders' },
-            },
-        }, { prefix = "<leader>", mode = 'n', noremap = true, silent = false, buffer = ev.buf })
+        wk.add({
+            mode = { "n" },
+            { "<leader>F",  vim.lsp.buf.format,                                                                             desc = "Format",                  buffer = ev.buf },
+            { "<leader>a",  vim.lsp.buf.code_action,                                                                        desc = "Code action",             mode = { "n", "v" }, buffer = ev.buf },
+            { "<leader>k",  vim.lsp.buf.hover,                                                                              desc = "Hover",                   buffer = ev.buf },
+            { "<leader>r",  vim.lsp.buf.rename,                                                                             desc = "Rename",                  buffer = ev.buf },
 
-        wk.register({
-            g = {
-                name = "Go to",
-                D = { vim.lsp.buf.declaration, 'Declaration' },
-                d = { vim.lsp.buf.definition, 'Definition' },
-                r = { vim.lsp.buf.references, 'References' },
-                i = { vim.lsp.buf.implementation, 'Implementation' },
-                t = { vim.lsp.buf.type_definition, 'Type definition' },
-                s = { vim.lsp.buf.signature_help, 'Signature help' },
-            },
-        }, { prefix = "<leader>", mode = { 'n', 'v' }, noremap = true, silent = false, buffer = ev.buf })
+            { "<leader>w",  group = "Workspace" },
+            { "<leader>wa", vim.lsp.buf.add_workspace_folder,                                                               desc = "Add workspace folder",    buffer = ev.buf },
+            { "<leader>wr", vim.lsp.buf.remove_workspace_folder,                                                            desc = "Remove workspace folder", buffer = ev.buf },
+            { "<leader>wl", ":lua vim.api.nvim_echo({{vim.inspect(vim.lsp.buf.list_workspace_folders())}}, false, {})<CR>", desc = "List workspace folders",  buffer = ev.buf },
+        })
+
+        wk.add({
+            mode = { "n", "v" },
+            { "<leader>g",  group = "LSP" },
+            { "<leader>gD", vim.lsp.buf.declaration,     desc = "Declaration",     buffer = ev.buf },
+            { "<leader>gd", vim.lsp.buf.definition,      desc = "Definition",      buffer = ev.buf },
+            { "<leader>gr", vim.lsp.buf.references,      desc = "References",      buffer = ev.buf },
+            { "<leader>gi", vim.lsp.buf.implementation,  desc = "Implementation",  buffer = ev.buf },
+            { "<leader>gt", vim.lsp.buf.type_definition, desc = "Type definition", buffer = ev.buf },
+            { "<leader>gs", vim.lsp.buf.signature_help,  desc = "Signature help",  buffer = ev.buf },
+        })
     end,
 })
 
@@ -123,15 +123,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
--- Automatically setup servers
-require('mason-lspconfig').setup_handlers({
-    function(server)
-        lspconfig[server].setup({
-            capabilities = capabilities,
-        })
-    end,
-})
 
 -- Other manually setup servers:
 -- Lua

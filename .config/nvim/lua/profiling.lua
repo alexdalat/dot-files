@@ -2,24 +2,27 @@
 -- Keybinds --
 
 local wk = require("which-key")
-wk.register({
-    p = {
-        name = "Profile",
-        l = {
-            name = "Load",
-            f = { ":PerfLoadFlat<CR>", 'Load flat profile' },
-            g = { ":PerfLoadCallGraph<CR>", 'Load call graph' },
-            r = { ":PerfLoadCallGraphFile<CR>", 'Load call graph report' },
-            o = { ":PerfLoadFlameGraph<CR>", 'Load flame graph' },
-        },
-        e = { ":PerfPickEvent<CR>", 'Pick event' },
-        t = { ":PerfToggleAnnotations<CR>", 'Toggle annotations' },
-        h = { ":PerfHottestLines<CR>", 'Hottest lines' },
-        s = { ":PerfHottestSymbols<CR>", 'Hottest symbols' },
-        c = { ":PerfHottestCallersFunction<CR>", 'Hottest callers function' },
-        pc = { ":PerfHottestCallersSelection<CR>", 'Hottest callers selection', mode = "v" },
-    },
-}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+wk.add({
+  mode = { "n", "v" },
+
+  { "<leader>p", group = "Profile" },
+
+  { "<leader>pe", ":PerfPickEvent<CR>", desc = "Pick event" },
+  { "<leader>pt", ":PerfToggleAnnotations<CR>", desc = "Toggle annotations" },
+  { "<leader>ph", ":PerfHottestLines<CR>", desc = "Hottest lines" },
+  { "<leader>ps", ":PerfHottestSymbols<CR>", desc = "Hottest symbols" },
+  { "<leader>pc", ":PerfHottestCallersFunction<CR>", desc = "Hottest callers function" },
+
+  { "<leader>pl", group = "Load" },
+  { "<leader>plf", ":PerfLoadFlat<CR>", desc = "Load flat profile" },
+  { "<leader>plg", ":PerfLoadCallGraph<CR>", desc = "Load call graph" },
+  { "<leader>plr", ":PerfLoadCallGraphFile<CR>", desc = "Load call graph report" },
+  { "<leader>plo", ":PerfLoadFlameGraph<CR>", desc = "Load flame graph" },
+
+  { "<leader>pp", group = "Perfanno" },
+  { "<leader>ppc", ":PerfHottestCallersSelection<CR>", desc = "Hottest callers selection" },
+
+})
 
 -- End keybinds --
 

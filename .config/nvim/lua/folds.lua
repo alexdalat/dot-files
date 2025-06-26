@@ -7,15 +7,13 @@ vim.o.foldcolumn = '1'
 
 
 local wk = require('which-key')
-wk.register({
-    z = {
-        name = 'Folds',
-        R = { '<cmd>lua require("ufo").openAllFolds()<CR>', 'Open all folds' },
-        M = { '<cmd>lua require("ufo").closeAllFolds()<CR>', 'Close all folds' },
-    },
+
+wk.add({
+  mode = { "n", "v" },
+  { "z", group = "Folds" },
+  { "zR", '<cmd>lua require("ufo").openAllFolds()<CR>', desc = "Open all folds" },
+  { "zM", '<cmd>lua require("ufo").closeAllFolds()<CR>', desc = "Close all folds" },
 })
---vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
---vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 
 
 local handler = function(virtText, lnum, endLnum, width, truncate)

@@ -6,16 +6,15 @@ require("luasnip.loaders.from_vscode").lazy_load() -- load snippets from friendl
 
 -- Keybinds --
 local wk = require("which-key")
-wk.register({
-  -- Super-tab configuration is done in lsp.lua
-
-  ["<C-E>"] = { function()
-    if ls.choice_active() then
-      ls.change_choice(1)
-    end
-  end, "Next choice" }
-
-}, { mode = { "i", "s" }, silent = true })
+-- Super-tab configuration is done in lsp.lua
+wk.add({
+  mode = { "i", "s" },
+  { "<C-E>", function()
+      if ls.choice_active() then
+        ls.change_choice(1)
+      end
+    end, desc = "Next choice" },
+})
 -- End keybinds --
 
 -- friendly-snippets - enable standardized comments snippets

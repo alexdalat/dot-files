@@ -5,7 +5,7 @@ require 'nvim-treesitter.configs'.setup {
     sync_install = true,
 
     -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
-    auto_install = false,
+    auto_install = true,
     ignore_install = {},
 
     highlight = {

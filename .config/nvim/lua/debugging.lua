@@ -1,4 +1,3 @@
-
 local dap = require('dap')
 local util = require('utils')
 
@@ -15,78 +14,91 @@ local util = require('utils')
 
 local wk = require("which-key")
 
-wk.register({
-     d = {
-        name = "Debug",
-        c = { dap.continue, 'Continue' },
-        C = { dap.run_last, 'Run last' },
-        t = { dap.terminate, 'Terminate' },
-        s = { dap.step_over, 'Step over' },
-        i = { dap.step_into, 'Step into' },
-        o = { dap.step_out, 'Step out' },
-        b = {
-            name = "Breakpoints",
-            --b = { ":lua require'persistent-breakpoints.api'.toggle_breakpoint()<CR>", 'Toggle breakpoint' },
-            --B = { ":lua require'persistent-breakpoints.api'.set_conditional_breakpoint()<CR>", 'Set conditional breakpoint' },
-            b = { dap.toggle_breakpoint, 'Toggle breakpoint' },
-            l = { function() util.text_input(function(log_msg) dap.set_breakpoint(nil, nil, log_msg) end, "Log message: ", "x: {x}") end, 'Log point' },
-            C = { dap.clear_breakpoints, 'Clear breakpoints' },
-            L = { dap.list_breakpoints, 'List breakpoints' },
-        },
-        u = { ":lua require'dapui'.toggle()<CR>", 'Toggle UI' },
+wk.add({
+    mode = { "n", "v" },
+    -- Top-level Debug commands
+    { "<leader>d",   group = "Debug" },
+    { "<leader>dc",  dap.continue,          desc = "Continue" },
+    { "<leader>dC",  dap.run_last,          desc = "Run last" },
+    { "<leader>dt",  dap.terminate,         desc = "Terminate" },
+    { "<leader>ds",  dap.step_over,         desc = "Step over" },
+    { "<leader>di",  dap.step_into,         desc = "Step into" },
+    { "<leader>do",  dap.step_out,          desc = "Step out" },
+
+    -- Breakpoints
+    { "<leader>db",  group = "Breakpoints" },
+    { "<leader>dbb", dap.toggle_breakpoint, desc = "Toggle breakpoint" },
+    {
+        "<leader>dbl",
+        function()
+            util.text_input(function(log_msg)
+                dap.set_breakpoint(nil, nil, log_msg)
+            end, "Log message: ", "x: {x}")
+        end,
+        desc = "Log point"
     },
-}, { prefix = "<leader>", mode = {"n", "v"}, noremap = true, silent = true })
+    { "<leader>dbC", dap.clear_breakpoints,              desc = "Clear breakpoints" },
+    { "<leader>dbL", dap.list_breakpoints,               desc = "List breakpoints" },
+
+    -- DAP UI
+    { "<leader>du",  ":lua require'dapui'.toggle()<CR>", desc = "Toggle UI" },
+})
 
 -- End keybinds --
 
 
 
 --- nvim-dap
-dap.defaults.fallback.focus_terminal = true  -- can also be added to individual configs
+dap.defaults.fallback.focus_terminal = true -- can also be added to individual configs
 
-local function find_lldb_vscode()
-    local paths = { -- paths to be searched for the debugger installation
-        '/usr/lib/llvm-14/bin/lldb-vscode',
-        '/opt/homebrew/opt/llvm/bin/lldb-vscode',
+if vim.fn.has('macunix') == 1 then
+    local function find_lldb_vscode()
+        local paths = { -- paths to be searched for the debugger installation
+            '/usr/lib/llvm-14/bin/lldb-vscode',
+            '/opt/homebrew/opt/llvm/bin/lldb-vscode',
+        }
+    
+        for _, path in ipairs(paths) do
+            local file = io.open(path, "r")
+            if file then
+                file:close()
+                return path
+            end
+        end
+        return nil
+    end
+
+    dap.adapters.lldb = {
+        type = 'executable',
+        command = find_lldb_vscode(), -- must be absolute path
+        name = 'lldb'
     }
 
-    for _, path in ipairs(paths) do
-        local file = io.open(path, "r")
-        if file then
-            file:close()
-            return path
-        end
+    if not dap.adapters.lldb.command then
+        vim.notify('LLDB not found', vim.log.levels.WARN)
+    else
+        --vim.notify('LLDB found at ' .. dap.adapters.lldb.command, vim.log.levels.INFO)
     end
-    return nil
+
+    dap.configurations.cpp = {
+        {
+            name = 'Launch',
+            type = 'lldb',
+            request = 'launch',
+            program = function()
+                return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+            end,
+            cwd = '${workspaceFolder}',
+            stopOnEntry = false,
+            args = {},
+            runInTerminal = true, -- necessary for interactive console
+            showDisassembly = "never",
+        },
+    }
+else  -- non Mac
+    -- not implemented yet
 end
 
-dap.adapters.lldb = {
-    type = 'executable',
-    command = find_lldb_vscode(), -- must be absolute path
-    name = 'lldb'
-}
-
-if not dap.adapters.lldb.command then
-    vim.notify('LLDB not found', vim.log.levels.WARN)
-else
-    --vim.notify('LLDB found at ' .. dap.adapters.lldb.command, vim.log.levels.INFO)
-end
-
-dap.configurations.cpp = {
-    {
-        name = 'Launch',
-        type = 'lldb',
-        request = 'launch',
-        program = function()
-            return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
-        end,
-        cwd = '${workspaceFolder}',
-        stopOnEntry = false,
-        args = {},
-        runInTerminal = true, -- necessary for interactive console
-        showDisassembly = "never",
-    },
-}
 
 dap.configurations.c = dap.configurations.cpp
 dap.configurations.rust = dap.configurations.cpp
@@ -159,5 +171,3 @@ require("nvim-dap-virtual-text").setup {
 --    save_dir = vim.fn.stdpath('data') .. '/nvim_checkpoints',
 --    load_breakpoints_event = "BufReadPost",
 --}
-
-
