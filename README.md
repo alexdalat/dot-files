@@ -2,6 +2,14 @@
 
 Following https://www.jakewiesler.com/blog/managing-dotfiles
 
+On a new machine:
+```
+git clone https://github.com/alexdalat/dot-files/
+cd ~/dotfiles
+sudo apt install stow
+stow config
+```
+
 ## Requirements:
 
 ### tmux:
