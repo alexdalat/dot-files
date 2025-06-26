@@ -1,13 +1,13 @@
-# dot-files
+# dotfiles
 
 Following https://www.jakewiesler.com/blog/managing-dotfiles
 
 On a new machine:
 ```
-git clone https://github.com/alexdalat/dot-files/
+git clone https://github.com/alexdalat/dotfiles/ ~/dotfiles
 cd ~/dotfiles
 sudo apt install stow
-stow config
+stow .
 ```
 
 ## Requirements:
