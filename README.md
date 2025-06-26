@@ -1,4 +1,4 @@
-# dot-files
+# dotfiles
 
 Following https://www.jakewiesler.com/blog/managing-dotfiles
 
