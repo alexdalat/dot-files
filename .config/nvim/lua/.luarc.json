@@ -1,0 +1,33 @@
+{
+    "workspace.library": [
+        "/Users/alexdalat/.config/nvim",
+        "/Users/alexdalat/.config/nvim/plugged/nvim-lspconfig",
+        "/Users/alexdalat/.config/nvim/plugged/nvim-cmp",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-nvim-lsp",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-buffer",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-path",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-cmdline",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-vsnip",
+        "/Users/alexdalat/.config/nvim/plugged/vim-vsnip",
+        "/Users/alexdalat/.config/nvim/plugged/copilot.vim",
+        "/Users/alexdalat/.config/nvim/plugged/catppuccin",
+        "/Users/alexdalat/.config/nvim/plugged/neo-tree.nvim",
+        "/Users/alexdalat/.config/nvim/plugged/plenary.nvim",
+        "/Users/alexdalat/.config/nvim/plugged/nvim-web-devicons",
+        "/Users/alexdalat/.config/nvim/plugged/nui.nvim",
+        "/Users/alexdalat/.config/nvim/plugged/fzf-lua",
+        "/Users/alexdalat/.config/nvim/plugged/fzf",
+        "/Users/alexdalat/.config/nvim/plugged/guess-indent.nvim",
+        "/Users/alexdalat/.local/share/nvim/site",
+        "/opt/homebrew/Cellar/neovim/0.9.1/share/nvim/runtime",
+        "/opt/homebrew/Cellar/neovim/0.9.1/lib/nvim",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-nvim-lsp/after",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-buffer/after",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-path/after",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-cmdline/after",
+        "/Users/alexdalat/.config/nvim/plugged/cmp-vsnip/after",
+        "/Users/alexdalat/.config/nvim/plugged/catppuccin/after",
+        "${3rd}/luassert/library"
+    ],
+    "workspace.checkThirdParty": false
+}
