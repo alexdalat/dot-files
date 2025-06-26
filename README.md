@@ -1,6 +1,6 @@
 # dot-files
 
-Following https://medium.com/@simontoth/best-way-to-manage-your-dotfiles-2c45bb280049
+Following https://www.jakewiesler.com/blog/managing-dotfiles?utm_source=chatgpt.com
 
 ## Requirements:
 
