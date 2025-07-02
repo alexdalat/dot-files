@@ -82,6 +82,8 @@ call plug#begin('~/.config/nvim/plugged/')
     Plug 'https://github.com/stevearc/dressing.nvim'
     Plug 'https://github.com/luukvbaal/statuscol.nvim'
         Plug 'https://github.com/lewis6991/gitsigns.nvim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 
     " Mini
     Plug 'echasnovski/mini.starter'
